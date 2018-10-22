@@ -22,3 +22,7 @@
 | manuel | sim | 123456 | http://(IP Address):9000/ |
 | tomis | sim | 123456 | http://(IP Address):9000/ |
 | yoshi | sim | 123456 | http://(IP Address):9000/ |
+
+<p align="center">
+  <img src="https://github.com/yuchingho/VirtualWorld/blob/master/server%20in%20uni.png?raw=true" alt="server in uni"/>
+</p>
