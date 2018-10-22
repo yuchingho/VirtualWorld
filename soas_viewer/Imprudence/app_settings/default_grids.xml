@@ -1,0 +1,45 @@
+<llsd>
+  <array>
+    <map>
+      <key>default_grids_version</key><string>31</string>
+    </map>
+
+    <!-- Local Host -->
+    <map>
+      <key>gridnick</key><string>localhost</string>
+      <key>gridname</key><string>Local Host</string>
+      <key>platform</key><string>OpenSim</string>
+      <key>loginuri</key><string>http://127.0.0.1:9000/</string>
+      <key>loginpage</key><string />
+      <key>helperuri</key><string>http://127.0.0.1:9100/</string>
+      <key>version</key><string>1</string>
+    </map>
+
+    <!-- SOAS -->
+    <map>
+      <key>gridnick</key><string>SOAS</string>
+      <key>gridname</key><string>SOAS</string>
+      <key>platform</key><string>OpenSim</string>
+      <key>loginuri</key><string>http://127.0.0.1:9100/</string>
+      <key>loginpage</key><string />
+      <key>helperuri</key><string>http://127.0.0.1:9100/</string>
+      <key>version</key><string>2</string>
+    </map>
+
+    <!-- OSGrid -->
+    <map>
+      <key>gridnick</key><string>osgrid</string>
+      <key>gridname</key><string>OSGrid</string>
+      <key>platform</key><string>OpenSim</string>
+      <key>loginuri</key><string>http://login.osgrid.org/</string>
+      <key>loginpage</key><string>http://osgrid.org/splash/</string>
+      <key>helperuri</key><string>http://helper.osgrid.org/</string>
+      <key>website</key><string>http://osgrid.org/</string>
+      <key>support</key><string>http://osgrid.org/</string>
+      <key>register</key><string>http://osgrid.org/elgg/account/register.php</string>
+      <key>password</key><string>http://osgrid.org/elgg/account/forgotten_password.php</string>
+      <key>version</key><string>3</string>
+    </map>
+
+  </array>
+</llsd>

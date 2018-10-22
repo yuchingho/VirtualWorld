@@ -1,0 +1,1 @@
+<?xml version="1.0"?><ScriptState><State>default</State><Running>True</Running><Variables><Variable type="OpenSim.Region.ScriptEngine.Shared.LSL_Types+LSLInteger" name="second">0</Variable><Variable type="OpenSim.Region.ScriptEngine.Shared.LSL_Types+Vector3" name="startPosition">&lt;246.071487,244.705414,70.519867&gt;</Variable></Variables><Queue /><Plugins /></ScriptState>
