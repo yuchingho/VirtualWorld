@@ -1,3 +1,5 @@
+Link for models - (https://www.outworldz.com/cgi/freesculpts.plx)[https://www.outworldz.com/cgi/freesculpts.plx]
+
 ## Steps to set up Server
 1. Launch "OpenSim.32BitLaunch".
    - Wait till LaptopIsland has finished loading.
