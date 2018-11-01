@@ -9760,3 +9760,99 @@ workers: 1 (1000); ports: 0 (1000)
 2018-11-01 17:32:32,026 DEBUG - OpenSim.Services.UserAccountService.GridUserService [GRID USER SERVICE]: User ac641928-6a43-4ec3-86f9-48a01f5313ed is offline
 2018-11-01 17:32:32,134 DEBUG - OpenSim.Region.Framework.Scenes.Scene [SCENE]: Removing root agent ac641928-6a43-4ec3-86f9-48a01f5313ed from region LaptopIsland
 2018-11-01 17:32:32,138 DEBUG - OpenSim.Region.CoreModules.Framework.EventQueue.EventQueueGetModule [EVENTQUEUE]: Closed client ac641928-6a43-4ec3-86f9-48a01f5313ed in region LaptopIsland
+2018-11-01 17:37:15,472 INFO  - OpenSim.OpenSim [COMMANDFILE]: Running shutdown_commands.txt
+2018-11-01 17:37:15,472 INFO  - OpenSim.OpenSim [COMMANDFILE]: Running 'backup'
+2018-11-01 17:37:15,472 INFO  - OpenSim.OpenSimBase [SHUTDOWN]: Closing all threads
+2018-11-01 17:37:15,487 INFO  - OpenSim.OpenSimBase [SHUTDOWN]: Killing listener thread
+2018-11-01 17:37:15,487 INFO  - OpenSim.OpenSimBase [SHUTDOWN]: Killing clients
+2018-11-01 17:37:15,487 INFO  - OpenSim.OpenSimBase [SHUTDOWN]: Closing console and terminating
+2018-11-01 17:37:15,487 INFO  - OpenSim.Region.Framework.Scenes.Scene [SCENE]: Closing down the single simulator: LaptopIsland
+2018-11-01 17:37:16,003 DEBUG - OpenSim.Region.Framework.Scenes.Scene [SCENE]: Persisting changed objects
+2018-11-01 17:37:16,003 DEBUG - OpenSim.Services.GridService.GridService [GRID SERVICE]: Region 39c75f32-0914-4963-a3f8-560112a1a0c2 deregistered
+2018-11-01 17:37:16,034 DEBUG - OpenSim.OpenSimBase [SHUTDOWN]: Shutting down region LaptopIsland
+2018-11-01 17:37:16,034 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module ConciergeModule
+2018-11-01 17:37:16,034 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module VivoxVoiceModule
+2018-11-01 17:37:16,034 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module GroupsMessagingModule
+2018-11-01 17:37:16,034 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module XmlRpcGroupsServicesConnector
+2018-11-01 17:37:16,034 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module GroupsModule
+2018-11-01 17:37:16,034 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module SimianGroupsServicesConnector
+2018-11-01 17:37:16,034 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module BasicEntityTransferModule
+2018-11-01 17:37:16,034 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module HGEntityTransferModule
+2018-11-01 17:37:16,034 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module ExportSerialisationModule
+2018-11-01 17:37:16,034 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module UrlModule
+2018-11-01 17:37:16,050 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module ChatModule
+2018-11-01 17:37:16,050 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module FriendsModule
+2018-11-01 17:37:16,050 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module PresenceModule
+2018-11-01 17:37:16,050 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module MuteListModule
+2018-11-01 17:37:16,050 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module OfflineMessageModule
+2018-11-01 17:37:16,050 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module InstantMessageModule
+2018-11-01 17:37:16,050 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module MessageTransferModule
+2018-11-01 17:37:16,050 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module LureModule
+2018-11-01 17:37:16,050 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module InventoryModule
+2018-11-01 17:37:16,050 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module CoreAssetCache
+2018-11-01 17:37:16,050 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module GlynnTuckerAssetCache
+2018-11-01 17:37:16,050 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module CenomeMemoryAssetCache
+2018-11-01 17:37:16,050 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module Library Module
+2018-11-01 17:37:16,050 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module LocalAssetServicesConnector
+2018-11-01 17:37:16,050 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module RemoteAssetServicesConnector
+2018-11-01 17:37:16,050 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module LocalAvatarServicesConnector
+2018-11-01 17:37:16,050 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module RemoteAvatarServicesConnector
+2018-11-01 17:37:16,050 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module LocalAuthenticationServicesConnector
+2018-11-01 17:37:16,050 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module RemoteAuthenticationServicesConnector
+2018-11-01 17:37:16,050 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module LocalAuthorizationServicesConnector
+2018-11-01 17:37:16,050 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module RemoteAuthorizationServicesConnector
+2018-11-01 17:37:16,050 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module HGAssetBroker
+2018-11-01 17:37:16,050 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module LocalInventoryServicesConnector
+2018-11-01 17:37:16,050 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module RemoteInventoryServicesConnector
+2018-11-01 17:37:16,065 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module RemoteXInventoryServicesConnector
+2018-11-01 17:37:16,065 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module HGInventoryBroker
+2018-11-01 17:37:16,065 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module LocalNeighbourServicesConnector
+2018-11-01 17:37:16,065 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module RemoteNeighbourServicesConnector
+2018-11-01 17:37:16,065 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module LocalLandServicesConnector
+2018-11-01 17:37:16,065 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module RemoteLandServicesConnector
+2018-11-01 17:37:16,065 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module LocalGridServicesConnector
+2018-11-01 17:37:16,065 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module RemoteGridServicesConnector
+2018-11-01 17:37:16,065 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module LocalPresenceServicesConnector
+2018-11-01 17:37:16,065 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module RemotePresenceServicesConnector
+2018-11-01 17:37:16,065 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module LocalUserAccountServicesConnector
+2018-11-01 17:37:16,065 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module RemoteUserAccountServicesConnector
+2018-11-01 17:37:16,065 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module LocalGridUserServicesConnector
+2018-11-01 17:37:16,065 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module RemoteGridUserServicesConnector
+2018-11-01 17:37:16,065 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module LocalSimulationConnectorModule
+2018-11-01 17:37:16,065 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module RemoteSimulationConnectorModule
+2018-11-01 17:37:16,065 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module RegionAssetService
+2018-11-01 17:37:16,065 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module RegionInventoryService
+2018-11-01 17:37:16,065 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module LandServiceInConnectorModule
+2018-11-01 17:37:16,065 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module NeighbourServiceInConnectorModule
+2018-11-01 17:37:16,065 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module HypergridService
+2018-11-01 17:37:16,065 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module LLLoginServiceInConnectorModule
+2018-11-01 17:37:16,065 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module SimulationServiceInConnectorModule
+2018-11-01 17:37:16,065 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module GridInfoService
+2018-11-01 17:37:16,065 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module AuthenticationServiceInConnectorModule
+2018-11-01 17:37:16,065 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module AccessModule
+2018-11-01 17:37:16,081 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module FlotsamAssetCache
+2018-11-01 17:37:16,081 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module RegionCombinerModule
+2018-11-01 17:37:16,081 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module SimianGridServiceConnector
+2018-11-01 17:37:16,081 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module SimianAvatarServiceConnector
+2018-11-01 17:37:16,081 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module SimianAuthenticationServiceConnector
+2018-11-01 17:37:16,081 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module SimianPresenceServiceConnector
+2018-11-01 17:37:16,081 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module SimianFriendsServiceConnector
+2018-11-01 17:37:16,081 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module SimianUserAccountServiceConnector
+2018-11-01 17:37:16,081 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module SimianInventoryServiceConnector
+2018-11-01 17:37:16,081 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module SimianAssetServiceConnector
+2018-11-01 17:37:16,081 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module RegionReadyModule
+2018-11-01 17:37:16,081 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module IRCBridgeModule
+2018-11-01 17:37:16,081 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module ScriptModuleCommsModule
+2018-11-01 17:37:16,081 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module BasicInventoryAccessModule
+2018-11-01 17:37:16,081 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module HGInventoryAccessModule
+2018-11-01 17:37:16,081 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module LandManagementModule
+2018-11-01 17:37:16,081 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module RegionArchiverModule
+2018-11-01 17:37:16,081 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module Capabilities Module
+2018-11-01 17:37:16,081 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module TerrainModule
+2018-11-01 17:37:16,081 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module WorldMapModule
+2018-11-01 17:37:16,081 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module HGWorldMap
+2018-11-01 17:37:16,081 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module XEngine
+2018-11-01 17:37:16,175 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module SimianProfiles
+2018-11-01 17:37:16,175 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module LLClientStackModule
+2018-11-01 17:37:16,175 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module BetaGridLikeMoneyModule
+2018-11-01 17:37:16,175 INFO  - OpenSim.Framework.Servers.BaseOpenSimServer [SHUTDOWN]: Shutdown processing on main thread complete.  Exiting...
