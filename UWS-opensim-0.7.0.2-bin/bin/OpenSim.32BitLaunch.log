@@ -9856,3 +9856,944 @@ workers: 1 (1000); ports: 0 (1000)
 2018-11-01 17:37:16,175 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module LLClientStackModule
 2018-11-01 17:37:16,175 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module BetaGridLikeMoneyModule
 2018-11-01 17:37:16,175 INFO  - OpenSim.Framework.Servers.BaseOpenSimServer [SHUTDOWN]: Shutdown processing on main thread complete.  Exiting...
+2018-11-02 14:48:06,268 INFO  - OpenSim.Application [OPENSIM MAIN]: configured log4net using default OpenSim.exe.config
+2018-11-02 14:48:06,284 INFO  - OpenSim.Application [OPENSIM MAIN]: Runtime gave us 1000 worker threads and 1000 IOCP threads
+2018-11-02 14:48:06,284 INFO  - OpenSim.Application Performing compatibility checks... 
+
+2018-11-02 14:48:06,477 INFO  - OpenSim.Application Environment is compatible.
+
+2018-11-02 14:48:06,493 INFO  - OpenSim.ConfigurationLoader [CONFIG]: Reading configuration settings
+2018-11-02 14:48:06,493 INFO  - OpenSim.ConfigurationLoader [CONFIG]: Reading configuration file C:\Users\b00264983\Downloads\VirtualWorld\UWS-opensim-0.7.0.2-bin\bin\OpenSim.ini
+2018-11-02 14:48:06,508 INFO  - OpenSim.ConfigurationLoader [CONFIG]: Reading configuration file C:\Users\b00264983\Downloads\VirtualWorld\UWS-opensim-0.7.0.2-bin\bin\config-include\Standalone.ini
+2018-11-02 14:48:06,540 INFO  - OpenSim.ConfigurationLoader [CONFIG]: Reading configuration file C:\Users\b00264983\Downloads\VirtualWorld\UWS-opensim-0.7.0.2-bin\bin\config-include\StandaloneCommon.ini
+2018-11-02 14:48:06,555 INFO  - OpenSim.ConfigurationLoader [CONFIG]: Reading configuration file C:\Users\b00264983\Downloads\VirtualWorld\UWS-opensim-0.7.0.2-bin\bin\config-include\storage\SQLiteStandalone.ini
+2018-11-02 14:48:06,587 INFO  - OpenSim.OpenSim [LOGGING]: Logging started to file C:\Users\b00264983\Downloads\VirtualWorld\UWS-opensim-0.7.0.2-bin\bin\OpenSim.32BitLaunch.log
+2018-11-02 14:48:06,649 INFO  - OpenSim.OpenSim [OPENSIM MAIN]: Using async_call_method SmartThreadPool
+2018-11-02 14:48:06,649 INFO  - OpenSim.Framework.Servers.BaseOpenSimServer [STARTUP]: Beginning startup processing
+2018-11-02 14:48:06,649 INFO  - OpenSim.Framework.Servers.BaseOpenSimServer [STARTUP]: OpenSimulator version: OpenSim 0.7.0.2 Release          
+
+2018-11-02 14:48:06,649 INFO  - OpenSim.Framework.Servers.BaseOpenSimServer [STARTUP]: Operating system version: Microsoft Windows NT 6.2.9200.0
+
+2018-11-02 14:48:06,712 INFO  - OpenSim.OpenSim ====================================================================
+2018-11-02 14:48:06,712 INFO  - OpenSim.OpenSim ========================= STARTING OPENSIM =========================
+2018-11-02 14:48:06,712 INFO  - OpenSim.OpenSim ====================================================================
+2018-11-02 14:48:06,712 INFO  - OpenSim.OpenSim [OPENSIM MAIN]: Running 
+2018-11-02 14:48:06,774 INFO  - OpenSim.Region.Framework.StorageManager [DATASTORE]: Attempting to load OpenSim.Data.SQLite.dll
+2018-11-02 14:48:07,587 INFO  - OpenSim.Data.SQLite.SQLiteEstateStore [ESTATE DB]: Sqlite - connecting: URI=file:OpenSim.db,version=3
+2018-11-02 14:48:07,821 INFO  - OpenSim.Data.Migration [MIGRATIONS]: EstateStore up to date, no migrations to apply
+2018-11-02 14:48:07,821 INFO  - OpenSim.Data.SQLite.SQLiteRegionData [SQLITE REGION DB]: Sqlite - connecting: URI=file:OpenSim.db,version=3
+2018-11-02 14:48:07,821 INFO  - OpenSim.Data.Migration [MIGRATIONS]: RegionStore up to date, no migrations to apply
+2018-11-02 14:48:07,962 INFO  - OpenSim.Region.Framework.StorageManager [DATASTORE]: Added IRegionDataStore Interface
+2018-11-02 14:48:07,962 INFO  - OpenSim.Region.ClientStack.ClientStackManager [CLIENTSTACK]: Attempting to load OpenSim.Region.ClientStack.LindenUDP.dll
+2018-11-02 14:48:08,196 INFO  - OpenSim.Region.ClientStack.ClientStackManager [CLIENTSTACK]: Added IClientNetworkServer Interface
+2018-11-02 14:48:08,274 INFO  - OpenSim.Region.ClientStack.RegionApplicationBase [REGION SERVER]: Starting HTTP server on port 9000
+2018-11-02 14:48:08,727 INFO  - OpenSim.Framework.PluginLoader`1 [PLUGINS]: Initializing addin manager
+2018-11-02 14:48:18,072 INFO  - OpenSim.Framework.PluginLoader`1 [PLUGINS]: Plugin Loaded: OpenSim
+2018-11-02 14:48:18,072 INFO  - OpenSim.Framework.PluginLoader`1 [PLUGINS]: Plugin Loaded: OpenSim.Data
+2018-11-02 14:48:18,103 INFO  - OpenSim.Framework.PluginLoader`1 [PLUGINS]: Loading extension point /OpenSim/Startup
+2018-11-02 14:48:18,134 INFO  - OpenSim.Framework.PluginLoader`1 [PLUGINS]: Trying plugin /OpenSim/Startup/RestInventory
+2018-11-02 14:48:18,134 INFO  - OpenSim.Framework.PluginLoader`1 [PLUGINS]: Plugin Loaded: OpenSim.ApplicationPlugins.Rest.Inventory
+2018-11-02 14:48:18,150 INFO  - OpenSim.Framework.PluginLoader`1 [PLUGINS]: Trying plugin /OpenSim/Startup/RemoteController
+2018-11-02 14:48:18,150 INFO  - OpenSim.Framework.PluginLoader`1 [PLUGINS]: Plugin Loaded: OpenSim.ApplicationPlugins.RemoteController
+2018-11-02 14:48:18,150 INFO  - OpenSim.Framework.PluginLoader`1 [PLUGINS]: Trying plugin /OpenSim/Startup/LoadRegions
+2018-11-02 14:48:18,166 INFO  - OpenSim.Framework.PluginLoader`1 [PLUGINS]: Plugin Loaded: OpenSim.ApplicationPlugins.LoadRegions
+2018-11-02 14:48:18,166 INFO  - OpenSim.Framework.PluginLoader`1 [PLUGINS]: Trying plugin /OpenSim/Startup/RegionModulesController
+2018-11-02 14:48:18,181 INFO  - OpenSim.Framework.PluginLoader`1 [PLUGINS]: Plugin Loaded: OpenSim.ApplicationPlugins.RegionModulesController
+2018-11-02 14:48:18,181 INFO  - OpenSim.Framework.PluginLoader`1 [PLUGINS]: Trying plugin /OpenSim/Startup/RestRegions
+2018-11-02 14:48:18,181 INFO  - OpenSim.Framework.PluginLoader`1 [PLUGINS]: Plugin Loaded: OpenSim.ApplicationPlugins.Rest.Regions
+2018-11-02 14:48:18,197 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULES]: Initializing...
+2018-11-02 14:48:18,213 INFO  - OpenSim.Framework.PluginLoader`1 [PLUGINS]: Plugin Loaded: SimianGrid
+2018-11-02 14:48:18,228 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULES]: Found shared region module OpenSim.Services.Connectors.SimianGrid.SimianGridServiceConnector, class OpenSim.Services.Connectors.SimianGrid.SimianGridServiceConnector
+2018-11-02 14:48:18,228 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULES]: Found shared region module OpenSim.Services.Connectors.SimianGrid.SimianAvatarServiceConnector, class OpenSim.Services.Connectors.SimianGrid.SimianAvatarServiceConnector
+2018-11-02 14:48:18,228 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULES]: Found shared region module OpenSim.Services.Connectors.SimianGrid.SimianAuthenticationServiceConnector, class OpenSim.Services.Connectors.SimianGrid.SimianAuthenticationServiceConnector
+2018-11-02 14:48:18,228 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULES]: Found shared region module OpenSim.Services.Connectors.SimianGrid.SimianPresenceServiceConnector, class OpenSim.Services.Connectors.SimianGrid.SimianPresenceServiceConnector
+2018-11-02 14:48:18,228 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULES]: Found non-shared region module OpenSim.Services.Connectors.SimianGrid.SimianProfiles, class OpenSim.Services.Connectors.SimianGrid.SimianProfiles
+2018-11-02 14:48:18,228 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULES]: Found shared region module OpenSim.Services.Connectors.SimianGrid.SimianFriendsServiceConnector, class OpenSim.Services.Connectors.SimianGrid.SimianFriendsServiceConnector
+2018-11-02 14:48:18,228 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULES]: Found shared region module OpenSim.Services.Connectors.SimianGrid.SimianUserAccountServiceConnector, class OpenSim.Services.Connectors.SimianGrid.SimianUserAccountServiceConnector
+2018-11-02 14:48:18,228 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULES]: Found shared region module OpenSim.Services.Connectors.SimianGrid.SimianInventoryServiceConnector, class OpenSim.Services.Connectors.SimianGrid.SimianInventoryServiceConnector
+2018-11-02 14:48:18,228 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULES]: Found shared region module OpenSim.Services.Connectors.SimianGrid.SimianAssetServiceConnector, class OpenSim.Services.Connectors.SimianGrid.SimianAssetServiceConnector
+2018-11-02 14:48:18,244 INFO  - OpenSim.Framework.PluginLoader`1 [PLUGINS]: Plugin Loaded: OpenSim.Region.OptionalModules
+2018-11-02 14:48:18,244 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULES]: Found non-shared region module RegionReady, class OpenSim.Region.OptionalModules.Scripting.RegionReady.RegionReadyModule
+2018-11-02 14:48:18,244 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULES]: Found non-shared region module IRCBridge, class OpenSim.Region.OptionalModules.Avatar.Chat.IRCBridgeModule
+2018-11-02 14:48:18,244 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULES]: Found shared region module Concierge, class OpenSim.Region.OptionalModules.Avatar.Concierge.ConciergeModule
+2018-11-02 14:48:18,244 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULES]: Found shared region module VivoxVoice, class OpenSim.Region.OptionalModules.Avatar.Voice.VivoxVoice.VivoxVoiceModule
+2018-11-02 14:48:18,244 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULES]: Found shared region module OpenSim.Region.OptionalModules.World.MoneyModule.SampleMoneyModule, class OpenSim.Region.OptionalModules.World.MoneyModule.SampleMoneyModule
+2018-11-02 14:48:18,259 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULES]: Found shared region module OpenSim.Region.OptionalModules.Avatar.XmlRpcGroups.GroupsMessagingModule, class OpenSim.Region.OptionalModules.Avatar.XmlRpcGroups.GroupsMessagingModule
+2018-11-02 14:48:18,259 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULES]: Found non-shared region module ScriptModuleCommsModule, class OpenSim.Region.OptionalModules.Scripting.ScriptModuleComms.ScriptModuleCommsModule
+2018-11-02 14:48:18,259 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULES]: Found shared region module OpenSim.Region.OptionalModules.Avatar.XmlRpcGroups.XmlRpcGroupsServicesConnectorModule, class OpenSim.Region.OptionalModules.Avatar.XmlRpcGroups.XmlRpcGroupsServicesConnectorModule
+2018-11-02 14:48:18,259 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULES]: Found shared region module OpenSim.Region.OptionalModules.Avatar.XmlRpcGroups.GroupsModule, class OpenSim.Region.OptionalModules.Avatar.XmlRpcGroups.GroupsModule
+2018-11-02 14:48:18,259 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULES]: Found shared region module OpenSim.Region.OptionalModules.Avatar.XmlRpcGroups.SimianGroupsServicesConnectorModule, class OpenSim.Region.OptionalModules.Avatar.XmlRpcGroups.SimianGroupsServicesConnectorModule
+2018-11-02 14:48:18,259 INFO  - OpenSim.Framework.PluginLoader`1 [PLUGINS]: Plugin Loaded: FlotsamAssetCache
+2018-11-02 14:48:18,259 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULES]: Found shared region module EntityTransferModule, class OpenSim.Region.CoreModules.Framework.EntityTransfer.EntityTransferModule
+2018-11-02 14:48:18,259 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULES]: Found shared region module HGEntityTransferModule, class OpenSim.Region.CoreModules.Framework.EntityTransfer.HGEntityTransferModule
+2018-11-02 14:48:18,259 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULES]: Found non-shared region module InventoryAccessModule, class OpenSim.Region.CoreModules.Framework.InventoryAccess.BasicInventoryAccessModule
+2018-11-02 14:48:18,259 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULES]: Found non-shared region module HGInventoryAccessModule, class OpenSim.Region.CoreModules.Framework.InventoryAccess.HGInventoryAccessModule
+2018-11-02 14:48:18,259 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULES]: Found non-shared region module LandManagementModule, class OpenSim.Region.CoreModules.World.Land.LandManagementModule
+2018-11-02 14:48:18,259 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULES]: Found shared region module ExportSerialisationModule, class OpenSim.Region.CoreModules.World.Serialiser.SerialiserModule
+2018-11-02 14:48:18,259 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULES]: Found non-shared region module ArchiverModule, class OpenSim.Region.CoreModules.World.Archiver.ArchiverModule
+2018-11-02 14:48:18,275 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULES]: Found non-shared region module CapabilitiesModule, class OpenSim.Region.CoreModules.Agent.Capabilities.CapabilitiesModule
+2018-11-02 14:48:18,275 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULES]: Found non-shared region module TerrainModule, class OpenSim.Region.CoreModules.World.Terrain.TerrainModule
+2018-11-02 14:48:18,275 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULES]: Found non-shared region module WorldMapModule, class OpenSim.Region.CoreModules.World.WorldMap.WorldMapModule
+2018-11-02 14:48:18,275 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULES]: Found non-shared region module HGWorldMapModule, class OpenSim.Region.CoreModules.Hypergrid.HGWorldMapModule
+2018-11-02 14:48:18,275 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULES]: Found shared region module UrlModule, class OpenSim.Region.CoreModules.Scripting.LSLHttp.UrlModule
+2018-11-02 14:48:18,275 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULES]: Found shared region module Chat, class OpenSim.Region.CoreModules.Avatar.Chat.ChatModule
+2018-11-02 14:48:18,275 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULES]: Found shared region module FriendsModule, class OpenSim.Region.CoreModules.Avatar.Friends.FriendsModule
+2018-11-02 14:48:18,275 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULES]: Found shared region module PresenceModule, class OpenSim.Region.CoreModules.Avatar.InstantMessage.PresenceModule
+2018-11-02 14:48:18,275 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULES]: Found shared region module MuteListModule, class OpenSim.Region.CoreModules.Avatar.InstantMessage.MuteListModule
+2018-11-02 14:48:18,275 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULES]: Found shared region module OfflineMessageModule, class OpenSim.Region.CoreModules.Avatar.InstantMessage.OfflineMessageModule
+2018-11-02 14:48:18,275 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULES]: Found shared region module InstantMessageModule, class OpenSim.Region.CoreModules.Avatar.InstantMessage.InstantMessageModule
+2018-11-02 14:48:18,275 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULES]: Found shared region module MessageTransferModule, class OpenSim.Region.CoreModules.Avatar.InstantMessage.MessageTransferModule
+2018-11-02 14:48:18,275 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULES]: Found shared region module LureModule, class OpenSim.Region.CoreModules.Avatar.Lure.LureModule
+2018-11-02 14:48:18,275 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULES]: Found shared region module InventoryTransferModule, class OpenSim.Region.CoreModules.Avatar.Inventory.Transfer.InventoryTransferModule
+2018-11-02 14:48:18,275 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULES]: Found shared region module CoreAssetCache, class OpenSim.Region.CoreModules.Asset.CoreAssetCache
+2018-11-02 14:48:18,275 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULES]: Found shared region module GlynnTuckerAssetCache, class OpenSim.Region.CoreModules.Asset.GlynnTuckerAssetCache
+2018-11-02 14:48:18,275 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULES]: Found shared region module CenomeMemoryAssetCache, class OpenSim.Region.CoreModules.Asset.CenomeMemoryAssetCache
+2018-11-02 14:48:18,275 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULES]: Found shared region module LibraryModule, class OpenSim.Region.CoreModules.Framework.Library.LibraryModule
+2018-11-02 14:48:18,275 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULES]: Found shared region module LocalAssetServicesConnector, class OpenSim.Region.CoreModules.ServiceConnectorsOut.Asset.LocalAssetServicesConnector
+2018-11-02 14:48:18,275 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULES]: Found shared region module RemoteAssetServicesConnector, class OpenSim.Region.CoreModules.ServiceConnectorsOut.Asset.RemoteAssetServicesConnector
+2018-11-02 14:48:18,275 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULES]: Found shared region module LocalAvatarServicesConnector, class OpenSim.Region.CoreModules.ServiceConnectorsOut.Avatar.LocalAvatarServicesConnector
+2018-11-02 14:48:18,291 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULES]: Found shared region module RemoteAvatarServicesConnector, class OpenSim.Region.CoreModules.ServiceConnectorsOut.Avatar.RemoteAvatarServicesConnector
+2018-11-02 14:48:18,291 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULES]: Found shared region module LocalAuthenticationServicesConnector, class OpenSim.Region.CoreModules.ServiceConnectorsOut.Authentication.LocalAuthenticationServicesConnector
+2018-11-02 14:48:18,291 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULES]: Found shared region module RemoteAuthenticationServicesConnector, class OpenSim.Region.CoreModules.ServiceConnectorsOut.Authentication.RemoteAuthenticationServicesConnector
+2018-11-02 14:48:18,291 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULES]: Found shared region module LocalAuthorizationServicesConnector, class OpenSim.Region.CoreModules.ServiceConnectorsOut.Authorization.LocalAuthorizationServicesConnector
+2018-11-02 14:48:18,291 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULES]: Found shared region module RemoteAuthorizationServicesConnector, class OpenSim.Region.CoreModules.ServiceConnectorsOut.Authorization.RemoteAuthorizationServicesConnector
+2018-11-02 14:48:18,291 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULES]: Found shared region module HGAssetBroker, class OpenSim.Region.CoreModules.ServiceConnectorsOut.Asset.HGAssetBroker
+2018-11-02 14:48:18,291 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULES]: Found shared region module LocalInventoryServicesConnector, class OpenSim.Region.CoreModules.ServiceConnectorsOut.Inventory.LocalInventoryServicesConnector
+2018-11-02 14:48:18,291 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULES]: Found shared region module RemoteInventoryServicesConnector, class OpenSim.Region.CoreModules.ServiceConnectorsOut.Inventory.RemoteInventoryServicesConnector
+2018-11-02 14:48:18,291 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULES]: Found shared region module RemoteXInventoryServicesConnector, class OpenSim.Region.CoreModules.ServiceConnectorsOut.Inventory.RemoteXInventoryServicesConnector
+2018-11-02 14:48:18,291 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULES]: Found shared region module HGInventoryBroker, class OpenSim.Region.CoreModules.ServiceConnectorsOut.Inventory.HGInventoryBroker
+2018-11-02 14:48:18,291 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULES]: Found shared region module LocalNeighbourServicesConnector, class OpenSim.Region.CoreModules.ServiceConnectorsOut.Neighbour.LocalNeighbourServicesConnector
+2018-11-02 14:48:18,291 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULES]: Found shared region module RemoteNeighbourServicesConnector, class OpenSim.Region.CoreModules.ServiceConnectorsOut.Neighbour.RemoteNeighbourServicesConnector
+2018-11-02 14:48:18,291 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULES]: Found shared region module LocalLandServicesConnector, class OpenSim.Region.CoreModules.ServiceConnectorsOut.Land.LocalLandServicesConnector
+2018-11-02 14:48:18,291 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULES]: Found shared region module RemoteLandServicesConnector, class OpenSim.Region.CoreModules.ServiceConnectorsOut.Land.RemoteLandServicesConnector
+2018-11-02 14:48:18,291 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULES]: Found shared region module LocalGridServicesConnector, class OpenSim.Region.CoreModules.ServiceConnectorsOut.Grid.LocalGridServicesConnector
+2018-11-02 14:48:18,291 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULES]: Found shared region module RemoteGridServicesConnector, class OpenSim.Region.CoreModules.ServiceConnectorsOut.Grid.RemoteGridServicesConnector
+2018-11-02 14:48:18,291 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULES]: Found shared region module LocalPresenceServicesConnector, class OpenSim.Region.CoreModules.ServiceConnectorsOut.Presence.LocalPresenceServicesConnector
+2018-11-02 14:48:18,291 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULES]: Found shared region module RemotePresenceServicesConnector, class OpenSim.Region.CoreModules.ServiceConnectorsOut.Presence.RemotePresenceServicesConnector
+2018-11-02 14:48:18,291 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULES]: Found shared region module LocalUserAccountServicesConnector, class OpenSim.Region.CoreModules.ServiceConnectorsOut.UserAccounts.LocalUserAccountServicesConnector
+2018-11-02 14:48:18,291 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULES]: Found shared region module RemoteUserAccountServicesConnector, class OpenSim.Region.CoreModules.ServiceConnectorsOut.UserAccounts.RemoteUserAccountServicesConnector
+2018-11-02 14:48:18,306 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULES]: Found shared region module LocalGridUserServicesConnector, class OpenSim.Region.CoreModules.ServiceConnectorsOut.GridUser.LocalGridUserServicesConnector
+2018-11-02 14:48:18,306 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULES]: Found shared region module RemoteGridUserServicesConnector, class OpenSim.Region.CoreModules.ServiceConnectorsOut.GridUser.RemoteGridUserServicesConnector
+2018-11-02 14:48:18,306 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULES]: Found shared region module LocalSimulationConnectorModule, class OpenSim.Region.CoreModules.ServiceConnectorsOut.Simulation.LocalSimulationConnectorModule
+2018-11-02 14:48:18,306 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULES]: Found shared region module RemoteSimulationConnectorModule, class OpenSim.Region.CoreModules.ServiceConnectorsOut.Simulation.RemoteSimulationConnectorModule
+2018-11-02 14:48:18,306 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULES]: Found shared region module AssetServiceInConnectorModule, class OpenSim.Region.CoreModules.ServiceConnectorsIn.Asset.AssetServiceInConnectorModule
+2018-11-02 14:48:18,306 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULES]: Found shared region module InventoryServiceInConnectorModule, class OpenSim.Region.CoreModules.ServiceConnectorsIn.Inventory.InventoryServiceInConnectorModule
+2018-11-02 14:48:18,306 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULES]: Found shared region module LandServiceInConnectorModule, class OpenSim.Region.CoreModules.ServiceConnectorsIn.Land.LandServiceInConnectorModule
+2018-11-02 14:48:18,306 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULES]: Found shared region module NeighbourServiceInConnectorModule, class OpenSim.Region.CoreModules.ServiceConnectorsIn.Neighbour.NeighbourServiceInConnectorModule
+2018-11-02 14:48:18,306 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULES]: Found shared region module HypergridServiceInConnectorModule, class OpenSim.Region.CoreModules.ServiceConnectorsIn.Hypergrid.HypergridServiceInConnectorModule
+2018-11-02 14:48:18,306 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULES]: Found shared region module LLLoginServiceInConnectorModule, class OpenSim.Region.CoreModules.ServiceConnectorsIn.Login.LLLoginServiceInConnectorModule
+2018-11-02 14:48:18,306 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULES]: Found shared region module SimulationServiceInConnectorModule, class OpenSim.Region.CoreModules.ServiceConnectorsIn.Simulation.SimulationServiceInConnectorModule
+2018-11-02 14:48:18,306 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULES]: Found shared region module GridInfoServiceInConnectorModule, class OpenSim.Region.CoreModules.ServiceConnectorsIn.Grid.GridInfoServiceInConnectorModule
+2018-11-02 14:48:18,306 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULES]: Found shared region module AuthenticationServiceInConnectorModule, class OpenSim.Region.CoreModules.ServiceConnectorsIn.Authentication.AuthenticationServiceInConnectorModule
+2018-11-02 14:48:18,306 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULES]: Found shared region module AccessModule, class OpenSim.Region.CoreModules.World.AccessModule
+2018-11-02 14:48:18,306 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULES]: Found shared region module Flotsam.RegionModules.AssetCache.FlotsamAssetCache, class Flotsam.RegionModules.AssetCache.FlotsamAssetCache
+2018-11-02 14:48:18,322 INFO  - OpenSim.Framework.PluginLoader`1 [PLUGINS]: Plugin Loaded: OpenSim.Region.ScriptEngine.XEngine
+2018-11-02 14:48:18,322 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULES]: Found non-shared region module XEngine, class OpenSim.Region.ScriptEngine.XEngine.XEngine
+2018-11-02 14:48:18,338 INFO  - OpenSim.Framework.PluginLoader`1 [PLUGINS]: Plugin Loaded: RegionCombinerModule
+2018-11-02 14:48:18,338 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULES]: Found shared region module OpenSim.Region.RegionCombinerModule.RegionCombinerModule, class OpenSim.Region.RegionCombinerModule.RegionCombinerModule
+2018-11-02 14:48:18,353 INFO  - OpenSim.Framework.PluginLoader`1 [PLUGINS]: Plugin Loaded: OpenSim.Client.Linden.LindenModules
+2018-11-02 14:48:18,353 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULES]: Found non-shared region module LLClientStackModule, class OpenSim.Client.Linden.LLClientStackModule
+2018-11-02 14:48:18,353 DEBUG - OpenSim.Services.Connectors.SimianGrid.SimianActivityDetector [SIMIAN ACTIVITY DETECTOR]: Started
+2018-11-02 14:48:18,353 INFO  - OpenSim.Region.OptionalModules.Avatar.Concierge.ConciergeModule [Concierge]: plugin disabled by configuration
+2018-11-02 14:48:18,353 INFO  - OpenSim.Region.OptionalModules.Avatar.Voice.VivoxVoice.VivoxVoiceModule [VivoxVoice] plugin disabled by configuration
+2018-11-02 14:48:18,369 INFO  - OpenSim.Region.CoreModules.Framework.EntityTransfer.EntityTransferModule [ENTITY TRANSFER MODULE]: BasicEntityTransferModule enabled.
+2018-11-02 14:48:18,369 INFO  - OpenSim.Region.CoreModules.World.Serialiser.SerialiserModule [Serialiser] Enabled, using save dir "exports/"
+2018-11-02 14:48:18,416 INFO  - OpenSim.Data.Migration [MIGRATIONS]: FriendsStore up to date, no migrations to apply
+2018-11-02 14:48:18,447 DEBUG - OpenSim.Region.CoreModules.Asset.CenomeMemoryAssetCache [ASSET CACHE]: Cenome asset cache enabled (MaxSize = 134217728 bytes, MaxCount = 4096, ExpirationTime = 00:30:00)
+2018-11-02 14:48:18,447 DEBUG - OpenSim.Region.CoreModules.Framework.Library.LibraryModule [LIBRARY MODULE]: Library service dll is OpenSim.Services.InventoryService.dll:LibraryService
+2018-11-02 14:48:18,447 DEBUG - OpenSim.Services.InventoryService.LibraryService [LIBRARY]: Starting library service...
+2018-11-02 14:48:18,463 INFO  - OpenSim.Services.InventoryService.LibraryService [LIBRARY INVENTORY]: Loading library control file ./inventory/Libraries.xml
+2018-11-02 14:48:18,869 INFO  - OpenSim.Data.Migration [MIGRATIONS]: AssetStore up to date, no migrations to apply
+2018-11-02 14:48:18,869 INFO  - OpenSim.Services.AssetService.AssetService [ASSET]: Loading default asset set from assets/AssetSets.xml
+2018-11-02 14:48:46,873 INFO  - OpenSim.Services.AssetService.AssetService [ASSET SERVICE]: Local asset service enabled
+2018-11-02 14:48:46,873 INFO  - OpenSim.Region.CoreModules.ServiceConnectorsOut.Asset.LocalAssetServicesConnector [LOCAL ASSET SERVICES CONNECTOR]: Local asset connector enabled
+2018-11-02 14:48:46,905 INFO  - OpenSim.Data.Migration [MIGRATIONS]: Avatar up to date, no migrations to apply
+2018-11-02 14:48:46,905 DEBUG - OpenSim.Services.AvatarService.AvatarService [AVATAR SERVICE]: Starting avatar service
+2018-11-02 14:48:46,905 INFO  - OpenSim.Region.CoreModules.ServiceConnectorsOut.Avatar.LocalAvatarServicesConnector [AVATAR CONNECTOR]: Local avatar connector enabled
+2018-11-02 14:48:46,936 INFO  - OpenSim.Data.Migration [MIGRATIONS]: AuthStore up to date, no migrations to apply
+2018-11-02 14:48:46,936 INFO  - OpenSim.Region.CoreModules.ServiceConnectorsOut.Authentication.LocalAuthenticationServicesConnector [AUTH CONNECTOR]: Local Authentication connector enabled
+2018-11-02 14:48:46,952 INFO  - OpenSim.Region.CoreModules.ServiceConnectorsOut.Authorization.LocalAuthorizationServicesConnector [AUTHORIZATION CONNECTOR]: Initialise
+2018-11-02 14:48:46,952 DEBUG - OpenSim.Region.CoreModules.ServiceConnectorsOut.Inventory.LocalInventoryServicesConnector [LOCAL INVENTORY SERVICES CONNECTOR]: Service dll = OpenSim.Services.InventoryService.dll:XInventoryService
+2018-11-02 14:48:46,967 INFO  - OpenSim.Data.Migration [MIGRATIONS]: XInventoryStore up to date, no migrations to apply
+2018-11-02 14:48:46,967 INFO  - OpenSim.Region.CoreModules.ServiceConnectorsOut.Inventory.LocalInventoryServicesConnector [LOCAL INVENTORY SERVICES CONNECTOR]: Local inventory connector enabled
+2018-11-02 14:48:46,967 INFO  - OpenSim.Region.CoreModules.ServiceConnectorsOut.Neighbour.LocalNeighbourServicesConnector [NEIGHBOUR CONNECTOR]: Local neighbour connector enabled
+2018-11-02 14:48:46,983 INFO  - OpenSim.Region.CoreModules.ServiceConnectorsOut.Land.LocalLandServicesConnector [LAND CONNECTOR]: Local land connector enabled
+2018-11-02 14:48:46,998 DEBUG - OpenSim.Services.GridService.GridService [GRID SERVICE]: Starting...
+2018-11-02 14:48:46,998 DEBUG - OpenSim.Services.GridService.HypergridLinker [HYPERGRID LINKER]: Starting with db OpenSim.Data.Null.NullRegionData
+2018-11-02 14:48:46,998 DEBUG - OpenSim.Services.GridService.HypergridLinker [HYPERGRID LINKER]: Loaded all services...
+2018-11-02 14:48:46,998 INFO  - OpenSim.Region.CoreModules.ServiceConnectorsOut.Grid.LocalGridServicesConnector [LOCAL GRID CONNECTOR]: Local grid connector enabled
+2018-11-02 14:48:46,998 DEBUG - OpenSim.Region.CoreModules.ServiceConnectorsOut.Presence.LocalPresenceServicesConnector [LOCAL PRESENCE CONNECTOR]: Service dll = OpenSim.Services.PresenceService.dll:PresenceService
+2018-11-02 14:48:47,014 DEBUG - OpenSim.Services.PresenceService.PresenceService [PRESENCE SERVICE]: Starting presence service
+2018-11-02 14:48:47,014 INFO  - OpenSim.Region.CoreModules.ServiceConnectorsOut.Presence.LocalPresenceServicesConnector [LOCAL PRESENCE CONNECTOR]: Local presence connector enabled
+2018-11-02 14:48:47,045 INFO  - OpenSim.Data.Migration [MIGRATIONS]: UserAccount up to date, no migrations to apply
+2018-11-02 14:48:47,045 DEBUG - OpenSim.Services.GridService.GridService [GRID SERVICE]: Starting...
+2018-11-02 14:48:47,061 INFO  - OpenSim.Data.Migration [MIGRATIONS]: GridUserStore up to date, no migrations to apply
+2018-11-02 14:48:47,061 DEBUG - OpenSim.Services.UserAccountService.GridUserService [USER GRID SERVICE]: Starting user grid service
+2018-11-02 14:48:47,077 INFO  - OpenSim.Region.CoreModules.ServiceConnectorsOut.UserAccounts.LocalUserAccountServicesConnector [LOCAL USER ACCOUNT SERVICE CONNECTOR]: Local user connector enabled
+2018-11-02 14:48:47,077 DEBUG - OpenSim.Services.UserAccountService.GridUserService [USER GRID SERVICE]: Starting user grid service
+2018-11-02 14:48:47,077 DEBUG - OpenSim.Region.CoreModules.ServiceConnectorsOut.GridUser.ActivityDetector [ACTIVITY DETECTOR]: starting 
+2018-11-02 14:48:47,077 INFO  - OpenSim.Region.CoreModules.ServiceConnectorsOut.GridUser.LocalGridUserServicesConnector [LOCAL GRID USER SERVICE CONNECTOR]: Local grid user connector enabled
+2018-11-02 14:48:47,077 INFO  - OpenSim.Region.CoreModules.ServiceConnectorsOut.Simulation.LocalSimulationConnectorModule [SIMULATION CONNECTOR]: Local simulation enabled
+2018-11-02 14:48:47,077 INFO  - OpenSim.Region.CoreModules.ServiceConnectorsIn.Login.LLLoginServiceInConnectorModule [LLLOGIN IN CONNECTOR]: LLLoginerviceInConnector enabled
+2018-11-02 14:48:47,077 INFO  - OpenSim.Region.CoreModules.ServiceConnectorsIn.Grid.GridInfoServiceInConnectorModule [GRIDINFO IN CONNECTOR]: GridInfo Service In Connector enabled
+2018-11-02 14:48:47,092 DEBUG - OpenSim.ApplicationPlugins.RemoteController.RemoteAdminPlugin [RADMIN] Creating default avatar entries
+2018-11-02 14:48:47,092 DEBUG - OpenSim.ApplicationPlugins.RemoteController.RemoteAdminPlugin [RADMIN] No default avatar information available
+2018-11-02 14:48:47,092 INFO  - OpenSim.ApplicationPlugins.RemoteController.RemoteAdminPlugin [RADMIN]: Default avatars not loaded
+2018-11-02 14:48:47,108 INFO  - OpenSim.ApplicationPlugins.LoadRegions.LoadRegionsPlugin [LOADREGIONS]: Loading region configurations from filesystem
+2018-11-02 14:48:47,108 INFO  - OpenSim.ApplicationPlugins.LoadRegions.LoadRegionsPlugin [LOADREGIONSPLUGIN]: Loading region configurations...
+2018-11-02 14:48:47,327 INFO  - OpenSim.Framework.RegionInfo [REGIONINFO]: Resolving SYSTEMIP to 146.191.169.140 for external hostname of region LaptopIsland
+2018-11-02 14:48:47,327 INFO  - OpenSim.ApplicationPlugins.LoadRegions.LoadRegionsPlugin [LOADREGIONSPLUGIN]: Loading specific shared modules...
+2018-11-02 14:48:47,327 INFO  - OpenSim.ApplicationPlugins.LoadRegions.LoadRegionsPlugin [LOADREGIONSPLUGIN]: DynamicTextureModule...
+2018-11-02 14:48:47,327 INFO  - OpenSim.ApplicationPlugins.LoadRegions.LoadRegionsPlugin [LOADREGIONSPLUGIN]: LoadImageURLModule...
+2018-11-02 14:48:47,327 INFO  - OpenSim.ApplicationPlugins.LoadRegions.LoadRegionsPlugin [LOADREGIONSPLUGIN]: XMLRPCModule...
+2018-11-02 14:48:47,327 INFO  - OpenSim.ApplicationPlugins.LoadRegions.LoadRegionsPlugin [LOADREGIONSPLUGIN]: AssetTransactionModule...
+2018-11-02 14:48:47,327 INFO  - OpenSim.ApplicationPlugins.LoadRegions.LoadRegionsPlugin [LOADREGIONSPLUGIN]: Done.
+2018-11-02 14:48:47,327 DEBUG - OpenSim.ApplicationPlugins.LoadRegions.LoadRegionsPlugin [LOADREGIONS]: Creating Region: LaptopIsland (ThreadID: 1)
+2018-11-02 14:48:47,420 INFO  - OpenSim.Region.ClientStack.LindenUDP.LLUDPServer [LLUDPSERVER]: Average Environment.TickCount resolution: 15.6ms
+2018-11-02 14:48:47,436 INFO  - OpenSim.Region.Framework.Scenes.Scene [SCENE]: Using the FrontBack prioritization scheme
+2018-11-02 14:48:47,452 DEBUG - OpenSim.Data.SQLite.SQLiteRegionData [SQLITE REGION DB]: Loaded terrain revision r1300190367
+2018-11-02 14:48:47,452 INFO  - OpenSim.Region.Physics.Manager.PhysicsPluginManager [PHYSICS]: Added meshing engine: ZeroMesher
+2018-11-02 14:48:47,483 INFO  - OpenSim.Region.Physics.Manager.PhysicsPluginManager [PHYSICS]: Added physics engine: basicphysics
+2018-11-02 14:48:47,530 INFO  - OpenSim.Region.Physics.Manager.PhysicsPluginManager [PHYSICS]: Added physics engine: BulletDotNETPlugin
+2018-11-02 14:48:47,577 INFO  - OpenSim.Region.Physics.Manager.PhysicsPluginManager [PHYSICS]: Added physics engine: modified_BulletX
+2018-11-02 14:48:47,623 INFO  - OpenSim.Region.Physics.Manager.PhysicsPluginManager [PHYSICS]: Added meshing engine: Meshmerizer
+2018-11-02 14:48:47,717 INFO  - OpenSim.Region.Physics.Manager.PhysicsPluginManager [PHYSICS]: Added physics engine: OpenDynamicsEngine
+2018-11-02 14:48:47,748 INFO  - OpenSim.Region.Physics.Manager.PhysicsPluginManager [PHYSICS]: Added physics engine: RealPhysX
+2018-11-02 14:48:47,811 INFO  - OpenSim.Region.Physics.Manager.PhysicsPluginManager [PHYSICS]: Added physics engine: POS
+2018-11-02 14:48:47,811 INFO  - OpenSim.Region.Physics.Manager.PhysicsPluginManager [PHYSICS]: creating meshing engine Meshmerizer
+2018-11-02 14:48:47,811 INFO  - OpenSim.Region.Physics.Manager.PhysicsPluginManager [PHYSICS]: creating OpenDynamicsEngine
+2018-11-02 14:48:47,842 INFO  - OpenSim.OpenSimBase [MODULES]: Loading Region's modules (old style)
+2018-11-02 14:48:48,670 INFO  - OpenSim.Region.Framework.ModuleLoader [MODULES]: Found Module Library [C:\Users\b00264983\Downloads\VirtualWorld\UWS-opensim-0.7.0.2-bin\bin\OpenSim.Client.MXP.dll]
+2018-11-02 14:48:48,670 INFO  - OpenSim.Region.Framework.ModuleLoader [MODULES]:    [MXP ClientStack Module]: Loading Shared Module.
+2018-11-02 14:48:48,858 INFO  - OpenSim.Region.Framework.ModuleLoader [MODULES]: Found Module Library [C:\Users\b00264983\Downloads\VirtualWorld\UWS-opensim-0.7.0.2-bin\bin\OpenSim.Region.CoreModules.dll]
+2018-11-02 14:48:48,873 INFO  - OpenSim.Region.Framework.ModuleLoader [MODULES]:    [DynamicTextureModule]: Loading Shared Module.
+2018-11-02 14:48:48,873 INFO  - OpenSim.Region.Framework.ModuleLoader [MODULES]:    [OGS Supporting RAdmin]: Loading Shared Module.
+2018-11-02 14:48:48,873 INFO  - OpenSim.Region.Framework.ModuleLoader [MODULES]:    [Sound Module]: Initializing.
+2018-11-02 14:48:48,873 INFO  - OpenSim.Region.Framework.ModuleLoader [MODULES]:    [LoadImageURL]: Loading Shared Module.
+2018-11-02 14:48:48,873 INFO  - OpenSim.Region.Framework.ModuleLoader [MODULES]:    [LightShareModule]: Initializing.
+2018-11-02 14:48:48,873 DEBUG - OpenSim.Region.CoreModules.World.LightShare.LightShareModule [WINDLIGHT]: Initialised windlight module
+2018-11-02 14:48:48,873 INFO  - OpenSim.Region.Framework.ModuleLoader [MODULES]:    [Attachments Module]: Initializing.
+2018-11-02 14:48:48,873 INFO  - OpenSim.Region.Framework.ModuleLoader [MODULES]:    [AgentTransactionModule]: Loading Shared Module.
+2018-11-02 14:48:48,873 INFO  - OpenSim.Region.Framework.ModuleLoader [MODULES]:    [MapSearchModule]: Loading Shared Module.
+2018-11-02 14:48:48,873 INFO  - OpenSim.Region.Framework.ModuleLoader [MODULES]:    [MapImageModule]: Initializing.
+2018-11-02 14:48:48,873 INFO  - OpenSim.Region.Framework.ModuleLoader [MODULES]:    [HttpScriptRequests]: Loading Shared Module.
+2018-11-02 14:48:48,873 INFO  - OpenSim.Region.Framework.ModuleLoader [MODULES]:    [Region Health Monitoring Module]: Initializing.
+2018-11-02 14:48:48,873 INFO  - OpenSim.Region.Framework.ModuleLoader [MODULES]:    [TextureDownloadModule]: Initializing.
+2018-11-02 14:48:48,873 INFO  - OpenSim.Region.Framework.ModuleLoader [MODULES]:    [DefaultEmailModule]: Loading Shared Module.
+2018-11-02 14:48:48,873 INFO  - OpenSim.Region.Framework.ModuleLoader [MODULES]:    [GetTextureModule]: Initializing.
+2018-11-02 14:48:48,873 INFO  - OpenSim.Region.Framework.ModuleLoader [MODULES]:    [EventQueueGetModule]: Initializing.
+2018-11-02 14:48:48,873 INFO  - OpenSim.Region.Framework.ModuleLoader [MODULES]:    [Inventory Archiver Module]: Loading Shared Module.
+2018-11-02 14:48:48,873 INFO  - OpenSim.Region.Framework.ModuleLoader [MODULES]:    [Gods Module]: Initializing.
+2018-11-02 14:48:48,873 INFO  - OpenSim.Region.Framework.ModuleLoader [MODULES]:    [IPBanModule]: Loading Shared Module.
+2018-11-02 14:48:48,873 INFO  - OpenSim.Region.Framework.ModuleLoader [MODULES]:    [OpenGridProtocolModule]: Loading Shared Module.
+2018-11-02 14:48:48,889 INFO  - OpenSim.Region.Framework.ModuleLoader [MODULES]:    [ObjectAddModule]: Initializing.
+2018-11-02 14:48:48,889 INFO  - OpenSim.Region.Framework.ModuleLoader [MODULES]:    [XMLRPCModule]: Loading Shared Module.
+2018-11-02 14:48:48,889 INFO  - OpenSim.Region.Framework.ModuleLoader [MODULES]:    [CombatModule]: Loading Shared Module.
+2018-11-02 14:48:48,889 INFO  - OpenSim.Region.Framework.ModuleLoader [MODULES]:    [XferModule]: Initializing.
+2018-11-02 14:48:48,889 INFO  - OpenSim.Region.Framework.ModuleLoader [MODULES]:    [CloudModule]: Initializing.
+2018-11-02 14:48:48,889 INFO  - OpenSim.Region.Framework.ModuleLoader [MODULES]:    [PermissionsModule]: Initializing.
+2018-11-02 14:48:48,889 DEBUG - OpenSim.Region.CoreModules.World.Permissions.PermissionsModule [PERMISSIONS]: allowed_script_creators All
+2018-11-02 14:48:48,889 DEBUG - OpenSim.Region.CoreModules.World.Permissions.PermissionsModule [PERMISSIONS]: allowed_script_editors All
+2018-11-02 14:48:48,889 INFO  - OpenSim.Region.CoreModules.World.Permissions.PermissionsModule [PERMISSIONS]: serviceside_object_permissions = false in ini file so disabling all region service permission checks
+2018-11-02 14:48:48,905 INFO  - OpenSim.Region.Framework.ModuleLoader [MODULES]:    [Vegetation Module]: Initializing.
+2018-11-02 14:48:48,905 INFO  - OpenSim.Region.Framework.ModuleLoader [MODULES]:    [EstateManagementModule]: Initializing.
+2018-11-02 14:48:48,905 INFO  - OpenSim.Region.Framework.ModuleLoader [MODULES]:    [WorldCommModule]: Initializing.
+2018-11-02 14:48:48,905 INFO  - OpenSim.Region.Framework.ModuleLoader [MODULES]:    [GroupsModule]: Loading Shared Module.
+2018-11-02 14:48:48,905 INFO  - OpenSim.Region.Framework.ModuleLoader [MODULES]:    [Gestures Module]: Initializing.
+2018-11-02 14:48:48,905 INFO  - OpenSim.Region.Framework.ModuleLoader [MODULES]:    [Dialog Module]: Initializing.
+2018-11-02 14:48:48,905 INFO  - OpenSim.Region.Framework.ModuleLoader [MODULES]:    [Default Avatar Factory]: Initializing.
+2018-11-02 14:48:48,905 INFO  - OpenSim.Region.Framework.ModuleLoader [MODULES]:    [J2KDecoderModule]: Loading Shared Module.
+2018-11-02 14:48:48,905 INFO  - OpenSim.Region.Framework.ModuleLoader [MODULES]:    [SunModule]: Initializing.
+2018-11-02 14:48:48,905 DEBUG - OpenSim.Region.CoreModules.SunModule [SUN]: localtime offset is 0
+2018-11-02 14:48:48,905 DEBUG - OpenSim.Region.CoreModules.SunModule [SUN]: Configuration access failed, using defaults. Reason: Object reference not set to an instance of an object.
+2018-11-02 14:48:48,905 DEBUG - OpenSim.Region.CoreModules.SunModule [SUN]: Mode is SL
+2018-11-02 14:48:48,905 DEBUG - OpenSim.Region.CoreModules.SunModule [SUN]: Initialization completed. Day is 14400 seconds, and year is 60 days
+2018-11-02 14:48:48,905 DEBUG - OpenSim.Region.CoreModules.SunModule [SUN]: Axis offset is 0.5
+2018-11-02 14:48:48,905 DEBUG - OpenSim.Region.CoreModules.SunModule [SUN]: Percentage of time for daylight 0.5
+2018-11-02 14:48:48,905 DEBUG - OpenSim.Region.CoreModules.SunModule [SUN]: Positional data updated every 100 frames
+2018-11-02 14:48:48,905 INFO  - OpenSim.Region.Framework.ModuleLoader [MODULES]:    [WindModule]: Initializing.
+2018-11-02 14:48:48,920 INFO  - OpenSim.Region.CoreModules.WindModule [WIND] Enabled with an update rate of 150 frames.
+2018-11-02 14:48:48,920 INFO  - OpenSim.Region.CoreModules.WindModule [WIND] Found Plugin: ConfigurableWind
+2018-11-02 14:48:48,920 INFO  - OpenSim.Region.CoreModules.WindModule [WIND] Found Plugin: SimpleRandomWind
+2018-11-02 14:48:48,920 INFO  - OpenSim.Region.CoreModules.WindModule [WIND] SimpleRandomWind plugin found, initializing.
+2018-11-02 14:48:48,920 INFO  - OpenSim.Region.Framework.ModuleLoader [MODULES]:    [VectorRenderModule]: Loading Shared Module.
+2018-11-02 14:48:48,936 INFO  - OpenSim.Region.Framework.ModuleLoader [MODULES]: Found Module Library [C:\Users\b00264983\Downloads\VirtualWorld\UWS-opensim-0.7.0.2-bin\bin\OpenSim.Region.DataSnapshot.dll]
+2018-11-02 14:48:48,936 INFO  - OpenSim.Region.Framework.ModuleLoader [MODULES]:    [External Data Generator]: Loading Shared Module.
+2018-11-02 14:48:48,967 INFO  - OpenSim.Region.Framework.ModuleLoader [MODULES]: Found Module Library [C:\Users\b00264983\Downloads\VirtualWorld\UWS-opensim-0.7.0.2-bin\bin\OpenSim.Region.OptionalModules.dll]
+2018-11-02 14:48:48,967 INFO  - OpenSim.Region.Framework.ModuleLoader [MODULES]:    [XmlRpcRouterModule]: Initializing.
+2018-11-02 14:48:48,967 INFO  - OpenSim.Region.Framework.ModuleLoader [MODULES]:    [XmlRpcGridRouterModule]: Initializing.
+2018-11-02 14:48:48,967 INFO  - OpenSim.Region.Framework.ModuleLoader [MODULES]:    [FreeSwitchVoiceModule]: Loading Shared Module.
+2018-11-02 14:48:48,967 INFO  - OpenSim.Region.Framework.ModuleLoader [MODULES]:    [TreePopulatorModule]: Initializing.
+2018-11-02 14:48:48,967 DEBUG - OpenSim.Region.OptionalModules.World.TreePopulator.TreePopulatorModule [TREES]: Initialised tree module
+2018-11-02 14:48:48,967 INFO  - OpenSim.Region.Framework.ModuleLoader [MODULES]:    [NPCModule]: Loading Shared Module.
+2018-11-02 14:48:48,967 INFO  - OpenSim.Region.Framework.ModuleLoader [MODULES]:    [IRCClientStackModule]: Initializing.
+2018-11-02 14:48:48,967 INFO  - OpenSim.Region.Framework.ModuleLoader [MODULES]:    [SvnBackupModule]: Loading Shared Module.
+2018-11-02 14:48:48,967 INFO  - OpenSim.Region.Framework.ModuleLoader [MODULES]:    [ContentManagementModule]: Loading Shared Module.
+2018-11-02 14:48:48,967 INFO  - OpenSim.Region.Framework.ModuleLoader [MODULES]:    [MiniRegionModule]: Initializing.
+2018-11-02 14:48:48,967 INFO  - OpenSim.Region.OptionalModules.Scripting.Minimodule.MRMModule [MRM] Disabled MRM Module (Disabled in ini)
+2018-11-02 14:48:49,077 INFO  - OpenSim.Region.Framework.ModuleLoader [MODULES]: Found Module Library [C:\Users\b00264983\Downloads\VirtualWorld\UWS-opensim-0.7.0.2-bin\bin\OpenSim.Region.UserStatistics.dll]
+2018-11-02 14:48:49,077 INFO  - OpenSim.Region.Framework.ModuleLoader [MODULES]:    [ViewerStatsModule]: Loading Shared Module.
+2018-11-02 14:48:49,233 INFO  - OpenSim.Region.CoreModules.Scripting.EmailModules.EmailModule [SMTP] module disabled in configuration
+2018-11-02 14:48:49,248 INFO  - OpenSim.Region.CoreModules.Avatar.Groups.GroupsModule [GROUPS]: Groups disabled in configuration
+2018-11-02 14:48:49,280 DEBUG - OpenSim.Region.CoreModules.Scripting.VectorRender.VectorRenderModule [VECTORRENDERMODULE]: using font "Arial" for text rendering.
+2018-11-02 14:48:49,280 INFO  - OpenSim.Region.OptionalModules.Avatar.Voice.FreeSwitchVoice.FreeSwitchVoiceModule [FreeSwitchVoice] plugin disabled by configuration
+2018-11-02 14:48:49,280 INFO  - OpenSim.OpenSimBase [MODULES]: Loading Region's modules (new style)
+2018-11-02 14:48:49,295 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Adding scene LaptopIsland to shared module SimianGridServiceConnector
+2018-11-02 14:48:49,295 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Adding scene LaptopIsland to shared module SimianAvatarServiceConnector
+2018-11-02 14:48:49,295 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Adding scene LaptopIsland to shared module SimianAuthenticationServiceConnector
+2018-11-02 14:48:49,295 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Adding scene LaptopIsland to shared module SimianPresenceServiceConnector
+2018-11-02 14:48:49,295 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Adding scene LaptopIsland to shared module SimianFriendsServiceConnector
+2018-11-02 14:48:49,295 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Adding scene LaptopIsland to shared module SimianUserAccountServiceConnector
+2018-11-02 14:48:49,295 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Adding scene LaptopIsland to shared module SimianInventoryServiceConnector
+2018-11-02 14:48:49,295 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Adding scene LaptopIsland to shared module SimianAssetServiceConnector
+2018-11-02 14:48:49,295 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Adding scene LaptopIsland to shared module ConciergeModule
+2018-11-02 14:48:49,295 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Adding scene LaptopIsland to shared module VivoxVoiceModule
+2018-11-02 14:48:49,295 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Deferred load of BetaGridLikeMoneyModule
+2018-11-02 14:48:49,295 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Adding scene LaptopIsland to shared module GroupsMessagingModule
+2018-11-02 14:48:49,295 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Adding scene LaptopIsland to shared module XmlRpcGroupsServicesConnector
+2018-11-02 14:48:49,295 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Adding scene LaptopIsland to shared module GroupsModule
+2018-11-02 14:48:49,295 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Adding scene LaptopIsland to shared module SimianGroupsServicesConnector
+2018-11-02 14:48:49,295 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Adding scene LaptopIsland to shared module BasicEntityTransferModule
+2018-11-02 14:48:49,295 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Adding scene LaptopIsland to shared module HGEntityTransferModule
+2018-11-02 14:48:49,295 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Adding scene LaptopIsland to shared module ExportSerialisationModule
+2018-11-02 14:48:49,295 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Adding scene LaptopIsland to shared module UrlModule
+2018-11-02 14:48:49,295 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Adding scene LaptopIsland to shared module ChatModule
+2018-11-02 14:48:49,311 INFO  - OpenSim.Region.CoreModules.Avatar.Chat.ChatModule [CHAT]: Initialized for LaptopIsland w:10 s:30 S:100
+2018-11-02 14:48:49,311 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Adding scene LaptopIsland to shared module FriendsModule
+2018-11-02 14:48:49,311 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Adding scene LaptopIsland to shared module PresenceModule
+2018-11-02 14:48:49,311 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Adding scene LaptopIsland to shared module MuteListModule
+2018-11-02 14:48:49,311 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Adding scene LaptopIsland to shared module OfflineMessageModule
+2018-11-02 14:48:49,311 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Adding scene LaptopIsland to shared module InstantMessageModule
+2018-11-02 14:48:49,311 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Adding scene LaptopIsland to shared module MessageTransferModule
+2018-11-02 14:48:49,311 DEBUG - OpenSim.Region.CoreModules.Avatar.InstantMessage.MessageTransferModule [MESSAGE TRANSFER]: Message transfer module active
+2018-11-02 14:48:49,311 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Adding scene LaptopIsland to shared module LureModule
+2018-11-02 14:48:49,311 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Adding scene LaptopIsland to shared module InventoryModule
+2018-11-02 14:48:49,311 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Adding scene LaptopIsland to shared module CoreAssetCache
+2018-11-02 14:48:49,311 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Adding scene LaptopIsland to shared module GlynnTuckerAssetCache
+2018-11-02 14:48:49,311 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Adding scene LaptopIsland to shared module CenomeMemoryAssetCache
+2018-11-02 14:48:49,311 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Adding scene LaptopIsland to shared module Library Module
+2018-11-02 14:48:49,311 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Adding scene LaptopIsland to shared module LocalAssetServicesConnector
+2018-11-02 14:48:49,311 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Adding scene LaptopIsland to shared module RemoteAssetServicesConnector
+2018-11-02 14:48:49,311 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Adding scene LaptopIsland to shared module LocalAvatarServicesConnector
+2018-11-02 14:48:49,311 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Adding scene LaptopIsland to shared module RemoteAvatarServicesConnector
+2018-11-02 14:48:49,311 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Adding scene LaptopIsland to shared module LocalAuthenticationServicesConnector
+2018-11-02 14:48:49,311 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Adding scene LaptopIsland to shared module RemoteAuthenticationServicesConnector
+2018-11-02 14:48:49,311 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Adding scene LaptopIsland to shared module LocalAuthorizationServicesConnector
+2018-11-02 14:48:49,311 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Adding scene LaptopIsland to shared module RemoteAuthorizationServicesConnector
+2018-11-02 14:48:49,311 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Adding scene LaptopIsland to shared module HGAssetBroker
+2018-11-02 14:48:49,311 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Adding scene LaptopIsland to shared module LocalInventoryServicesConnector
+2018-11-02 14:48:49,311 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Adding scene LaptopIsland to shared module RemoteInventoryServicesConnector
+2018-11-02 14:48:49,311 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Adding scene LaptopIsland to shared module RemoteXInventoryServicesConnector
+2018-11-02 14:48:49,311 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Adding scene LaptopIsland to shared module HGInventoryBroker
+2018-11-02 14:48:49,311 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Adding scene LaptopIsland to shared module LocalNeighbourServicesConnector
+2018-11-02 14:48:49,311 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Adding scene LaptopIsland to shared module RemoteNeighbourServicesConnector
+2018-11-02 14:48:49,311 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Adding scene LaptopIsland to shared module LocalLandServicesConnector
+2018-11-02 14:48:49,327 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Adding scene LaptopIsland to shared module RemoteLandServicesConnector
+2018-11-02 14:48:49,327 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Adding scene LaptopIsland to shared module LocalGridServicesConnector
+2018-11-02 14:48:49,327 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Adding scene LaptopIsland to shared module RemoteGridServicesConnector
+2018-11-02 14:48:49,327 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Adding scene LaptopIsland to shared module LocalPresenceServicesConnector
+2018-11-02 14:48:49,327 INFO  - OpenSim.Region.CoreModules.ServiceConnectorsOut.Presence.LocalPresenceServicesConnector [LOCAL PRESENCE CONNECTOR]: Enabled local presence for region LaptopIsland
+2018-11-02 14:48:49,327 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Adding scene LaptopIsland to shared module RemotePresenceServicesConnector
+2018-11-02 14:48:49,327 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Adding scene LaptopIsland to shared module LocalUserAccountServicesConnector
+2018-11-02 14:48:49,327 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Adding scene LaptopIsland to shared module RemoteUserAccountServicesConnector
+2018-11-02 14:48:49,327 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Adding scene LaptopIsland to shared module LocalGridUserServicesConnector
+2018-11-02 14:48:49,327 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Adding scene LaptopIsland to shared module RemoteGridUserServicesConnector
+2018-11-02 14:48:49,327 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Adding scene LaptopIsland to shared module LocalSimulationConnectorModule
+2018-11-02 14:48:49,327 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Adding scene LaptopIsland to shared module RemoteSimulationConnectorModule
+2018-11-02 14:48:49,327 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Adding scene LaptopIsland to shared module RegionAssetService
+2018-11-02 14:48:49,327 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Adding scene LaptopIsland to shared module RegionInventoryService
+2018-11-02 14:48:49,327 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Adding scene LaptopIsland to shared module LandServiceInConnectorModule
+2018-11-02 14:48:49,327 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Adding scene LaptopIsland to shared module NeighbourServiceInConnectorModule
+2018-11-02 14:48:49,327 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Adding scene LaptopIsland to shared module HypergridService
+2018-11-02 14:48:49,327 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Adding scene LaptopIsland to shared module LLLoginServiceInConnectorModule
+2018-11-02 14:48:49,327 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Adding scene LaptopIsland to shared module SimulationServiceInConnectorModule
+2018-11-02 14:48:49,327 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Adding scene LaptopIsland to shared module GridInfoService
+2018-11-02 14:48:49,327 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Adding scene LaptopIsland to shared module AuthenticationServiceInConnectorModule
+2018-11-02 14:48:49,327 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Adding scene LaptopIsland to shared module AccessModule
+2018-11-02 14:48:49,342 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Adding scene LaptopIsland to shared module FlotsamAssetCache
+2018-11-02 14:48:49,342 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Adding scene LaptopIsland to shared module RegionCombinerModule
+2018-11-02 14:48:49,342 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Adding scene LaptopIsland to non-shared module SimianProfiles
+2018-11-02 14:48:49,342 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Adding scene LaptopIsland to non-shared module RegionReadyModule
+2018-11-02 14:48:49,342 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Adding scene LaptopIsland to non-shared module IRCBridgeModule
+2018-11-02 14:48:49,342 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Adding scene LaptopIsland to non-shared module ScriptModuleCommsModule
+2018-11-02 14:48:49,342 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Adding scene LaptopIsland to non-shared module BasicInventoryAccessModule
+2018-11-02 14:48:49,342 INFO  - OpenSim.Region.CoreModules.Framework.InventoryAccess.BasicInventoryAccessModule [INVENTORY ACCESS MODULE]: BasicInventoryAccessModule enabled.
+2018-11-02 14:48:49,342 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Adding scene LaptopIsland to non-shared module HGInventoryAccessModule
+2018-11-02 14:48:49,342 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Adding scene LaptopIsland to non-shared module LandManagementModule
+2018-11-02 14:48:49,342 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Adding scene LaptopIsland to non-shared module RegionArchiverModule
+2018-11-02 14:48:49,342 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Adding scene LaptopIsland to non-shared module Capabilities Module
+2018-11-02 14:48:49,342 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Adding scene LaptopIsland to non-shared module TerrainModule
+2018-11-02 14:48:49,342 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Adding scene LaptopIsland to non-shared module WorldMapModule
+2018-11-02 14:48:49,358 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Adding scene LaptopIsland to non-shared module HGWorldMap
+2018-11-02 14:48:49,358 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Adding scene LaptopIsland to non-shared module XEngine
+2018-11-02 14:48:49,358 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Adding scene LaptopIsland to non-shared module LLClientStackModule
+2018-11-02 14:48:49,452 INFO  - OpenSim.Region.CoreModules.World.Terrain.TerrainModule Loading effects in Terrain\OpenSim.Region.CoreModules.World.Terrain.DefaultEffects.dll
+2018-11-02 14:48:49,483 INFO  - OpenSim.Region.CoreModules.World.Terrain.TerrainModule E ... ChannelDigger
+2018-11-02 14:48:49,483 INFO  - OpenSim.Region.CoreModules.World.WorldMap.WorldMapModule [WORLD MAP]: JPEG Map location: http://146.191.169.140:9000/index.php?method=regionImage39c75f3209144963a3f8560112a1a0c2
+2018-11-02 14:48:49,483 INFO  - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Initializing scripts in region LaptopIsland
+2018-11-02 14:48:49,498 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Adding scene LaptopIsland to shared module BetaGridLikeMoneyModule (deferred)
+2018-11-02 14:48:49,498 INFO  - OpenSim.Region.CoreModules.ServiceConnectorsOut.Asset.LocalAssetServicesConnector [LOCAL ASSET SERVICES CONNECTOR]: Enabled local assets for region LaptopIsland
+2018-11-02 14:48:49,498 INFO  - OpenSim.Region.CoreModules.ServiceConnectorsOut.Asset.LocalAssetServicesConnector [LOCAL ASSET SERVICES CONNECTOR]: Enabled asset caching for region LaptopIsland
+2018-11-02 14:48:49,498 INFO  - OpenSim.Region.CoreModules.ServiceConnectorsOut.Neighbour.LocalNeighbourServicesConnector [NEIGHBOUR CONNECTOR]: Local neighbour connector enabled for region LaptopIsland
+2018-11-02 14:48:49,498 INFO  - OpenSim.Region.CoreModules.ServiceConnectorsOut.UserAccounts.LocalUserAccountServicesConnector [LOCAL USER ACCOUNT SERVICE CONNECTOR]: Enabled local user accounts for region LaptopIsland
+2018-11-02 14:48:49,498 INFO  - OpenSim.Region.CoreModules.ServiceConnectorsOut.GridUser.LocalGridUserServicesConnector [LOCAL GRID USER SERVICE CONNECTOR]: Enabled local grid user for region LaptopIsland
+2018-11-02 14:48:49,498 DEBUG - OpenSim.Server.Handlers.Login.LLLoginServiceInConnector [LLLOGIN IN CONNECTOR]: Starting...
+2018-11-02 14:48:49,514 DEBUG - OpenSim.Services.UserAccountService.GridUserService [USER GRID SERVICE]: Starting user grid service
+2018-11-02 14:48:49,514 DEBUG - OpenSim.Services.GridService.GridService [GRID SERVICE]: Starting...
+2018-11-02 14:48:49,514 DEBUG - OpenSim.Services.PresenceService.PresenceService [PRESENCE SERVICE]: Starting presence service
+2018-11-02 14:48:49,514 DEBUG - OpenSim.Services.AvatarService.AvatarService [AVATAR SERVICE]: Starting avatar service
+2018-11-02 14:48:49,514 DEBUG - OpenSim.Services.LLLoginService.LLLoginService [LLOGIN SERVICE]: Using LibraryService given as argument
+2018-11-02 14:48:49,514 DEBUG - OpenSim.Services.LLLoginService.LLLoginService [LLOGIN SERVICE]: Starting...
+2018-11-02 14:48:49,514 INFO  - OpenSim.Region.CoreModules.ServiceConnectorsIn.Grid.GridInfoServiceInConnectorModule [GridInfo]: Starting...
+2018-11-02 14:48:49,514 DEBUG - OpenSim.Server.Handlers.Grid.GridInfoHandlers [GRID INFO SERVICE]: Grid info service initialized with 4 keys
+2018-11-02 14:48:49,514 INFO  - OpenSim.Region.OptionalModules.Scripting.ScriptModuleComms.ScriptModuleCommsModule [MODULE COMMANDS]: Script engine found, module active
+2018-11-02 14:48:49,514 INFO  - OpenSim.Region.ScriptEngine.XEngine.EventManager [XEngine] Hooking up to server events
+2018-11-02 14:48:51,404 INFO  - OpenSim.Region.Framework.Scenes.Scene [SCENE]: Loading objects from datastore
+2018-11-02 14:48:51,670 INFO  - OpenSim.Region.Framework.Scenes.Scene [SCENE]: Loaded 155 objects from the datastore
+2018-11-02 14:48:51,748 INFO  - OpenSim.Region.Framework.Scenes.Scene [SCENE]: Loaded 155 SceneObject(s)
+2018-11-02 14:48:51,748 INFO  - OpenSim.Region.CoreModules.World.WorldMap.ShadedMapTileRenderer [MAPTILE]: Generating Maptile Step 1: Terrain
+2018-11-02 14:48:51,857 INFO  - OpenSim.Region.CoreModules.World.WorldMap.ShadedMapTileRenderer [MAPTILE]: Generating Maptile Step 1: Done in 109 ms
+2018-11-02 14:48:51,857 INFO  - OpenSim.Region.CoreModules.World.WorldMap.MapImageModule [MAPTILE]: Generating Maptile Step 2: Object Volume Profile
+2018-11-02 14:48:51,889 INFO  - OpenSim.Region.CoreModules.World.WorldMap.MapImageModule [MAPTILE]: Generating Maptile Step 2: Done in 31 ms
+2018-11-02 14:48:51,920 DEBUG - OpenSim.Region.CoreModules.World.WorldMap.WorldMapModule [MAPTILE]: STORING MAPTILE IMAGE
+2018-11-02 14:48:51,920 DEBUG - OpenSim.Region.CoreModules.World.WorldMap.WorldMapModule [WORLDMAP]: Storing map tile 9609adfc-65d6-4ec3-9e21-5d7e29f77ad0
+2018-11-02 14:48:52,139 DEBUG - OpenSim.Region.CoreModules.World.WorldMap.WorldMapModule [WORLDMAP]: Deleting old map tile 6eb69973-0de8-441e-875e-bd3b606133db
+2018-11-02 14:48:52,139 DEBUG - OpenSim.Services.AssetService.AssetService [ASSET SERVICE]: Deleting asset 6eb69973-0de8-441e-875e-bd3b606133db
+2018-11-02 14:48:52,248 DEBUG - OpenSim.Services.GridService.GridService [GRID SERVICE]: Region LaptopIsland (39c75f32-0914-4963-a3f8-560112a1a0c2) registered successfully at 256000-256000
+2018-11-02 14:48:52,248 INFO  - OpenSim.Region.Framework.Scenes.Scene [SCENE]: Loading land objects from storage
+2018-11-02 14:48:52,670 INFO  - OpenSim.Region.Framework.Scenes.Scene [PRIM INVENTORY]: Starting scripts in scene
+2018-11-02 14:48:52,764 INFO  - OpenSim.Region.ClientStack.LindenUDP.LLUDPServer [LLUDPSERVER]: Starting the LLUDP server in synchronous mode
+2018-11-02 14:48:52,779 DEBUG - OpenMetaverse.OpenSimUDPBase [UDPBASE]: SIO_UDP_CONNRESET flag set
+2018-11-02 14:48:52,795 WARN  - OpenSim.Region.CoreModules.World.Permissions.PermissionsModule [PERMISSIONS]: Groups module not found, group permissions will not work
+2018-11-02 14:48:52,795 DEBUG - OpenSim.Region.CoreModules.SunModule [SUN]: Sun Settings Update: Fixed Sun? : False
+2018-11-02 14:48:52,811 DEBUG - OpenSim.Region.CoreModules.SunModule [SUN]: Sun Settings Update: Sun Hour   : 16.88667
+2018-11-02 14:48:52,811 DEBUG - OpenSim.Region.CoreModules.SunModule [SUN]: PosTime : 1541170132
+2018-11-02 14:48:52,811 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULES]: PostInitializing...
+2018-11-02 14:48:52,811 INFO  - OpenSim.Region.CoreModules.ServiceConnectorsIn.Login.LLLoginServiceInConnectorModule [LLLOGIN IN CONNECTOR]: Starting...
+2018-11-02 14:48:52,826 DEBUG - OpenSim.Framework.Watchdog [WATCHDOG]: Started tracking thread "Outgoing Packets (LaptopIsland)" (ID 18)
+2018-11-02 14:48:52,826 INFO  - OpenSim.OpenSim [!]STARTUP COMPLETE
+2018-11-02 14:48:52,826 INFO  - OpenSim.Framework.Servers.BaseOpenSimServer [STARTUP]: Startup took 0m 46s
+2018-11-02 14:48:52,889 DEBUG - OpenSim.Framework.Watchdog [WATCHDOG]: Started tracking thread "Heartbeat for region LaptopIsland" (ID 19)
+2018-11-02 14:48:52,904 DEBUG - OpenSim.Framework.Watchdog [WATCHDOG]: Started tracking thread "Incoming Packets (LaptopIsland)" (ID 17)
+2018-11-02 14:48:54,592 DEBUG - OpenSim.Region.Framework.Scenes.Scene [REGION]: Enabling logins for LaptopIsland
+2018-11-02 14:48:54,592 DEBUG - OpenSim.Services.GridService.GridService [GRID SERVICE]: region LaptopIsland has 0 neighours
+2018-11-02 14:48:54,607 DEBUG - OpenSim.Region.Framework.Scenes.SceneCommunicationService [INTERGRID]: Informing 0 neighbours that this region is up
+2018-11-02 14:49:08,172 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script Poster 24.oneway, script UUID f7740886-15cb-4954-93b7-4b488ba75117, prim UUID 29dc35cc-0edf-4af0-a71f-36aaf2bbadc5 @ <416.6151, 397.5687, 25.3>.LaptopIsland
+2018-11-02 14:49:08,229 DEBUG - OpenSim.Framework.Watchdog [WATCHDOG]: Started tracking thread "AsyncLSLCmdHandlerThread" (ID 22)
+2018-11-02 14:49:08,492 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script Poster 24.poster 24 script, script UUID 76c6c53d-b257-4906-bffd-e275a688f9fe, prim UUID 29dc35cc-0edf-4af0-a71f-36aaf2bbadc5 @ <416.6151, 397.5687, 25.3>.LaptopIsland
+2018-11-02 14:49:08,838 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script Scripting Posters.oneway, script UUID b77b35b4-16da-4baa-9fad-68120219f3ac, prim UUID 2bbf1242-8e28-4068-b4d3-51b75e5b7c33 @ <203.12, 251.2116, 71.9696>.LaptopIsland
+2018-11-02 14:49:09,208 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script Poster 7.poster 7 script, script UUID 08462374-5dd3-4a5e-87ff-dace8987b601, prim UUID 29f13070-e4e8-436d-b437-2747cb8f8832 @ <197.5001, 251.2428, 71.98711>.LaptopIsland
+2018-11-02 14:49:09,223 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script Poster 7.oneway, script UUID f7740886-15cb-4954-93b7-4b488ba75117, prim UUID 29f13070-e4e8-436d-b437-2747cb8f8832 @ <197.5001, 251.2428, 71.98711>.LaptopIsland
+2018-11-02 14:49:09,547 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script Posters.Teleport down script, script UUID 89ba7ef7-50a1-4326-9bc1-dd804aef2832, prim UUID 63063724-f788-4b59-8b49-9e94dbe51527 @ <242.4265, 242.47, 79.6325>.LaptopIsland
+2018-11-02 14:49:09,970 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script arrow.New Script, script UUID ef7f320a-cdb5-49fd-ae0b-3ed6c0449b60, prim UUID 1922ca37-0cac-4536-b3d1-06856c0988ae @ <243.1854, 250.9563, 70.05222>.LaptopIsland
+2018-11-02 14:49:09,977 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script Poster 33.oneway, script UUID f7740886-15cb-4954-93b7-4b488ba75117, prim UUID 3841448a-12a2-466d-88a0-687b0d36ca88 @ <204.9236, 251.2209, 81.48711>.LaptopIsland
+2018-11-02 14:49:10,305 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script Poster 33.poster 33 script, script UUID c7c59a89-b9df-45cc-9992-deaf9488ba4b, prim UUID 3841448a-12a2-466d-88a0-687b0d36ca88 @ <204.9236, 251.2209, 81.48711>.LaptopIsland
+2018-11-02 14:49:10,313 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script Poster 28.oneway, script UUID f7740886-15cb-4954-93b7-4b488ba75117, prim UUID 92a8eeec-d753-4cd5-a1a6-e57c422c564e @ <186.5894, 251.2571, 81.48711>.LaptopIsland
+2018-11-02 14:49:10,616 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script Poster 28.poster 28 script, script UUID 674d1b23-c2d2-4348-a9ff-370ee3479137, prim UUID 92a8eeec-d753-4cd5-a1a6-e57c422c564e @ <186.5894, 251.2571, 81.48711>.LaptopIsland
+2018-11-02 14:49:11,037 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script Poster 25.poster 25 script, script UUID 45cad4d8-938a-41e9-b39d-ff209de0f96e, prim UUID eacc1b55-cdfc-4950-a8ce-6f7eb2fa289d @ <244.822, 251.2989, 71.98711>.LaptopIsland
+2018-11-02 14:49:11,051 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script Poster 25.oneway, script UUID f7740886-15cb-4954-93b7-4b488ba75117, prim UUID eacc1b55-cdfc-4950-a8ce-6f7eb2fa289d @ <244.822, 251.2989, 71.98711>.LaptopIsland
+2018-11-02 14:49:11,065 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script Poster 24.poster 24 script, script UUID 76c6c53d-b257-4906-bffd-e275a688f9fe, prim UUID eff48adb-29fe-4479-a5fc-52a8f375dc76 @ <241.8716, 251.2624, 71.98711>.LaptopIsland
+2018-11-02 14:49:11,072 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script Poster 24.oneway, script UUID f7740886-15cb-4954-93b7-4b488ba75117, prim UUID eff48adb-29fe-4479-a5fc-52a8f375dc76 @ <241.8716, 251.2624, 71.98711>.LaptopIsland
+2018-11-02 14:49:11,079 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script Poster 18.oneway, script UUID f7740886-15cb-4954-93b7-4b488ba75117, prim UUID 5b84940e-b5b2-4bda-a7a7-6ce9fa441069 @ <218.7238, 251.2942, 71.98711>.LaptopIsland
+2018-11-02 14:49:11,389 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script Poster 18.poster 18 script, script UUID bd4c1a61-d62f-4e68-8118-efbc15f761e9, prim UUID 5b84940e-b5b2-4bda-a7a7-6ce9fa441069 @ <218.7238, 251.2942, 71.98711>.LaptopIsland
+2018-11-02 14:49:11,686 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script notecard giver.oneway, script UUID 413f59cc-656e-4c33-92f0-5e4296812f61, prim UUID 843359c2-10ec-4a70-bb81-dcd441989472 @ <234.2069, 251.2624, 70.76733>.LaptopIsland
+2018-11-02 14:49:12,027 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script notecard giver.GiveAllContents 2.1, set to give to ANYONE, script UUID 2a58a80c-2beb-47bc-bfe6-515657d680a8, prim UUID 843359c2-10ec-4a70-bb81-dcd441989472 @ <234.2069, 251.2624, 70.76733>.LaptopIsland
+2018-11-02 14:49:12,344 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script Poster 16.poster 16 script, script UUID bbb0ca92-4e77-40d7-9aee-207848724b99, prim UUID 07ffacee-4021-4669-9608-3ce9ddac8631 @ <216.509, 243.743, 71.98711>.LaptopIsland
+2018-11-02 14:49:12,351 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script Poster 16.oneway, script UUID f7740886-15cb-4954-93b7-4b488ba75117, prim UUID 07ffacee-4021-4669-9608-3ce9ddac8631 @ <216.509, 243.743, 71.98711>.LaptopIsland
+2018-11-02 14:49:12,365 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script notecard giver.oneway, script UUID 413f59cc-656e-4c33-92f0-5e4296812f61, prim UUID a884ab99-726a-4ad9-8d48-4caa3135cad3 @ <247.8329, 238.095, 70.42737>.LaptopIsland
+2018-11-02 14:49:12,371 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script notecard giver.GiveAllContents 2.1, set to give to ANYONE, script UUID 2a58a80c-2beb-47bc-bfe6-515657d680a8, prim UUID a884ab99-726a-4ad9-8d48-4caa3135cad3 @ <247.8329, 238.095, 70.42737>.LaptopIsland
+2018-11-02 14:49:12,379 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script Poster 32.oneway, script UUID f7740886-15cb-4954-93b7-4b488ba75117, prim UUID 5b00a2ee-82c6-4af5-8fa2-1d420ee2b3ee @ <202.1118, 251.2119, 81.48711>.LaptopIsland
+2018-11-02 14:49:12,709 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script Poster 32.poster 32 script, script UUID f9a5a58f-c59e-4985-9292-4e5a37ee29a4, prim UUID 5b00a2ee-82c6-4af5-8fa2-1d420ee2b3ee @ <202.1118, 251.2119, 81.48711>.LaptopIsland
+2018-11-02 14:49:12,723 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script Poster 5.oneway, script UUID f7740886-15cb-4954-93b7-4b488ba75117, prim UUID 7a89272f-5974-4723-af1f-738c70a03b55 @ <189.5556, 251.1534, 71.98711>.LaptopIsland
+2018-11-02 14:49:13,036 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script Poster 4.poster 4 script, script UUID 3ebb784d-b9a9-4d77-872f-1d80084d56e0, prim UUID 4b3557aa-8ee0-4283-a590-9ad54127e7ac @ <186.3604, 251.2368, 71.98711>.LaptopIsland
+2018-11-02 14:49:13,050 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script Poster 4.oneway, script UUID f7740886-15cb-4954-93b7-4b488ba75117, prim UUID 4b3557aa-8ee0-4283-a590-9ad54127e7ac @ <186.3604, 251.2368, 71.98711>.LaptopIsland
+2018-11-02 14:49:13,056 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script notecard giver.oneway, script UUID 413f59cc-656e-4c33-92f0-5e4296812f61, prim UUID 9785d774-aa05-4264-bad7-49704f7822c8 @ <194.6255, 251.1709, 80.14531>.LaptopIsland
+2018-11-02 14:49:13,070 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script notecard giver.GiveAllContents 2.1, set to give to ANYONE, script UUID 2a58a80c-2beb-47bc-bfe6-515657d680a8, prim UUID 9785d774-aa05-4264-bad7-49704f7822c8 @ <194.6255, 251.1709, 80.14531>.LaptopIsland
+2018-11-02 14:49:13,078 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script Poster 1.oneway, script UUID f7740886-15cb-4954-93b7-4b488ba75117, prim UUID 2b535c4d-3fd9-414b-80c4-c3d55bc9ab47 @ <176.6712, 245.1437, 71.98711>.LaptopIsland
+2018-11-02 14:49:13,092 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script notecard giver.GiveAllContents 2.1, set to give to ANYONE, script UUID 2a58a80c-2beb-47bc-bfe6-515657d680a8, prim UUID ac7f1b1b-47c2-4ec2-99f4-eb6eebfcc14b @ <186.2378, 251.2366, 70.78035>.LaptopIsland
+2018-11-02 14:49:13,419 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script notecard giver.oneway, script UUID eddb55ca-5417-403e-9fc9-ae002d77c2be, prim UUID ac7f1b1b-47c2-4ec2-99f4-eb6eebfcc14b @ <186.2378, 251.2366, 70.78035>.LaptopIsland
+2018-11-02 14:49:13,740 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script Poster 27.Poster 27 script, script UUID 2add9d4e-5970-4c41-8243-8b5086a104d8, prim UUID 9d6a6c4e-0d5c-4174-a410-9442b12ebd96 @ <247.8119, 238.1262, 71.94366>.LaptopIsland
+2018-11-02 14:49:13,749 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script Poster 9.oneway, script UUID f7740886-15cb-4954-93b7-4b488ba75117, prim UUID 643cf874-f33d-4661-9d9e-2a17c2eb94ab @ <207.4548, 244.0502, 71.98711>.LaptopIsland
+2018-11-02 14:49:13,768 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script notecard giver.GiveAllContents 2.1, set to give to ANYONE, script UUID 2a58a80c-2beb-47bc-bfe6-515657d680a8, prim UUID ecf4f75e-9903-49c8-9441-93d45fc22dd9 @ <226.3178, 251.2648, 70.75217>.LaptopIsland
+2018-11-02 14:49:13,784 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script notecard giver.oneway, script UUID 413f59cc-656e-4c33-92f0-5e4296812f61, prim UUID ecf4f75e-9903-49c8-9441-93d45fc22dd9 @ <226.3178, 251.2648, 70.75217>.LaptopIsland
+2018-11-02 14:49:13,792 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script Poster 2.oneway, script UUID f7740886-15cb-4954-93b7-4b488ba75117, prim UUID f7e371f7-1176-4d4d-a62f-c38240f2bcd3 @ <179.0874, 251.2487, 71.98711>.LaptopIsland
+2018-11-02 14:49:13,805 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script notecard giver.oneway, script UUID 413f59cc-656e-4c33-92f0-5e4296812f61, prim UUID 505fe3b6-ae56-4351-8fa6-0207085aa240 @ <189.5444, 251.2203, 80.1207>.LaptopIsland
+2018-11-02 14:49:13,820 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script notecard giver.GiveAllContents 2.1, set to give to ANYONE, script UUID 2a58a80c-2beb-47bc-bfe6-515657d680a8, prim UUID 505fe3b6-ae56-4351-8fa6-0207085aa240 @ <189.5444, 251.2203, 80.1207>.LaptopIsland
+2018-11-02 14:49:13,835 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script notecard giver.GiveAllContents 2.1, set to give to ANYONE, script UUID 2a58a80c-2beb-47bc-bfe6-515657d680a8, prim UUID 077c8dba-487b-49ae-ac1d-bf21fa3af14d @ <204.907, 250.943, 80.19258>.LaptopIsland
+2018-11-02 14:49:13,842 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script notecard giver.oneway, script UUID 413f59cc-656e-4c33-92f0-5e4296812f61, prim UUID 077c8dba-487b-49ae-ac1d-bf21fa3af14d @ <204.907, 250.943, 80.19258>.LaptopIsland
+2018-11-02 14:49:14,193 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script Animation Cube.animation script, script UUID d84662de-a38d-4fb4-b04a-26497c997101, prim UUID 784bb1e9-0d37-4c9a-bc0e-8cc97577a0c3 @ <240.5417, 246.2825, 79.65533>.LaptopIsland
+2018-11-02 14:49:14,207 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script Poster 40.oneway, script UUID f7740886-15cb-4954-93b7-4b488ba75117, prim UUID 4545799e-01af-4f07-980b-a032201eb36f @ <234.3504, 251.2791, 81.48711>.LaptopIsland
+2018-11-02 14:49:14,569 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script Poster 40.poster 40 script, script UUID 04ff5b41-80a2-4332-971e-57fabc02627d, prim UUID 4545799e-01af-4f07-980b-a032201eb36f @ <234.3504, 251.2791, 81.48711>.LaptopIsland
+2018-11-02 14:49:14,583 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script notecard giver.GiveAllContents 2.1, set to give to ANYONE, script UUID 2a58a80c-2beb-47bc-bfe6-515657d680a8, prim UUID 4b0844ba-1204-4016-9758-e0e6eaa04b1d @ <210.4246, 251.1437, 80.14575>.LaptopIsland
+2018-11-02 14:49:14,590 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script notecard giver.oneway, script UUID 413f59cc-656e-4c33-92f0-5e4296812f61, prim UUID 4b0844ba-1204-4016-9758-e0e6eaa04b1d @ <210.4246, 251.1437, 80.14575>.LaptopIsland
+2018-11-02 14:49:14,605 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script notecard giver.oneway, script UUID 413f59cc-656e-4c33-92f0-5e4296812f61, prim UUID 0f12eabe-3046-4fac-9338-b6026b3aa9e2 @ <186.6661, 251.2504, 80.09895>.LaptopIsland
+2018-11-02 14:49:14,614 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script notecard giver.GiveAllContents 2.1, set to give to ANYONE, script UUID 2a58a80c-2beb-47bc-bfe6-515657d680a8, prim UUID 0f12eabe-3046-4fac-9338-b6026b3aa9e2 @ <186.6661, 251.2504, 80.09895>.LaptopIsland
+2018-11-02 14:49:14,623 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script Poster 22.oneway, script UUID f7740886-15cb-4954-93b7-4b488ba75117, prim UUID d22d10d0-a17f-4118-b386-b5d511d655f2 @ <234.2495, 251.2636, 71.98711>.LaptopIsland
+2018-11-02 14:49:14,930 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script Poster 22.poster 22 script, script UUID 53f7572b-8922-4fb9-bac1-51db0cbba058, prim UUID d22d10d0-a17f-4118-b386-b5d511d655f2 @ <234.2495, 251.2636, 71.98711>.LaptopIsland
+2018-11-02 14:49:14,937 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script Poster 10.oneway, script UUID f7740886-15cb-4954-93b7-4b488ba75117, prim UUID 9c257d6d-bb5e-4a40-a166-122936899ce6 @ <207.5944, 244.0789, 71.98711>.LaptopIsland
+2018-11-02 14:49:15,266 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script Poster 35 chair.poster 35 script, script UUID 1dec849e-6601-44dd-af2f-2e33978da369, prim UUID 9bc15de6-fafe-45ca-8988-adb3b39ba738 @ <213.0489, 250.9777, 79.74524>.LaptopIsland
+2018-11-02 14:49:15,280 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script notecard giver.GiveAllContents 2.1, set to give to ANYONE, script UUID 2a58a80c-2beb-47bc-bfe6-515657d680a8, prim UUID 876269b1-ee43-4e7b-9839-d83250ae4c4f @ <218.5741, 251.2391, 80.0934>.LaptopIsland
+2018-11-02 14:49:15,294 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script notecard giver.oneway, script UUID 413f59cc-656e-4c33-92f0-5e4296812f61, prim UUID 876269b1-ee43-4e7b-9839-d83250ae4c4f @ <218.5741, 251.2391, 80.0934>.LaptopIsland
+2018-11-02 14:49:15,300 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script Poster 6.oneway, script UUID f7740886-15cb-4954-93b7-4b488ba75117, prim UUID 2af46378-9394-493e-b912-81158baa8468 @ <194.4118, 251.2445, 71.98711>.LaptopIsland
+2018-11-02 14:49:15,307 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script Poster 38.oneway, script UUID f7740886-15cb-4954-93b7-4b488ba75117, prim UUID cd1cdbdd-ae78-444c-9eb8-f7e124e241bc @ <226.3187, 251.2645, 81.48711>.LaptopIsland
+2018-11-02 14:49:15,633 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script Poster 38.poster 38 script, script UUID c69e0d1f-a7eb-4e7e-a697-6100c131278a, prim UUID cd1cdbdd-ae78-444c-9eb8-f7e124e241bc @ <226.3187, 251.2645, 81.48711>.LaptopIsland
+2018-11-02 14:49:15,641 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script Touch for a building credits notecard.oneway, script UUID 413f59cc-656e-4c33-92f0-5e4296812f61, prim UUID f3f03a87-da13-480a-b825-be87af96cdfe @ <237.3916, 251.2554, 80.11513>.LaptopIsland
+2018-11-02 14:49:15,650 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script Touch for a building credits notecard.GiveAllContents 2.1, set to give to ANYONE, script UUID 2a58a80c-2beb-47bc-bfe6-515657d680a8, prim UUID f3f03a87-da13-480a-b825-be87af96cdfe @ <237.3916, 251.2554, 80.11513>.LaptopIsland
+2018-11-02 14:49:15,664 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script notecard giver 90.oneway, script UUID 413f59cc-656e-4c33-92f0-5e4296812f61, prim UUID 70dd9d99-f5dd-4043-adee-6447f29376a0 @ <216.5162, 246.5739, 70.76569>.LaptopIsland
+2018-11-02 14:49:15,672 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script notecard giver 90.GiveAllContents 2.1, set to give to ANYONE, script UUID 2a58a80c-2beb-47bc-bfe6-515657d680a8, prim UUID 70dd9d99-f5dd-4043-adee-6447f29376a0 @ <216.5162, 246.5739, 70.76569>.LaptopIsland
+2018-11-02 14:49:15,689 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script Poster 11.oneway, script UUID f7740886-15cb-4954-93b7-4b488ba75117, prim UUID 956bec62-14d1-4714-b78b-9854307e577f @ <207.6447, 246.8, 71.98711>.LaptopIsland
+2018-11-02 14:49:15,697 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script notecard giver 90.oneway, script UUID 413f59cc-656e-4c33-92f0-5e4296812f61, prim UUID a481f4c4-725a-47e6-89d8-8c7e4d424786 @ <216.5373, 243.7616, 70.76564>.LaptopIsland
+2018-11-02 14:49:15,712 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script notecard giver 90.GiveAllContents 2.1, set to give to ANYONE, script UUID 2a58a80c-2beb-47bc-bfe6-515657d680a8, prim UUID a481f4c4-725a-47e6-89d8-8c7e4d424786 @ <216.5373, 243.7616, 70.76564>.LaptopIsland
+2018-11-02 14:49:15,727 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script notecard giver.oneway, script UUID 413f59cc-656e-4c33-92f0-5e4296812f61, prim UUID 2e2bb7c5-d105-4d53-94da-44233c525301 @ <229.3226, 251.2444, 70.76717>.LaptopIsland
+2018-11-02 14:49:15,741 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script notecard giver.GiveAllContents 2.1, set to give to ANYONE, script UUID 2a58a80c-2beb-47bc-bfe6-515657d680a8, prim UUID 2e2bb7c5-d105-4d53-94da-44233c525301 @ <229.3226, 251.2444, 70.76717>.LaptopIsland
+2018-11-02 14:49:15,750 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script notecard giver.GiveAllContents 2.1, set to give to ANYONE, script UUID 2a58a80c-2beb-47bc-bfe6-515657d680a8, prim UUID c5efe4cf-ff03-4194-aefe-82666a748e9d @ <226.3134, 251.2468, 80.11221>.LaptopIsland
+2018-11-02 14:49:15,764 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script notecard giver.oneway, script UUID 413f59cc-656e-4c33-92f0-5e4296812f61, prim UUID c5efe4cf-ff03-4194-aefe-82666a748e9d @ <226.3134, 251.2468, 80.11221>.LaptopIsland
+2018-11-02 14:49:15,772 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script Poster 3.oneway, script UUID f7740886-15cb-4954-93b7-4b488ba75117, prim UUID 5445457a-44ee-4886-84ba-bfce66db6d77 @ <181.7714, 251.1839, 71.98711>.LaptopIsland
+2018-11-02 14:49:15,780 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script notecard giver.oneway, script UUID 413f59cc-656e-4c33-92f0-5e4296812f61, prim UUID 9426e6c5-91cb-457f-8851-ec4b55229f00 @ <197.5659, 251.2106, 80.12032>.LaptopIsland
+2018-11-02 14:49:15,788 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script notecard giver.GiveAllContents 2.1, set to give to ANYONE, script UUID 2a58a80c-2beb-47bc-bfe6-515657d680a8, prim UUID 9426e6c5-91cb-457f-8851-ec4b55229f00 @ <197.5659, 251.2106, 80.12032>.LaptopIsland
+2018-11-02 14:49:15,795 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script notecard giver.oneway, script UUID 413f59cc-656e-4c33-92f0-5e4296812f61, prim UUID 2ee70a18-73a2-4d9a-8a77-a71a365bd963 @ <218.6754, 251.2802, 70.77956>.LaptopIsland
+2018-11-02 14:49:15,810 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script notecard giver.GiveAllContents 2.1, set to give to ANYONE, script UUID 2a58a80c-2beb-47bc-bfe6-515657d680a8, prim UUID 2ee70a18-73a2-4d9a-8a77-a71a365bd963 @ <218.6754, 251.2802, 70.77956>.LaptopIsland
+2018-11-02 14:49:15,817 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script notecard giver.GiveAllContents 2.1, set to give to ANYONE, script UUID 2a58a80c-2beb-47bc-bfe6-515657d680a8, prim UUID 4d329e2b-22da-440a-a762-fc8c2e5f2fd8 @ <237.3115, 251.2236, 70.80622>.LaptopIsland
+2018-11-02 14:49:15,830 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script notecard giver.oneway, script UUID 413f59cc-656e-4c33-92f0-5e4296812f61, prim UUID 4d329e2b-22da-440a-a762-fc8c2e5f2fd8 @ <237.3115, 251.2236, 70.80622>.LaptopIsland
+2018-11-02 14:49:15,836 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script notecard giver.oneway, script UUID 413f59cc-656e-4c33-92f0-5e4296812f61, prim UUID 9b3812bb-b481-4100-aea8-104b80dc6c32 @ <213.6349, 251.232, 80.09053>.LaptopIsland
+2018-11-02 14:49:15,851 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script notecard giver.GiveAllContents 2.1, set to give to ANYONE, script UUID 2a58a80c-2beb-47bc-bfe6-515657d680a8, prim UUID 9b3812bb-b481-4100-aea8-104b80dc6c32 @ <213.6349, 251.232, 80.09053>.LaptopIsland
+2018-11-02 14:49:15,864 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script notecard giver.oneway, script UUID 413f59cc-656e-4c33-92f0-5e4296812f61, prim UUID 0bd2e2f8-08ba-41fe-b45d-39a94532872e @ <197.4524, 251.236, 70.73331>.LaptopIsland
+2018-11-02 14:49:15,878 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script notecard giver.GiveAllContents 2.1, set to give to ANYONE, script UUID 2a58a80c-2beb-47bc-bfe6-515657d680a8, prim UUID 0bd2e2f8-08ba-41fe-b45d-39a94532872e @ <197.4524, 251.236, 70.73331>.LaptopIsland
+2018-11-02 14:49:15,890 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script notecard giver.oneway, script UUID 413f59cc-656e-4c33-92f0-5e4296812f61, prim UUID 6d443e5b-1780-4aba-9a76-93ef20229d2b @ <221.7025, 251.2773, 70.75>.LaptopIsland
+2018-11-02 14:49:15,899 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script notecard giver.GiveAllContents 2.1, set to give to ANYONE, script UUID 2a58a80c-2beb-47bc-bfe6-515657d680a8, prim UUID 6d443e5b-1780-4aba-9a76-93ef20229d2b @ <221.7025, 251.2773, 70.75>.LaptopIsland
+2018-11-02 14:49:15,906 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script Poster 8.oneway, script UUID f7740886-15cb-4954-93b7-4b488ba75117, prim UUID d322d5b1-9fcd-4aee-9fd9-1d668b1935c9 @ <207.3601, 246.8515, 71.98711>.LaptopIsland
+2018-11-02 14:49:16,232 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script Poster 39.poster 39 script, script UUID 9566055b-7ebb-41f2-9cde-97951892ad75, prim UUID 1ddda3d7-86a9-4db4-a605-28f52ce6cfc3 @ <229.3282, 251.2855, 81.48711>.LaptopIsland
+2018-11-02 14:49:16,239 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script Poster 39.oneway, script UUID f7740886-15cb-4954-93b7-4b488ba75117, prim UUID 1ddda3d7-86a9-4db4-a605-28f52ce6cfc3 @ <229.3282, 251.2855, 81.48711>.LaptopIsland
+2018-11-02 14:49:16,587 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script Poster 20.poster 20 script, script UUID 8d242ccf-7f59-4bf9-ac50-17bf129b427b, prim UUID 43432f79-490e-43e6-9e71-862f8d8188f2 @ <226.3676, 251.2832, 71.98711>.LaptopIsland
+2018-11-02 14:49:16,594 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script Poster 20.oneway, script UUID f7740886-15cb-4954-93b7-4b488ba75117, prim UUID 43432f79-490e-43e6-9e71-862f8d8188f2 @ <226.3676, 251.2832, 71.98711>.LaptopIsland
+2018-11-02 14:49:16,607 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script Poster 35.oneway, script UUID f7740886-15cb-4954-93b7-4b488ba75117, prim UUID ae9ed36b-47c1-4a77-b2ec-b8deb772b621 @ <213.562, 251.2514, 81.48711>.LaptopIsland
+2018-11-02 14:49:16,614 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script LSL Wiki Poster.oneway, script UUID f7740886-15cb-4954-93b7-4b488ba75117, prim UUID f299dea7-0406-4e51-9317-dc4dbb737bc1 @ <237.3911, 251.2728, 81.53006>.LaptopIsland
+2018-11-02 14:49:16,931 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script LSL Wiki Poster.wiki script, script UUID 32f08fa2-d6dd-469b-b7ae-a95fbf6694e1, prim UUID f299dea7-0406-4e51-9317-dc4dbb737bc1 @ <237.3911, 251.2728, 81.53006>.LaptopIsland
+2018-11-02 14:49:16,938 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script Poster 31.oneway, script UUID f7740886-15cb-4954-93b7-4b488ba75117, prim UUID 0ea328f3-714d-4410-a153-185c613c8c64 @ <197.5674, 251.2171, 81.48711>.LaptopIsland
+2018-11-02 14:49:17,258 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script Poster 31.poster 31 script, script UUID 7053fd72-d4a4-4f95-bfff-fd30b78dcb81, prim UUID 0ea328f3-714d-4410-a153-185c613c8c64 @ <197.5674, 251.2171, 81.48711>.LaptopIsland
+2018-11-02 14:49:17,271 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script Poster 36.oneway, script UUID f7740886-15cb-4954-93b7-4b488ba75117, prim UUID 7d2ca054-69fc-48d7-951d-d47c93c62ad3 @ <218.6205, 251.259, 81.48711>.LaptopIsland
+2018-11-02 14:49:17,643 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script Poster 36.poster 36 script, script UUID 9a73a615-82b0-4a7d-a804-d64228aa5e96, prim UUID 7d2ca054-69fc-48d7-951d-d47c93c62ad3 @ <218.6205, 251.259, 81.48711>.LaptopIsland
+2018-11-02 14:49:17,657 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script Poster 13.oneway, script UUID f7740886-15cb-4954-93b7-4b488ba75117, prim UUID d3c33911-d429-46d7-a182-8ec2118404a0 @ <213.6218, 251.2576, 71.98711>.LaptopIsland
+2018-11-02 14:49:17,665 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script Poster 14.oneway, script UUID f7740886-15cb-4954-93b7-4b488ba75117, prim UUID fe8a63c6-b715-460b-ba16-373e3db7173c @ <216.3482, 246.6292, 71.98711>.LaptopIsland
+2018-11-02 14:49:17,680 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script notecard giver.GiveAllContents 2.1, set to give to ANYONE, script UUID 2a58a80c-2beb-47bc-bfe6-515657d680a8, prim UUID 2745fbfe-0276-451d-824c-4e7d8b117960 @ <234.3884, 251.2599, 80.11039>.LaptopIsland
+2018-11-02 14:49:17,994 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script notecard giver.oneway, script UUID 4198e9ea-c957-4ebb-93ea-6180affd9877, prim UUID 2745fbfe-0276-451d-824c-4e7d8b117960 @ <234.3884, 251.2599, 80.11039>.LaptopIsland
+2018-11-02 14:49:18,301 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script Orientation chair.orientation chair script, script UUID b6097f3c-b5cb-423e-b8fc-4b4bdb737461, prim UUID 366190b4-b0eb-40ae-b8d0-c88abea3df71 @ <246.0296, 243.528, 70.59311>.LaptopIsland
+2018-11-02 14:49:18,314 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script Poster 26.oneway, script UUID f7740886-15cb-4954-93b7-4b488ba75117, prim UUID 661c6a28-cc92-461d-9435-19dd36b75039 @ <247.3305, 246.7436, 71.98711>.LaptopIsland
+2018-11-02 14:49:18,320 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script Poster 37.oneway, script UUID f7740886-15cb-4954-93b7-4b488ba75117, prim UUID e173def3-7853-443a-939a-2068f1e1f64f @ <221.6573, 251.2702, 81.48711>.LaptopIsland
+2018-11-02 14:49:18,633 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script Poster 37.poster 37 script, script UUID d9f73437-46c0-4c2e-8c0f-ae4be59b576e, prim UUID e173def3-7853-443a-939a-2068f1e1f64f @ <221.6573, 251.2702, 81.48711>.LaptopIsland
+2018-11-02 14:49:18,649 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script notecard giver.GiveAllContents 2.1, set to give to ANYONE, script UUID 2a58a80c-2beb-47bc-bfe6-515657d680a8, prim UUID 34de4ffd-0ce0-4866-9a42-d55480b3c3cd @ <202.139, 250.943, 80.20714>.LaptopIsland
+2018-11-02 14:49:18,657 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script notecard giver.oneway, script UUID 413f59cc-656e-4c33-92f0-5e4296812f61, prim UUID 34de4ffd-0ce0-4866-9a42-d55480b3c3cd @ <202.139, 250.943, 80.20714>.LaptopIsland
+2018-11-02 14:49:18,981 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script Poster 23.poster 23 script (orientation), script UUID 39a062ff-7f77-4c24-83da-b5427556e05f, prim UUID 17d10471-cbd4-4188-9113-e9b2af577f00 @ <237.3136, 251.2299, 71.98711>.LaptopIsland
+2018-11-02 14:49:18,988 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script Poster 23.oneway, script UUID f7740886-15cb-4954-93b7-4b488ba75117, prim UUID 17d10471-cbd4-4188-9113-e9b2af577f00 @ <237.3136, 251.2299, 71.98711>.LaptopIsland
+2018-11-02 14:49:19,397 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script Poster 34.poster 34 script, script UUID b0bb9ce8-490b-4fa1-b6ad-5ebf7d21b7ea, prim UUID daca3d32-b74a-4a12-8a09-0ab63584ceb8 @ <210.4728, 251.2596, 81.48711>.LaptopIsland
+2018-11-02 14:49:19,412 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script Poster 34.oneway, script UUID f7740886-15cb-4954-93b7-4b488ba75117, prim UUID daca3d32-b74a-4a12-8a09-0ab63584ceb8 @ <210.4728, 251.2596, 81.48711>.LaptopIsland
+2018-11-02 14:49:19,427 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script Poster 26a.oneway, script UUID f7740886-15cb-4954-93b7-4b488ba75117, prim UUID 343435cb-3d30-4b1e-9f91-f7530f7193d2 @ <247.3451, 244.0884, 71.98711>.LaptopIsland
+2018-11-02 14:49:19,435 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script Poster 17.oneway, script UUID f7740886-15cb-4954-93b7-4b488ba75117, prim UUID 51558e1e-549b-4c56-be06-f4fb44664976 @ <216.5096, 246.6437, 71.98711>.LaptopIsland
+2018-11-02 14:49:19,769 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script Poster 17.poster 17 script, script UUID 9fd8d26e-3e6e-431c-9a99-9b1fc58c903c, prim UUID 51558e1e-549b-4c56-be06-f4fb44664976 @ <216.5096, 246.6437, 71.98711>.LaptopIsland
+2018-11-02 14:49:20,067 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script Poster 19.poster 19 script, script UUID 61599fc1-041b-406c-ab86-f96adc424f83, prim UUID 11444658-f893-4578-a2dd-133266c56ad6 @ <221.735, 251.2992, 71.98711>.LaptopIsland
+2018-11-02 14:49:20,080 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script Poster 19.oneway, script UUID f7740886-15cb-4954-93b7-4b488ba75117, prim UUID 11444658-f893-4578-a2dd-133266c56ad6 @ <221.735, 251.2992, 71.98711>.LaptopIsland
+2018-11-02 14:49:20,093 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script Poster 21.oneway, script UUID f7740886-15cb-4954-93b7-4b488ba75117, prim UUID a9dab36e-b888-4a02-83d6-192063d1cd0a @ <229.3823, 251.2626, 71.98711>.LaptopIsland
+2018-11-02 14:49:20,404 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script Poster 21.poster 21 script, script UUID 8bad1ba9-861a-41e6-a63e-2d4fda981b8f, prim UUID a9dab36e-b888-4a02-83d6-192063d1cd0a @ <229.3823, 251.2626, 71.98711>.LaptopIsland
+2018-11-02 14:49:20,419 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script notecard giver.GiveAllContents 2.1, set to give to ANYONE, script UUID 2a58a80c-2beb-47bc-bfe6-515657d680a8, prim UUID 2374905b-525d-4258-8bd4-dbb353745beb @ <241.8822, 251.256, 70.7841>.LaptopIsland
+2018-11-02 14:49:20,433 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script notecard giver.oneway, script UUID 413f59cc-656e-4c33-92f0-5e4296812f61, prim UUID 2374905b-525d-4258-8bd4-dbb353745beb @ <241.8822, 251.256, 70.7841>.LaptopIsland
+2018-11-02 14:49:20,446 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script Poster 15.oneway, script UUID f7740886-15cb-4954-93b7-4b488ba75117, prim UUID fcf75f82-3118-4727-b9f2-059c38b1b9d8 @ <216.3596, 243.9881, 71.98711>.LaptopIsland
+2018-11-02 14:49:20,460 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script Poster 12.oneway, script UUID f7740886-15cb-4954-93b7-4b488ba75117, prim UUID 68384708-1932-4633-b373-eced4ad74f7e @ <210.4202, 251.2583, 71.98711>.LaptopIsland
+2018-11-02 14:49:20,474 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script Poster 0.oneway, script UUID f7740886-15cb-4954-93b7-4b488ba75117, prim UUID b25209c0-5759-443f-933c-8731d100a0c5 @ <176.4065, 237.7321, 71.98711>.LaptopIsland
+2018-11-02 14:49:20,797 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script Poster 29.poster 29 script, script UUID c0c47911-d223-4810-961c-e9bc090410a3, prim UUID deee5be4-1f24-427e-976c-0189d920c589 @ <189.5388, 251.2269, 81.48711>.LaptopIsland
+2018-11-02 14:49:20,804 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script Poster 29.oneway, script UUID f7740886-15cb-4954-93b7-4b488ba75117, prim UUID deee5be4-1f24-427e-976c-0189d920c589 @ <189.5388, 251.2269, 81.48711>.LaptopIsland
+2018-11-02 14:49:21,184 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script Poster 30.Poster 30 script, script UUID 98c1d50f-1e7f-4dc4-860e-ef7ca805ac7b, prim UUID f1276244-32fd-419b-9ed2-b904b1838200 @ <194.6458, 251.2028, 81.48711>.LaptopIsland
+2018-11-02 14:49:21,190 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script Poster 30.oneway, script UUID f7740886-15cb-4954-93b7-4b488ba75117, prim UUID f1276244-32fd-419b-9ed2-b904b1838200 @ <194.6458, 251.2028, 81.48711>.LaptopIsland
+2018-11-02 14:49:21,204 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script notecard giver.oneway, script UUID 413f59cc-656e-4c33-92f0-5e4296812f61, prim UUID 30a14baa-ae5c-45f9-bfce-1efbe1082632 @ <221.7113, 251.2506, 80.10413>.LaptopIsland
+2018-11-02 14:49:21,211 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script notecard giver.GiveAllContents 2.1, set to give to ANYONE, script UUID 2a58a80c-2beb-47bc-bfe6-515657d680a8, prim UUID 30a14baa-ae5c-45f9-bfce-1efbe1082632 @ <221.7113, 251.2506, 80.10413>.LaptopIsland
+2018-11-02 14:49:21,224 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script notecard giver.oneway, script UUID 413f59cc-656e-4c33-92f0-5e4296812f61, prim UUID 4dfd504b-7360-405a-a17c-dd8d3c34e783 @ <229.32, 251.2791, 80.10562>.LaptopIsland
+2018-11-02 14:49:21,232 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script notecard giver.GiveAllContents 2.1, set to give to ANYONE, script UUID 2a58a80c-2beb-47bc-bfe6-515657d680a8, prim UUID 4dfd504b-7360-405a-a17c-dd8d3c34e783 @ <229.32, 251.2791, 80.10562>.LaptopIsland
+2018-11-02 14:49:21,239 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script notecard giver.GiveAllContents 2.1, set to give to ANYONE, script UUID 2a58a80c-2beb-47bc-bfe6-515657d680a8, prim UUID f6623e15-441c-4a00-91c6-ae39aca5bd4e @ <244.9071, 251.2922, 70.76333>.LaptopIsland
+2018-11-02 14:49:21,252 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script notecard giver.oneway, script UUID 413f59cc-656e-4c33-92f0-5e4296812f61, prim UUID f6623e15-441c-4a00-91c6-ae39aca5bd4e @ <244.9071, 251.2922, 70.76333>.LaptopIsland
+2018-11-02 14:49:21,627 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script Position Chair.position chair script, script UUID c3f1774a-f74e-4364-96d4-692e2d770ec0, prim UUID 21106e00-594a-469e-a861-2e655269353b @ <246.0715, 244.7054, 70.51987>.LaptopIsland
+2018-11-02 14:49:21,938 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script UFO Chair.UFO Chair sit script, script UUID b17c1e6f-3280-40d4-aa80-cc1e3e679e21, prim UUID e3017c80-7a24-4807-a4bd-1d036aaa1dfe @ <100.6775, 110, 19.65763>.LaptopIsland
+2018-11-02 14:49:22,276 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script UWS sign.UWS web launcher, script UUID 2707e224-6248-4d8a-a2e2-fe67cc60dea3, prim UUID fd077d76-a3e4-41bb-8f46-86e43ea49a9d @ <110.1172, 107.1388, 25.61796>.LaptopIsland
+2018-11-02 14:49:22,575 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script ObjStart.TextHover, script UUID 296b61ad-dd79-4933-99f6-d53a4a7c7c3b, prim UUID 95c5f600-d7c1-4b27-ae45-6d079a3c53fc @ <110.6102, 107.7779, 20.27275>.LaptopIsland
+2018-11-02 14:49:22,895 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script ObjStart.TeleportInfoBuilding, script UUID 4e5e4458-4918-45d5-b801-28f0eaf1d0e0, prim UUID 95c5f600-d7c1-4b27-ae45-6d079a3c53fc @ <110.6102, 107.7779, 20.27275>.LaptopIsland
+2018-11-02 14:49:23,206 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script ObjTeleBackStart.TeleportStart, script UUID e6e2f91d-1eee-44c6-a7c8-f7078ea416df, prim UUID cdc9ac3e-a83c-46ad-a320-c1440b95d6fd @ <193.3809, 235.702, 70.95063>.LaptopIsland
+2018-11-02 14:49:23,505 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script ObjTeleBackStart.HoverText, script UUID 942a5c89-09d8-405f-a128-4a5994e57086, prim UUID cdc9ac3e-a83c-46ad-a320-c1440b95d6fd @ <193.3809, 235.702, 70.95063>.LaptopIsland
+2018-11-02 14:49:23,836 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script Primitive.New Script, script UUID 54393c7c-b219-44e9-b88b-ebae3905abfd, prim UUID 657a0841-f51b-4d7f-b6d1-7b39c409dbe9 @ <131.6971, 112.2607, 20.91364>.LaptopIsland
+2018-11-02 14:49:24,156 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script Primitive.New Script, script UUID 7a7ca99f-9f49-4bcb-816e-a38f38edd14b, prim UUID 0b1b2c69-8dc8-4d13-b371-67d6be0294d4 @ <121.677, 128.0425, 20.91557>.LaptopIsland
+2018-11-02 14:49:24,489 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script Primitive.New Script, script UUID a6e0e784-ed07-4194-b386-6ec0da3ae155, prim UUID 555b56e0-ddf4-4616-b561-c2e156430b98 @ <118.7079, 130.2989, 270.6233>.LaptopIsland
+2018-11-02 14:50:24,958 DEBUG - OpenSim.Region.Framework.Scenes.SceneObjectGroup [SCENE]: Storing ObjStart, 95c5f600-d7c1-4b27-ae45-6d079a3c53fc in LaptopIsland
+2018-11-02 14:50:25,192 DEBUG - OpenSim.Region.Framework.Scenes.SceneObjectGroup [SCENE]: Storing ObjTeleBackStart, cdc9ac3e-a83c-46ad-a320-c1440b95d6fd in LaptopIsland
+2018-11-02 14:50:31,481 INFO  - OpenSim.Services.LLLoginService.LLLoginService [LLOGIN SERVICE]: Login request for yoshi sim from 127.0.0.1 with user agent Imprudence 1.3.2.0 starting in last
+2018-11-02 14:50:31,561 DEBUG - OpenSim.Services.AuthenticationService.PasswordAuthenticationService [PASS AUTH]: got e10adc3949ba59abbe56e057f20f883e; hashed = d9348db1f024d05ab90636bc040030e1; stored = d9348db1f024d05ab90636bc040030e1
+2018-11-02 14:50:31,927 DEBUG - OpenSim.Services.LLLoginService.LLLoginService [LLOGIN SERVICE]: 0 active gestures
+2018-11-02 14:50:32,024 DEBUG - OpenSim.Services.PresenceService.PresenceService [PRESENCE SERVICE]: LoginAgent b0084361-cc47-4b9a-ac8c-219caf2b515a with session 03dd45ea-c60d-42b4-91d2-add298bac6cc and ssession 0eae1d5d-6d78-41f2-8778-cf270f74e66f
+2018-11-02 14:50:32,033 DEBUG - OpenSim.Services.UserAccountService.GridUserService [GRID USER SERVICE]: User b0084361-cc47-4b9a-ac8c-219caf2b515a is online
+2018-11-02 14:50:32,134 DEBUG - OpenSim.Services.LLLoginService.LLLoginService [LLOGIN SERVICE]: FindDestination for start location last
+2018-11-02 14:50:32,149 DEBUG - OpenSim.Region.CoreModules.ServiceConnectorsOut.Simulation.LocalSimulationConnectorModule [LOCAL SIMULATION CONNECTOR]: Found region LaptopIsland to send SendCreateChildAgent
+2018-11-02 14:50:32,156 INFO  - OpenSim.Region.Framework.Scenes.Scene [CONNECTION BEGIN]: Region LaptopIsland told of incoming root agent yoshi sim b0084361-cc47-4b9a-ac8c-219caf2b515a (circuit code 1907851962, teleportflags 128)
+2018-11-02 14:50:32,169 INFO  - OpenSim.Region.Framework.Scenes.Scene [CONNECTION BEGIN]: Region LaptopIsland authenticated and authorized incoming root agent yoshi sim b0084361-cc47-4b9a-ac8c-219caf2b515a (circuit code 1907851962)
+2018-11-02 14:50:32,177 DEBUG - OpenSim.Framework.Capabilities.Caps [CAPS]: Registered seed capability /CAPS/598ff9f1-05be-451b-bb21-cd665d7aabde0000/ for b0084361-cc47-4b9a-ac8c-219caf2b515a
+2018-11-02 14:50:32,182 DEBUG - OpenSim.Region.CoreModules.Framework.EventQueue.EventQueueGetModule [EVENTQUEUE]: Adding new queue for agent b0084361-cc47-4b9a-ac8c-219caf2b515a in region LaptopIsland
+2018-11-02 14:50:32,191 INFO  - OpenSim.Region.CoreModules.Avatar.ObjectCaps.ObjectAdd [OBJECTADD]: /CAPS/OA/97e73f60-9586-45db-96f6-2b066d03105a/
+2018-11-02 14:50:32,198 INFO  - OpenSim.Region.CoreModules.Avatar.ObjectCaps.GetTextureModule [GETTEXTURE]: /CAPS/c286266b-2abb-4371-8afd-7b67ea1bd8be
+2018-11-02 14:50:32,233 DEBUG - OpenSim.Services.LLLoginService.LLLoginService [LLOGIN SERVICE]: Retrieved 0 friends
+2018-11-02 14:50:32,248 DEBUG - OpenSim.Services.LLLoginService.LLLoginResponse [LLOGIN]: Library has 19 folders
+2018-11-02 14:50:32,436 DEBUG - OpenSim.Services.LLLoginService.LLLoginService [LLOGIN SERVICE]: All clear. Sending login response to client.
+2018-11-02 14:50:34,645 DEBUG - OpenSim.Framework.Capabilities.Caps [CAPS]: Seed Caps Request in region: LaptopIsland
+2018-11-02 14:50:34,681 DEBUG - OpenSim.Region.Framework.Scenes.Scene [SCENE]: Incoming client yoshi sim in region LaptopIsland via regular login. Client IP verification not performed.
+2018-11-02 14:50:37,067 DEBUG - OpenSim.Region.ClientStack.LindenUDP.LLUDPServer [LLUDPSERVER]: Handling UseCircuitCode packet from 146.191.169.140:64126
+2018-11-02 14:50:37,155 DEBUG - OpenSim.Region.Framework.Scenes.Scene [SCENE]: Adding new agent yoshi sim to scene LaptopIsland
+2018-11-02 14:50:37,398 DEBUG - OpenSim.Region.Framework.Scenes.ScenePresence [SCENE]: Upgrading child to root agent for yoshi sim in LaptopIsland
+2018-11-02 14:50:37,423 DEBUG - OpenSim.Region.CoreModules.ServiceConnectorsOut.Presence.PresenceDetector [PRESENCE DETECTOR]: Detected root presence b0084361-cc47-4b9a-ac8c-219caf2b515a in LaptopIsland
+2018-11-02 14:50:37,483 DEBUG - OpenSim.Services.PresenceService.PresenceService [PRESENCE SERVICE]: ReportAgent with session 03dd45ea-c60d-42b4-91d2-add298bac6cc in region 39c75f32-0914-4963-a3f8-560112a1a0c2
+2018-11-02 14:50:37,489 DEBUG - OpenSim.Region.CoreModules.ServiceConnectorsOut.GridUser.ActivityDetector [ACTIVITY DETECTOR]: Detected root presence b0084361-cc47-4b9a-ac8c-219caf2b515a in LaptopIsland
+2018-11-02 14:50:37,585 DEBUG - OpenSim.Region.CoreModules.World.WorldMap.WorldMapModule [WORLD MAP]: Starting remote MapItem request thread
+2018-11-02 14:50:37,594 DEBUG - OpenSim.Services.GridService.GridService [GRID SERVICE]: region LaptopIsland has 0 neighours
+2018-11-02 14:50:38,053 DEBUG - OpenSim.Region.Framework.Scenes.ScenePresence [SCENE]: Received request for wearables of yoshi sim
+2018-11-02 14:50:38,623 DEBUG - OpenSim.Framework.Watchdog [WATCHDOG]: Started tracking thread "MapItemRequestThread" (ID 30)
+2018-11-02 14:50:39,382 WARN  - OpenSim.Region.Physics.OdePlugin.OdeCharacter [PHYSICS]: trying to change capsule size, but the following ODE data is missing - Shell Body Amotor 
+2018-11-02 14:50:39,459 DEBUG - OpenSim.Framework.Capabilities.Caps [CAPS]: UploadBakedTexture Request in region: LaptopIsland
+2018-11-02 14:50:39,532 DEBUG - OpenSim.Framework.Capabilities.Caps [CAPS]: Received baked texture 8e8e8618-670e-4be9-b68f-f159a1610382
+2018-11-02 14:50:40,744 DEBUG - OpenSim.Framework.Capabilities.Caps [CAPS]: UploadBakedTexture Request in region: LaptopIsland
+2018-11-02 14:50:40,807 DEBUG - OpenSim.Framework.Capabilities.Caps [CAPS]: Received baked texture a4b22942-0584-4199-880c-2a409d0e4d66
+2018-11-02 14:50:41,976 DEBUG - OpenSim.Framework.Capabilities.Caps [CAPS]: UploadBakedTexture Request in region: LaptopIsland
+2018-11-02 14:50:41,976 DEBUG - OpenSim.Framework.Capabilities.Caps [CAPS]: UploadBakedTexture Request in region: LaptopIsland
+2018-11-02 14:50:42,244 DEBUG - OpenSim.Framework.Capabilities.Caps [CAPS]: UploadBakedTexture Request in region: LaptopIsland
+2018-11-02 14:50:42,252 DEBUG - OpenSim.Framework.Capabilities.Caps [CAPS]: UploadBakedTexture Request in region: LaptopIsland
+2018-11-02 14:50:42,268 DEBUG - OpenSim.Framework.Capabilities.Caps [CAPS]: Received baked texture c0e3ad77-9403-4e8a-9971-e1a860bab3dc
+2018-11-02 14:50:42,284 DEBUG - OpenSim.Framework.Capabilities.Caps [CAPS]: Received baked texture ccd2b4d4-3665-4287-884b-9bc9b476d0ed
+2018-11-02 14:50:42,301 DEBUG - OpenSim.Framework.Capabilities.Caps [CAPS]: Received baked texture d300a7a5-fbda-4e09-8e01-8c80f7b37452
+2018-11-02 14:50:42,639 DEBUG - OpenSim.Framework.Capabilities.Caps [CAPS]: UploadBakedTexture Request in region: LaptopIsland
+2018-11-02 14:50:42,639 DEBUG - OpenSim.Framework.Capabilities.Caps [CAPS]: Received baked texture 7ba2d888-938a-4746-918c-7a5c5404d53c
+2018-11-02 14:50:42,922 DEBUG - OpenSim.Framework.Capabilities.Caps [CAPS]: UploadBakedTexture Request in region: LaptopIsland
+2018-11-02 14:50:42,922 DEBUG - OpenSim.Framework.Capabilities.Caps [CAPS]: Received baked texture 95a0907b-46b2-4117-a0b3-eafbb5abc24a
+2018-11-02 14:50:42,969 DEBUG - OpenSim.Framework.Capabilities.Caps [CAPS]: Received baked texture 48987b7a-3b6b-414d-b873-dfe6a2650051
+2018-11-02 14:50:44,021 DEBUG - OpenSim.Services.InventoryService.XInventoryService [XINVENTORY SERVICE]: Fetch contents for folder 6b9490db-4487-42bf-bbe5-bf143657e74a
+2018-11-02 14:50:44,304 DEBUG - OpenSim.Services.InventoryService.XInventoryService [XINVENTORY SERVICE]: Fetch contents for folder a06d6aa9-be67-4630-9af7-3069a3701646
+2018-11-02 14:52:33,710 DEBUG - OpenSim.Region.Framework.Scenes.ScenePresence [SIT]: Client requested Sit Position: <-2.002739, 0.0677186, 0>
+2018-11-02 14:52:38,832 DEBUG - OpenSim.Region.Framework.Scenes.ScenePresence StandupCode Executed
+2018-11-02 14:53:42,706 DEBUG - OpenSim.Region.Framework.Scenes.ScenePresence [SIT]: Client requested Sit Position: <0.03019571, 0.07510496, -0.5342656>
+2018-11-02 14:53:42,711 DEBUG - OpenSim.Region.Framework.Scenes.ScenePresence StandupCode Executed
+2018-11-02 14:54:01,336 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script Primitive.New Script, script UUID 14219611-226d-475c-b746-0d196c46997c, prim UUID 767cb0af-a14a-4153-95d7-49c850cb4810 @ <160, 85, 80>.LaptopIsland
+2018-11-02 14:54:08,773 DEBUG - OpenSim.Region.Framework.Scenes.SceneObjectGroup [SCENE]: Storing ObjStart, 95c5f600-d7c1-4b27-ae45-6d079a3c53fc in LaptopIsland
+2018-11-02 14:54:45,969 DEBUG - OpenSim.Region.Framework.Scenes.SceneObjectGroup [SCENE]: Storing ObjTeleBackStart, cdc9ac3e-a83c-46ad-a320-c1440b95d6fd in LaptopIsland
+2018-11-02 14:54:57,249 DEBUG - OpenSim.Framework.Capabilities.Caps [CAPS]: ScriptTaskInventory Request in region: LaptopIsland
+2018-11-02 14:54:57,936 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script Primitive.Info, script UUID 3be01dea-989a-4161-b7b3-575f408f33fb, prim UUID 767cb0af-a14a-4153-95d7-49c850cb4810 @ <160, 85, 80>.LaptopIsland
+2018-11-02 14:55:31,478 DEBUG - OpenSim.Framework.Capabilities.Caps [CAPS]: ScriptTaskInventory Request in region: LaptopIsland
+2018-11-02 14:55:32,013 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script Primitive.Info, script UUID abf73e02-fc85-4cfc-a9ae-a2669938e9b8, prim UUID 767cb0af-a14a-4153-95d7-49c850cb4810 @ <160, 85, 80>.LaptopIsland
+2018-11-02 14:56:26,627 DEBUG - OpenSim.Framework.Capabilities.Caps [CAPS]: ScriptTaskInventory Request in region: LaptopIsland
+2018-11-02 14:56:27,203 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script Primitive.Info, script UUID ed6741e0-92b9-45f4-9b86-0eea86f48860, prim UUID 767cb0af-a14a-4153-95d7-49c850cb4810 @ <160, 128.9665, 80>.LaptopIsland
+2018-11-02 14:57:33,559 DEBUG - OpenSim.Region.Framework.Scenes.SceneObjectGroup [SCENE]: Storing Primitive, 767cb0af-a14a-4153-95d7-49c850cb4810 in LaptopIsland
+2018-11-02 14:57:51,262 DEBUG - OpenSim.Region.Framework.Scenes.SceneObjectGroup [SCENE]: Storing UWS sign, fd077d76-a3e4-41bb-8f46-86e43ea49a9d in LaptopIsland
+2018-11-02 14:57:53,521 DEBUG - OpenSim.Region.Framework.Scenes.AsyncSceneObjectGroupDeleter [SCENE]: Starting send to inventory loop
+2018-11-02 14:57:53,528 DEBUG - OpenSim.Region.Framework.Scenes.AsyncSceneObjectGroupDeleter [SCENE]: Sending object to user's inventory, 1 item(s) remaining.
+2018-11-02 14:57:53,661 DEBUG - OpenSim.Region.CoreModules.ServiceConnectorsOut.Inventory.LocalInventoryServicesConnector [LOCAL INVENTORY SERVICES CONNECTOR]: Adding inventory item UWS sign to user cf0beb0c-e4c3-4f7f-bd15-a98cccc9d788 folder 075f8101-7a07-451f-aca9-9795d65f126d
+2018-11-02 14:57:53,866 DEBUG - OpenSim.Region.Framework.Scenes.AsyncSceneObjectGroupDeleter [SCENE]: No objects left in inventory send queue.
+2018-11-02 14:58:07,838 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script UWS sign.New Script, script UUID 3a31ed20-3859-4fbe-99c9-5f628eaf2d6b, prim UUID 82f7d29e-a7d6-440b-be71-122dd28ebf93 @ <110.1172, 107.1388, 25.61796>.LaptopIsland
+2018-11-02 14:58:08,267 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script UWS sign.New Script 1, script UUID e2a00f22-8058-4107-a647-a451b64d7a04, prim UUID 82f7d29e-a7d6-440b-be71-122dd28ebf93 @ <110.1172, 107.1388, 25.61796>.LaptopIsland
+2018-11-02 14:58:08,775 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script UWS sign.New Script 2, script UUID be652d8d-4e9b-4fd4-a66d-53e533e7e404, prim UUID 82f7d29e-a7d6-440b-be71-122dd28ebf93 @ <110.1172, 107.1388, 25.61796>.LaptopIsland
+2018-11-02 14:58:09,217 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script UWS sign.New Script 3, script UUID d1748b7c-f47f-407a-9bcf-98abba0c32fe, prim UUID 82f7d29e-a7d6-440b-be71-122dd28ebf93 @ <110.1172, 107.1388, 25.61796>.LaptopIsland
+2018-11-02 14:58:21,338 DEBUG - OpenSim.Framework.Capabilities.Caps [CAPS]: ScriptTaskInventory Request in region: LaptopIsland
+2018-11-02 14:58:21,962 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script UWS sign.HoverText, script UUID 7876ae98-66a2-4b2f-8f56-ff8b353c7c0e, prim UUID 82f7d29e-a7d6-440b-be71-122dd28ebf93 @ <110.1172, 107.1388, 25.61796>.LaptopIsland
+2018-11-02 14:58:43,503 DEBUG - OpenSim.Framework.Capabilities.Caps [CAPS]: ScriptTaskInventory Request in region: LaptopIsland
+2018-11-02 14:58:44,097 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script UWS sign.TeleportInfoBuilding, script UUID 9e6c599a-c745-4cb1-813b-3fb0f8aa589d, prim UUID 82f7d29e-a7d6-440b-be71-122dd28ebf93 @ <110.1172, 107.1388, 25.61796>.LaptopIsland
+2018-11-02 14:58:49,128 DEBUG - OpenSim.Region.Framework.Scenes.ScenePresence [SIT]: Client requested Sit Position: <0.7420273, -0.3780823, 1.542646>
+2018-11-02 14:58:49,133 DEBUG - OpenSim.Region.Framework.Scenes.ScenePresence StandupCode Executed
+2018-11-02 14:58:52,595 DEBUG - OpenSim.Region.Framework.Scenes.ScenePresence [SIT]: Client requested Sit Position: <-0.3288116, 0, -0.4158783>
+2018-11-02 14:58:52,599 DEBUG - OpenSim.Region.Framework.Scenes.ScenePresence StandupCode Executed
+2018-11-02 14:58:59,465 DEBUG - OpenSim.Region.Framework.Scenes.AsyncSceneObjectGroupDeleter [SCENE]: Starting send to inventory loop
+2018-11-02 14:58:59,469 DEBUG - OpenSim.Region.Framework.Scenes.AsyncSceneObjectGroupDeleter [SCENE]: Sending object to user's inventory, 1 item(s) remaining.
+2018-11-02 14:58:59,618 DEBUG - OpenSim.Region.CoreModules.ServiceConnectorsOut.Inventory.LocalInventoryServicesConnector [LOCAL INVENTORY SERVICES CONNECTOR]: Adding inventory item ObjStart to user b0084361-cc47-4b9a-ac8c-219caf2b515a folder 6b9490db-4487-42bf-bbe5-bf143657e74a
+2018-11-02 14:58:59,952 DEBUG - OpenSim.Region.Framework.Scenes.AsyncSceneObjectGroupDeleter [SCENE]: No objects left in inventory send queue.
+2018-11-02 14:59:10,952 DEBUG - OpenSim.Region.Framework.Scenes.ScenePresence [SIT]: Client requested Sit Position: <0.04397583, -0.02240753, -0.3634491>
+2018-11-02 14:59:10,957 DEBUG - OpenSim.Region.Framework.Scenes.ScenePresence StandupCode Executed
+2018-11-02 14:59:36,271 DEBUG - OpenSim.Region.Framework.Scenes.ScenePresence [SIT]: Client requested Sit Position: <-0.0006048123, -0.2279234, 0.7906098>
+2018-11-02 14:59:36,276 DEBUG - OpenSim.Region.Framework.Scenes.ScenePresence StandupCode Executed
+2018-11-02 14:59:40,282 DEBUG - OpenSim.Region.Framework.Scenes.ScenePresence [SIT]: Client requested Sit Position: <-0.4687729, 0.2388458, -0.4215908>
+2018-11-02 14:59:40,287 DEBUG - OpenSim.Region.Framework.Scenes.ScenePresence StandupCode Executed
+2018-11-02 14:59:51,423 DEBUG - OpenSim.Region.Framework.Scenes.ScenePresence [SIT]: Client requested Sit Position: <0, -0.5603485, -0.7154388>
+2018-11-02 14:59:51,427 DEBUG - OpenSim.Region.Framework.Scenes.ScenePresence StandupCode Executed
+2018-11-02 15:00:17,763 DEBUG - OpenSim.Region.Framework.Scenes.ScenePresence [SIT]: Client requested Sit Position: <-0.6797943, 0, -0.1697941>
+2018-11-02 15:00:17,768 DEBUG - OpenSim.Region.Framework.Scenes.ScenePresence StandupCode Executed
+2018-11-02 15:00:26,750 DEBUG - OpenSim.Region.Framework.Scenes.ScenePresence [SIT]: Client requested Sit Position: <-0.3386536, 0, -0.04712677>
+2018-11-02 15:00:26,754 DEBUG - OpenSim.Region.Framework.Scenes.ScenePresence StandupCode Executed
+2018-11-02 15:00:28,593 DEBUG - OpenSim.Region.Framework.Scenes.ScenePresence [SIT]: Client requested Sit Position: <1.024406, 0, -0.4741211>
+2018-11-02 15:00:28,596 DEBUG - OpenSim.Region.Framework.Scenes.ScenePresence StandupCode Executed
+2018-11-02 15:00:30,746 DEBUG - OpenSim.Region.Framework.Scenes.ScenePresence [SIT]: Client requested Sit Position: <-0.1784058, 0, -0.1359711>
+2018-11-02 15:00:30,749 DEBUG - OpenSim.Region.Framework.Scenes.ScenePresence StandupCode Executed
+2018-11-02 15:01:35,661 DEBUG - OpenSim.Region.Framework.Scenes.SceneObjectGroup [SCENE]: Storing ObjTeleBackStart, cdc9ac3e-a83c-46ad-a320-c1440b95d6fd in LaptopIsland
+2018-11-02 15:01:41,582 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script UWS sign.New Script, script UUID fc29e5ad-617c-41ab-949d-bd4dc1b9bd99, prim UUID 82f7d29e-a7d6-440b-be71-122dd28ebf93 @ <113.9175, 112.8101, 23.44566>.LaptopIsland
+2018-11-02 15:02:26,986 DEBUG - OpenSim.Framework.Capabilities.Caps [CAPS]: ScriptTaskInventory Request in region: LaptopIsland
+2018-11-02 15:02:34,141 DEBUG - OpenSim.Region.Framework.Scenes.SceneObjectGroup [SCENE]: Storing UWS sign, 82f7d29e-a7d6-440b-be71-122dd28ebf93 in LaptopIsland
+2018-11-02 15:02:36,497 DEBUG - OpenSim.Region.Framework.Scenes.AsyncSceneObjectGroupDeleter [SCENE]: Starting send to inventory loop
+2018-11-02 15:02:36,500 DEBUG - OpenSim.Region.Framework.Scenes.AsyncSceneObjectGroupDeleter [SCENE]: Sending object to user's inventory, 1 item(s) remaining.
+2018-11-02 15:02:36,620 DEBUG - OpenSim.Region.CoreModules.ServiceConnectorsOut.Inventory.LocalInventoryServicesConnector [LOCAL INVENTORY SERVICES CONNECTOR]: Adding inventory item UWS sign to user b0084361-cc47-4b9a-ac8c-219caf2b515a folder a06d6aa9-be67-4630-9af7-3069a3701646
+2018-11-02 15:02:37,082 DEBUG - OpenSim.Region.Framework.Scenes.AsyncSceneObjectGroupDeleter [SCENE]: No objects left in inventory send queue.
+2018-11-02 15:03:07,463 DEBUG - OpenSim.Region.CoreModules.Avatar.Attachments.AttachmentsModule [ATTACHMENTS MODULE]: Rezzing single attachment from item 61a6433d-62fe-4b3c-bf1c-b1facb7ddb86 for yoshi sim
+2018-11-02 15:03:07,525 DEBUG - OpenSim.Region.CoreModules.Avatar.AvatarFactory.AvatarFactoryModule [APPEARANCE]: UpdateDatabase
+2018-11-02 15:03:07,535 DEBUG - OpenSim.Services.AvatarService.AvatarService [AVATAR SERVICE]: SetAvatar for b0084361-cc47-4b9a-ac8c-219caf2b515a, attachs=1
+2018-11-02 15:03:09,486 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script UWS sign.TeleportInfoBuilding, script UUID 9e6c599a-c745-4cb1-813b-3fb0f8aa589d, prim UUID b461d972-5918-4b73-b20d-71127fe9f523 @ <115.6577, 118.7914, 29.08879>.LaptopIsland
+2018-11-02 15:03:09,490 DEBUG - OpenSim.Region.CoreModules.Avatar.Attachments.AttachmentsModule [ATTACHMENTS MODULE]: Updating inventory of yoshi sim to show attachment of UWS sign (item ID 61a6433d-62fe-4b3c-bf1c-b1facb7ddb86)
+2018-11-02 15:03:09,709 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script UWS sign.HoverText, script UUID 7876ae98-66a2-4b2f-8f56-ff8b353c7c0e, prim UUID b461d972-5918-4b73-b20d-71127fe9f523 @ <115.6577, 118.7914, 29.08879>.LaptopIsland
+2018-11-02 15:03:11,698 DEBUG - OpenSim.Region.CoreModules.Avatar.Attachments.AttachmentsModule [ATTACHMENTS MODULE]: Dettaching from UserID: b0084361-cc47-4b9a-ac8c-219caf2b515a, ItemID: 61a6433d-62fe-4b3c-bf1c-b1facb7ddb86
+2018-11-02 15:03:11,702 DEBUG - OpenSim.Region.CoreModules.Avatar.AvatarFactory.AvatarFactoryModule [APPEARANCE]: UpdateDatabase
+2018-11-02 15:03:11,705 DEBUG - OpenSim.Services.AvatarService.AvatarService [AVATAR SERVICE]: SetAvatar for b0084361-cc47-4b9a-ac8c-219caf2b515a, attachs=0
+2018-11-02 15:03:13,656 DEBUG - OpenSim.Region.CoreModules.Avatar.Attachments.AttachmentsModule [ATTACHMENTS MODULE]: Saving attachpoint: 5
+2018-11-02 15:03:13,660 INFO  - OpenSim.Region.Framework.Scenes.Scene [ATTACHMENT]: Updating asset for attachment b461d972-5918-4b73-b20d-71127fe9f523, attachpoint 5
+2018-11-02 15:03:21,688 DEBUG - OpenSim.Region.CoreModules.Avatar.Attachments.AttachmentsModule [ATTACHMENTS MODULE]: Rezzing single attachment from item 70d0084b-742f-4289-b36b-c572650787e2 for yoshi sim
+2018-11-02 15:03:21,694 DEBUG - OpenSim.Region.CoreModules.Avatar.AvatarFactory.AvatarFactoryModule [APPEARANCE]: UpdateDatabase
+2018-11-02 15:03:21,697 DEBUG - OpenSim.Services.AvatarService.AvatarService [AVATAR SERVICE]: SetAvatar for b0084361-cc47-4b9a-ac8c-219caf2b515a, attachs=1
+2018-11-02 15:03:23,681 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script ObjStart.TextHover, script UUID 296b61ad-dd79-4933-99f6-d53a4a7c7c3b, prim UUID 6e510bce-71c9-4b70-9382-968d2dd99912 @ <115.6577, 118.7914, 29.08879>.LaptopIsland
+2018-11-02 15:03:23,684 DEBUG - OpenSim.Region.CoreModules.Avatar.Attachments.AttachmentsModule [ATTACHMENTS MODULE]: Updating inventory of yoshi sim to show attachment of ObjStart (item ID 70d0084b-742f-4289-b36b-c572650787e2)
+2018-11-02 15:03:23,701 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script ObjStart.TeleportInfoBuilding, script UUID 4e5e4458-4918-45d5-b801-28f0eaf1d0e0, prim UUID 6e510bce-71c9-4b70-9382-968d2dd99912 @ <115.6577, 118.7914, 29.08879>.LaptopIsland
+2018-11-02 15:03:27,103 DEBUG - OpenSim.Region.CoreModules.Avatar.Attachments.AttachmentsModule [ATTACHMENTS MODULE]: Dettaching from UserID: b0084361-cc47-4b9a-ac8c-219caf2b515a, ItemID: 70d0084b-742f-4289-b36b-c572650787e2
+2018-11-02 15:03:27,107 DEBUG - OpenSim.Region.CoreModules.Avatar.AvatarFactory.AvatarFactoryModule [APPEARANCE]: UpdateDatabase
+2018-11-02 15:03:27,109 DEBUG - OpenSim.Services.AvatarService.AvatarService [AVATAR SERVICE]: SetAvatar for b0084361-cc47-4b9a-ac8c-219caf2b515a, attachs=0
+2018-11-02 15:03:29,378 DEBUG - OpenSim.Region.CoreModules.Avatar.Attachments.AttachmentsModule [ATTACHMENTS MODULE]: Saving attachpoint: 5
+2018-11-02 15:03:29,381 INFO  - OpenSim.Region.Framework.Scenes.Scene [ATTACHMENT]: Updating asset for attachment 6e510bce-71c9-4b70-9382-968d2dd99912, attachpoint 5
+2018-11-02 15:03:34,114 WARN  - OpenSim.Region.ClientStack.LindenUDP.LLClientView [CLIENT]: unhandled packet RezRestoreToWorld
+2018-11-02 15:04:06,864 WARN  - OpenSim.Region.ClientStack.LindenUDP.LLClientView [CLIENT]: unhandled packet RezRestoreToWorld
+2018-11-02 15:04:10,433 DEBUG - OpenSim.Region.CoreModules.Avatar.Attachments.AttachmentsModule [ATTACHMENTS MODULE]: Rezzing single attachment from item 61a6433d-62fe-4b3c-bf1c-b1facb7ddb86 for yoshi sim
+2018-11-02 15:04:10,440 DEBUG - OpenSim.Region.CoreModules.Avatar.AvatarFactory.AvatarFactoryModule [APPEARANCE]: UpdateDatabase
+2018-11-02 15:04:10,445 DEBUG - OpenSim.Services.AvatarService.AvatarService [AVATAR SERVICE]: SetAvatar for b0084361-cc47-4b9a-ac8c-219caf2b515a, attachs=1
+2018-11-02 15:04:12,372 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script UWS sign.TeleportInfoBuilding, script UUID 9e6c599a-c745-4cb1-813b-3fb0f8aa589d, prim UUID 531a005c-cd6b-4209-9d34-6a4bf048c149 @ <115.6577, 118.7914, 29.08879>.LaptopIsland
+2018-11-02 15:04:12,374 DEBUG - OpenSim.Region.CoreModules.Avatar.Attachments.AttachmentsModule [ATTACHMENTS MODULE]: Updating inventory of yoshi sim to show attachment of UWS sign (item ID 61a6433d-62fe-4b3c-bf1c-b1facb7ddb86)
+2018-11-02 15:04:12,608 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script UWS sign.HoverText, script UUID 7876ae98-66a2-4b2f-8f56-ff8b353c7c0e, prim UUID 531a005c-cd6b-4209-9d34-6a4bf048c149 @ <115.6577, 118.7914, 29.08879>.LaptopIsland
+2018-11-02 15:05:16,102 DEBUG - OpenSim.Region.CoreModules.Avatar.AvatarFactory.AvatarFactoryModule [APPEARANCE]: UpdateDatabase
+2018-11-02 15:05:16,106 DEBUG - OpenSim.Services.AvatarService.AvatarService [AVATAR SERVICE]: SetAvatar for b0084361-cc47-4b9a-ac8c-219caf2b515a, attachs=1
+2018-11-02 15:05:35,423 DEBUG - OpenSim.Region.Framework.Scenes.Scene [AGENT INVENTORY]: Moving 1 items for user b0084361-cc47-4b9a-ac8c-219caf2b515a
+2018-11-02 15:05:42,497 DEBUG - OpenSim.Region.Framework.Scenes.Scene [AGENT INVENTORY]: folder 6b9490db-4487-42bf-bbe5-bf143657e74a purged successfully
+2018-11-02 15:06:05,087 DEBUG - OpenSim.Region.Framework.Scenes.ScenePresence [SIT]: Client requested Sit Position: <0.22509, 0, 0.4107285>
+2018-11-02 15:06:05,092 DEBUG - OpenSim.Region.Framework.Scenes.ScenePresence StandupCode Executed
+2018-11-02 15:06:21,709 DEBUG - OpenSim.Region.Framework.Scenes.ScenePresence [SIT]: Client requested Sit Position: <0.8978424, 0, 1.824844>
+2018-11-02 15:06:21,713 DEBUG - OpenSim.Region.Framework.Scenes.ScenePresence StandupCode Executed
+2018-11-02 15:06:23,908 DEBUG - OpenSim.Region.Framework.Scenes.ScenePresence [SIT]: Client requested Sit Position: <-0.825882, 0, -0.317131>
+2018-11-02 15:06:23,911 DEBUG - OpenSim.Region.Framework.Scenes.ScenePresence StandupCode Executed
+2018-11-02 15:06:32,267 DEBUG - OpenSim.Region.Framework.Scenes.ScenePresence [SIT]: Client requested Sit Position: <0.001754761, 0.1843719, -0.06162072>
+2018-11-02 15:06:40,844 DEBUG - OpenSim.Region.Framework.Scenes.ScenePresence StandupCode Executed
+2018-11-02 15:06:43,298 DEBUG - OpenSim.Region.Framework.Scenes.ScenePresence [SIT]: Client requested Sit Position: <-0.07521057, 0.01670838, -0.2051964>
+2018-11-02 15:06:50,451 DEBUG - OpenSim.Region.Framework.Scenes.ScenePresence [SIT]: Client requested Sit Position: <-0.02339172, -0.009994506, -0.1125603>
+2018-11-02 15:06:57,834 DEBUG - OpenSim.Region.Framework.Scenes.ScenePresence StandupCode Executed
+2018-11-02 15:07:00,933 DEBUG - OpenSim.Region.Framework.Scenes.ScenePresence [SIT]: Client requested Sit Position: <2.523568E-09, 0.1349793, 0.04769899>
+2018-11-02 15:07:05,057 DEBUG - OpenSim.Region.Framework.Scenes.ScenePresence StandupCode Executed
+2018-11-02 15:07:07,109 DEBUG - OpenSim.Region.Framework.Scenes.ScenePresence [SIT]: Client requested Sit Position: <1.821512, 0.6987717, 0.01376666>
+2018-11-02 15:07:11,740 DEBUG - OpenSim.Region.Framework.Scenes.ScenePresence StandupCode Executed
+2018-11-02 15:07:28,505 DEBUG - OpenSim.Region.Framework.Scenes.SceneObjectGroup [SCENE]: Storing ObjTeleBackStart, cdc9ac3e-a83c-46ad-a320-c1440b95d6fd in LaptopIsland
+2018-11-02 15:07:59,750 DEBUG - OpenSim.Framework.Capabilities.Caps [CAPS]: ScriptTaskInventory Request in region: LaptopIsland
+2018-11-02 15:08:05,047 DEBUG - OpenSim.Framework.Capabilities.Caps [CAPS]: ScriptTaskInventory Request in region: LaptopIsland
+2018-11-02 15:08:05,716 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script UWS sign.TeleportReception, script UUID 571912b8-13bc-4f0b-a074-9e887ba066b3, prim UUID 531a005c-cd6b-4209-9d34-6a4bf048c149 @ <117.2984, 109.6525, 23.67751>.LaptopIsland
+2018-11-02 15:08:50,493 DEBUG - OpenSim.Framework.Capabilities.Caps [CAPS]: ScriptTaskInventory Request in region: LaptopIsland
+2018-11-02 15:08:51,049 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script UWS sign.TeleportReception, script UUID f89911fb-5c56-4a57-9892-75328c5e41a8, prim UUID 531a005c-cd6b-4209-9d34-6a4bf048c149 @ <117.2984, 109.6525, 23.67751>.LaptopIsland
+2018-11-02 15:09:25,940 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script UWS sign.TeleportInfoBuilding, script UUID 9e6c599a-c745-4cb1-813b-3fb0f8aa589d, prim UUID f3797177-caf9-45b2-abdc-6ccea78b6a19 @ <117.2984, 109.6525, 23.67751>.LaptopIsland
+2018-11-02 15:09:25,948 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script UWS sign.TeleportReception, script UUID f89911fb-5c56-4a57-9892-75328c5e41a8, prim UUID f3797177-caf9-45b2-abdc-6ccea78b6a19 @ <117.2984, 109.6525, 23.67751>.LaptopIsland
+2018-11-02 15:09:25,979 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script UWS sign.HoverText, script UUID 7876ae98-66a2-4b2f-8f56-ff8b353c7c0e, prim UUID f3797177-caf9-45b2-abdc-6ccea78b6a19 @ <117.2984, 109.6525, 23.67751>.LaptopIsland
+2018-11-02 15:10:49,323 DEBUG - OpenSim.Framework.Capabilities.Caps [CAPS]: ScriptTaskInventory Request in region: LaptopIsland
+2018-11-02 15:10:50,029 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script UWS sign.TeleportReception, script UUID 9a4c094e-857a-42a9-abf4-59970700cff8, prim UUID f3797177-caf9-45b2-abdc-6ccea78b6a19 @ <117.2984, 109.6525, 23.67751>.LaptopIsland
+2018-11-02 15:11:04,683 DEBUG - OpenSim.Region.Framework.Scenes.ScenePresence [SIT]: Client requested Sit Position: <0.5420074, 0, 0.8395023>
+2018-11-02 15:11:04,688 DEBUG - OpenSim.Region.Framework.Scenes.ScenePresence StandupCode Executed
+2018-11-02 15:11:07,315 DEBUG - OpenSim.Region.Framework.Scenes.ScenePresence [SIT]: Client requested Sit Position: <-0.3314362, 0, -0.4584808>
+2018-11-02 15:11:07,320 DEBUG - OpenSim.Region.Framework.Scenes.ScenePresence StandupCode Executed
+2018-11-02 15:11:34,736 DEBUG - OpenSim.Framework.Capabilities.Caps [CAPS]: ScriptTaskInventory Request in region: LaptopIsland
+2018-11-02 15:11:35,319 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script UWS sign.TeleportInfoBuilding, script UUID 9722239e-1650-4754-ad4b-43d24f87681f, prim UUID 531a005c-cd6b-4209-9d34-6a4bf048c149 @ <112.6947, 117.898, 23.67751>.LaptopIsland
+2018-11-02 15:12:25,665 DEBUG - OpenSim.Region.Framework.Scenes.SceneObjectGroup [SCENE]: Storing ObjTeleBackStart, cdc9ac3e-a83c-46ad-a320-c1440b95d6fd in LaptopIsland
+2018-11-02 15:12:29,704 DEBUG - OpenSim.Region.Framework.Scenes.ScenePresence [SIT]: Client requested Sit Position: <9.703246E-09, -0.6151124, 0.5908967>
+2018-11-02 15:12:29,709 DEBUG - OpenSim.Region.Framework.Scenes.ScenePresence StandupCode Executed
+2018-11-02 15:12:33,978 DEBUG - OpenSim.Region.Framework.Scenes.ScenePresence [SIT]: Client requested Sit Position: <-0.2795258, 0, 0.005805969>
+2018-11-02 15:12:33,982 DEBUG - OpenSim.Region.Framework.Scenes.ScenePresence StandupCode Executed
+2018-11-02 15:12:50,037 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script UWS sign.New Script, script UUID 90752559-eb4d-4679-a4a0-2b4a860f4471, prim UUID f3797177-caf9-45b2-abdc-6ccea78b6a19 @ <117.2984, 109.6525, 23.67751>.LaptopIsland
+2018-11-02 15:13:15,402 DEBUG - OpenSim.Framework.Capabilities.Caps [CAPS]: ScriptTaskInventory Request in region: LaptopIsland
+2018-11-02 15:13:15,927 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script UWS sign.HoverText, script UUID 87efd3c8-b60c-4f2e-93c0-e8220c396fd5, prim UUID f3797177-caf9-45b2-abdc-6ccea78b6a19 @ <117.2984, 109.6525, 23.67751>.LaptopIsland
+2018-11-02 15:13:21,827 DEBUG - OpenSim.Framework.Capabilities.Caps [CAPS]: ScriptTaskInventory Request in region: LaptopIsland
+2018-11-02 15:13:22,397 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script UWS sign.HoverText, script UUID 410f52f6-3b79-4f89-90b8-ff2349ba3527, prim UUID f3797177-caf9-45b2-abdc-6ccea78b6a19 @ <117.2984, 109.6525, 23.67751>.LaptopIsland
+2018-11-02 15:13:38,989 DEBUG - OpenSim.Framework.Capabilities.Caps [CAPS]: ScriptTaskInventory Request in region: LaptopIsland
+2018-11-02 15:13:39,546 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script UWS sign.HoverText, script UUID e387757b-d2ae-422e-ab44-9f396e5a218c, prim UUID f3797177-caf9-45b2-abdc-6ccea78b6a19 @ <117.2984, 109.6525, 23.67751>.LaptopIsland
+2018-11-02 15:13:40,120 DEBUG - OpenSim.Region.Framework.Scenes.SceneObjectGroup [SCENE]: Storing ObjTeleBackStart, cdc9ac3e-a83c-46ad-a320-c1440b95d6fd in LaptopIsland
+2018-11-02 15:13:40,277 DEBUG - OpenSim.Region.Framework.Scenes.SceneObjectGroup [SCENE]: Storing UWS sign, 531a005c-cd6b-4209-9d34-6a4bf048c149 in LaptopIsland
+2018-11-02 15:13:51,029 DEBUG - OpenSim.Framework.Capabilities.Caps [CAPS]: ScriptTaskInventory Request in region: LaptopIsland
+2018-11-02 15:13:51,662 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script UWS sign.HoverText, script UUID 2aa2a845-c765-4f2d-93bc-7e5ec0a6b714, prim UUID 531a005c-cd6b-4209-9d34-6a4bf048c149 @ <112.6947, 117.898, 23.67751>.LaptopIsland
+2018-11-02 15:14:17,410 DEBUG - OpenSim.Region.Framework.Scenes.SceneObjectGroup [SCENE]: Storing UWS sign, f3797177-caf9-45b2-abdc-6ccea78b6a19 in LaptopIsland
+2018-11-02 15:14:54,674 DEBUG - OpenSim.Region.Framework.Scenes.SceneObjectGroup [SCENE]: Storing UWS sign, 531a005c-cd6b-4209-9d34-6a4bf048c149 in LaptopIsland
+2018-11-02 15:16:59,341 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script UWS sign.New Script, script UUID 8a3f94cb-2ba8-40d9-8bc4-17fd8ac6eded, prim UUID f3797177-caf9-45b2-abdc-6ccea78b6a19 @ <117.2984, 109.6525, 23.67751>.LaptopIsland
+2018-11-02 15:18:37,987 DEBUG - OpenSim.Framework.Capabilities.Caps [CAPS]: ScriptTaskInventory Request in region: LaptopIsland
+2018-11-02 15:18:38,518 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script UWS sign.TeleportReception, script UUID 981fb612-6d32-4d16-a54d-616a80e2cd6f, prim UUID f3797177-caf9-45b2-abdc-6ccea78b6a19 @ <117.2984, 109.6525, 23.67751>.LaptopIsland
+2018-11-02 15:18:46,510 INFO  - OpenSim.Services.LLLoginService.LLLoginService [LLOGIN SERVICE]: Login request for manuel sim from 146.191.171.85 with user agent Imprudence 1.3.2.0 starting in last
+2018-11-02 15:18:46,515 DEBUG - OpenSim.Services.AuthenticationService.PasswordAuthenticationService [PASS AUTH]: got e10adc3949ba59abbe56e057f20f883e; hashed = 5b7246498170e8e65e7650ffb3351ceb; stored = 5b7246498170e8e65e7650ffb3351ceb
+2018-11-02 15:18:46,604 DEBUG - OpenSim.Services.LLLoginService.LLLoginService [LLOGIN SERVICE]: 0 active gestures
+2018-11-02 15:18:46,609 DEBUG - OpenSim.Services.PresenceService.PresenceService [PRESENCE SERVICE]: LoginAgent 47b9e9e1-c433-4570-a2e8-2a47f06b68b8 with session 7b06a0d7-bd88-4bd7-8028-3b8822f41f40 and ssession dbf7bf1a-847d-4d78-af0b-e04297d28323
+2018-11-02 15:18:46,613 DEBUG - OpenSim.Services.UserAccountService.GridUserService [GRID USER SERVICE]: User 47b9e9e1-c433-4570-a2e8-2a47f06b68b8 is online
+2018-11-02 15:18:46,684 DEBUG - OpenSim.Services.LLLoginService.LLLoginService [LLOGIN SERVICE]: FindDestination for start location last
+2018-11-02 15:18:46,688 DEBUG - OpenSim.Region.CoreModules.ServiceConnectorsOut.Simulation.LocalSimulationConnectorModule [LOCAL SIMULATION CONNECTOR]: Found region LaptopIsland to send SendCreateChildAgent
+2018-11-02 15:18:46,691 INFO  - OpenSim.Region.Framework.Scenes.Scene [CONNECTION BEGIN]: Region LaptopIsland told of incoming root agent manuel sim 47b9e9e1-c433-4570-a2e8-2a47f06b68b8 (circuit code 1066914547, teleportflags 128)
+2018-11-02 15:18:46,694 INFO  - OpenSim.Region.Framework.Scenes.Scene [CONNECTION BEGIN]: Region LaptopIsland authenticated and authorized incoming root agent manuel sim 47b9e9e1-c433-4570-a2e8-2a47f06b68b8 (circuit code 1066914547)
+2018-11-02 15:18:46,707 DEBUG - OpenSim.Framework.Capabilities.Caps [CAPS]: Registered seed capability /CAPS/b4827514-1985-4909-9c49-2976f3fe46be0000/ for 47b9e9e1-c433-4570-a2e8-2a47f06b68b8
+2018-11-02 15:18:46,709 DEBUG - OpenSim.Region.CoreModules.Framework.EventQueue.EventQueueGetModule [EVENTQUEUE]: Adding new queue for agent 47b9e9e1-c433-4570-a2e8-2a47f06b68b8 in region LaptopIsland
+2018-11-02 15:18:46,714 INFO  - OpenSim.Region.CoreModules.Avatar.ObjectCaps.ObjectAdd [OBJECTADD]: /CAPS/OA/2b5b987f-ff62-4f2d-b753-058f2085ce14/
+2018-11-02 15:18:46,721 INFO  - OpenSim.Region.CoreModules.Avatar.ObjectCaps.GetTextureModule [GETTEXTURE]: /CAPS/7f77f122-cbde-4f8e-a66d-7decdc889882
+2018-11-02 15:18:46,724 DEBUG - OpenSim.Services.LLLoginService.LLLoginService [LLOGIN SERVICE]: Retrieved 0 friends
+2018-11-02 15:18:46,728 DEBUG - OpenSim.Services.LLLoginService.LLLoginResponse [LLOGIN]: Library has 19 folders
+2018-11-02 15:18:46,731 DEBUG - OpenSim.Services.LLLoginService.LLLoginService [LLOGIN SERVICE]: All clear. Sending login response to client.
+2018-11-02 15:18:48,116 DEBUG - OpenSim.Framework.Capabilities.Caps [CAPS]: Seed Caps Request in region: LaptopIsland
+2018-11-02 15:18:48,120 DEBUG - OpenSim.Region.Framework.Scenes.Scene [SCENE]: Incoming client manuel sim in region LaptopIsland via regular login. Client IP verification not performed.
+2018-11-02 15:18:48,588 DEBUG - OpenSim.Region.ClientStack.LindenUDP.LLUDPServer [LLUDPSERVER]: Handling UseCircuitCode packet from 146.191.171.85:52734
+2018-11-02 15:18:48,591 DEBUG - OpenSim.Region.Framework.Scenes.Scene [SCENE]: Adding new agent manuel sim to scene LaptopIsland
+2018-11-02 15:18:48,597 DEBUG - OpenSim.Region.ClientStack.LindenUDP.LLClientView [CLIENT]: Sending appearance for b0084361-cc47-4b9a-ac8c-219caf2b515a to 47b9e9e1-c433-4570-a2e8-2a47f06b68b8
+2018-11-02 15:18:48,627 DEBUG - OpenSim.Region.Framework.Scenes.ScenePresence [SCENE]: Upgrading child to root agent for manuel sim in LaptopIsland
+2018-11-02 15:18:48,630 DEBUG - OpenSim.Region.CoreModules.ServiceConnectorsOut.Presence.PresenceDetector [PRESENCE DETECTOR]: Detected root presence 47b9e9e1-c433-4570-a2e8-2a47f06b68b8 in LaptopIsland
+2018-11-02 15:18:48,633 DEBUG - OpenSim.Services.PresenceService.PresenceService [PRESENCE SERVICE]: ReportAgent with session 7b06a0d7-bd88-4bd7-8028-3b8822f41f40 in region 39c75f32-0914-4963-a3f8-560112a1a0c2
+2018-11-02 15:18:48,637 DEBUG - OpenSim.Region.CoreModules.ServiceConnectorsOut.GridUser.ActivityDetector [ACTIVITY DETECTOR]: Detected root presence 47b9e9e1-c433-4570-a2e8-2a47f06b68b8 in LaptopIsland
+2018-11-02 15:18:48,705 DEBUG - OpenSim.Region.ClientStack.LindenUDP.LLClientView [CLIENT]: Sending appearance for b0084361-cc47-4b9a-ac8c-219caf2b515a to 47b9e9e1-c433-4570-a2e8-2a47f06b68b8
+2018-11-02 15:18:48,708 DEBUG - OpenSim.Services.GridService.GridService [GRID SERVICE]: region LaptopIsland has 0 neighours
+2018-11-02 15:18:49,457 DEBUG - OpenSim.Region.Framework.Scenes.ScenePresence [SCENE]: Received request for wearables of manuel sim
+2018-11-02 15:18:50,220 DEBUG - OpenSim.Region.ClientStack.LindenUDP.LLClientView [CLIENT]: Sending appearance for 47b9e9e1-c433-4570-a2e8-2a47f06b68b8 to b0084361-cc47-4b9a-ac8c-219caf2b515a
+2018-11-02 15:18:50,226 DEBUG - OpenSim.Region.ClientStack.LindenUDP.LLClientView [CLIENT]: Sending appearance for 47b9e9e1-c433-4570-a2e8-2a47f06b68b8 to b0084361-cc47-4b9a-ac8c-219caf2b515a
+2018-11-02 15:18:50,234 DEBUG - OpenSim.Region.ClientStack.LindenUDP.LLClientView [CLIENT]: Sending appearance for 47b9e9e1-c433-4570-a2e8-2a47f06b68b8 to b0084361-cc47-4b9a-ac8c-219caf2b515a
+2018-11-02 15:18:50,239 DEBUG - OpenSim.Region.ClientStack.LindenUDP.LLClientView [CLIENT]: Sending appearance for 47b9e9e1-c433-4570-a2e8-2a47f06b68b8 to b0084361-cc47-4b9a-ac8c-219caf2b515a
+2018-11-02 15:18:50,267 DEBUG - OpenSim.Region.ClientStack.LindenUDP.LLClientView [CLIENT]: Sending appearance for 47b9e9e1-c433-4570-a2e8-2a47f06b68b8 to b0084361-cc47-4b9a-ac8c-219caf2b515a
+2018-11-02 15:18:50,267 DEBUG - OpenSim.Region.ClientStack.LindenUDP.LLClientView [CLIENT]: Sending appearance for 47b9e9e1-c433-4570-a2e8-2a47f06b68b8 to b0084361-cc47-4b9a-ac8c-219caf2b515a
+2018-11-02 15:18:50,309 WARN  - OpenSim.Region.Physics.OdePlugin.OdeCharacter [PHYSICS]: trying to change capsule size, but the following ODE data is missing - Shell Body Amotor 
+2018-11-02 15:18:50,468 DEBUG - OpenSim.Framework.Capabilities.Caps [CAPS]: UploadBakedTexture Request in region: LaptopIsland
+2018-11-02 15:18:50,625 DEBUG - OpenSim.Framework.Capabilities.Caps [CAPS]: Received baked texture ad28e429-4076-43df-b839-1ca53f895807
+2018-11-02 15:18:50,634 DEBUG - OpenSim.Region.ClientStack.LindenUDP.LLClientView [CLIENT]: Sending appearance for 47b9e9e1-c433-4570-a2e8-2a47f06b68b8 to b0084361-cc47-4b9a-ac8c-219caf2b515a
+2018-11-02 15:18:51,055 DEBUG - OpenSim.Framework.Capabilities.Caps [CAPS]: UploadBakedTexture Request in region: LaptopIsland
+2018-11-02 15:18:51,902 DEBUG - OpenSim.Framework.Capabilities.Caps [CAPS]: Received baked texture 6e7c1969-9ea0-466d-be26-bee66dbde2cc
+2018-11-02 15:18:51,915 DEBUG - OpenSim.Framework.Capabilities.Caps [CAPS]: UploadBakedTexture Request in region: LaptopIsland
+2018-11-02 15:18:51,931 DEBUG - OpenSim.Framework.Capabilities.Caps [CAPS]: UploadBakedTexture Request in region: LaptopIsland
+2018-11-02 15:18:51,931 DEBUG - OpenSim.Framework.Capabilities.Caps [CAPS]: UploadBakedTexture Request in region: LaptopIsland
+2018-11-02 15:18:52,178 DEBUG - OpenSim.Framework.Capabilities.Caps [CAPS]: Received baked texture 93ac094e-b8e8-4a2f-84fd-e592f07e2c95
+2018-11-02 15:18:52,178 DEBUG - OpenSim.Framework.Capabilities.Caps [CAPS]: Received baked texture 6a7fbc40-800d-4c4f-bd0d-554e6d88546e
+2018-11-02 15:18:52,189 DEBUG - OpenSim.Region.ClientStack.LindenUDP.LLClientView [CLIENT]: Sending appearance for 47b9e9e1-c433-4570-a2e8-2a47f06b68b8 to b0084361-cc47-4b9a-ac8c-219caf2b515a
+2018-11-02 15:18:52,192 DEBUG - OpenSim.Framework.Capabilities.Caps [CAPS]: Received baked texture 187d01d6-2515-46d6-94c1-d8bf85e46e3f
+2018-11-02 15:18:52,209 DEBUG - OpenSim.Framework.Capabilities.Caps [CAPS]: UploadBakedTexture Request in region: LaptopIsland
+2018-11-02 15:18:52,774 DEBUG - OpenSim.Framework.Capabilities.Caps [CAPS]: Received baked texture 4b426491-c315-498c-82b2-0f34a0b50771
+2018-11-02 15:18:52,784 DEBUG - OpenSim.Region.ClientStack.LindenUDP.LLClientView [CLIENT]: Sending appearance for 47b9e9e1-c433-4570-a2e8-2a47f06b68b8 to b0084361-cc47-4b9a-ac8c-219caf2b515a
+2018-11-02 15:18:52,799 DEBUG - OpenSim.Framework.Capabilities.Caps [CAPS]: UploadBakedTexture Request in region: LaptopIsland
+2018-11-02 15:18:52,799 DEBUG - OpenSim.Framework.Capabilities.Caps [CAPS]: UploadBakedTexture Request in region: LaptopIsland
+2018-11-02 15:18:52,868 DEBUG - OpenSim.Framework.Capabilities.Caps [CAPS]: Received baked texture 9c8d7c34-fee4-4766-a38d-40ddd11d810a
+2018-11-02 15:18:52,877 DEBUG - OpenSim.Region.ClientStack.LindenUDP.LLClientView [CLIENT]: Sending appearance for 47b9e9e1-c433-4570-a2e8-2a47f06b68b8 to b0084361-cc47-4b9a-ac8c-219caf2b515a
+2018-11-02 15:18:52,877 DEBUG - OpenSim.Framework.Capabilities.Caps [CAPS]: Received baked texture b96e4205-e50a-42d9-9d15-08e6c52c5033
+2018-11-02 15:18:52,890 DEBUG - OpenSim.Region.ClientStack.LindenUDP.LLClientView [CLIENT]: Sending appearance for 47b9e9e1-c433-4570-a2e8-2a47f06b68b8 to b0084361-cc47-4b9a-ac8c-219caf2b515a
+2018-11-02 15:18:55,006 DEBUG - OpenSim.Services.InventoryService.XInventoryService [XINVENTORY SERVICE]: Fetch contents for folder 03953f75-1a35-4203-9637-5c927118f850
+2018-11-02 15:18:55,309 DEBUG - OpenSim.Services.InventoryService.XInventoryService [XINVENTORY SERVICE]: Fetch contents for folder 063313af-515c-41f7-ba94-8abf12da2bc9
+2018-11-02 15:18:55,616 DEBUG - OpenSim.Services.InventoryService.XInventoryService [XINVENTORY SERVICE]: Fetch contents for folder 2ecf6fb0-5d50-4354-99d3-c0b0f2fa4a91
+2018-11-02 15:19:52,397 DEBUG - OpenSim.Region.Framework.Scenes.SceneObjectGroup [SCENE]: Storing UWS sign, f3797177-caf9-45b2-abdc-6ccea78b6a19 in LaptopIsland
+2018-11-02 15:20:27,686 DEBUG - OpenSim.Framework.Capabilities.Caps [CAPS]: ScriptTaskInventory Request in region: LaptopIsland
+2018-11-02 15:20:28,250 DEBUG - OpenSim.Region.ScriptEngine.XEngine.XEngine [XEngine] Loaded script UWS sign.TeleportReception, script UUID ae29a7fa-ad63-4024-aa41-36d43d42fb33, prim UUID f3797177-caf9-45b2-abdc-6ccea78b6a19 @ <117.2984, 109.6525, 23.67751>.LaptopIsland
+2018-11-02 15:20:58,716 DEBUG - OpenSim.Region.Framework.Scenes.ScenePresence [SIT]: Client requested Sit Position: <0, -0.04218293, 1.171358>
+2018-11-02 15:20:58,722 DEBUG - OpenSim.Region.Framework.Scenes.ScenePresence StandupCode Executed
+2018-11-02 15:21:02,877 DEBUG - OpenSim.Region.Framework.Scenes.ScenePresence [SIT]: Client requested Sit Position: <0.2925666, 0.03184257, -0.5520287>
+2018-11-02 15:21:02,884 DEBUG - OpenSim.Region.Framework.Scenes.ScenePresence StandupCode Executed
+2018-11-02 15:21:05,710 DEBUG - OpenSim.Region.Framework.Scenes.ScenePresence [SIT]: Client requested Sit Position: <-1.817207, 0, -0.0509758>
+2018-11-02 15:21:05,715 DEBUG - OpenSim.Region.Framework.Scenes.ScenePresence StandupCode Executed
+2018-11-02 15:22:02,778 DEBUG - OpenSim.Region.Framework.Scenes.SceneObjectGroup [SCENE]: Storing UWS sign, 531a005c-cd6b-4209-9d34-6a4bf048c149 in LaptopIsland
+2018-11-02 15:22:21,366 DEBUG - OpenSim.Region.Framework.Scenes.SceneObjectGroup [SCENE]: Storing ObjTeleBackStart, cdc9ac3e-a83c-46ad-a320-c1440b95d6fd in LaptopIsland
+2018-11-02 15:22:21,502 DEBUG - OpenSim.Region.Framework.Scenes.SceneObjectGroup [SCENE]: Storing UWS sign, f3797177-caf9-45b2-abdc-6ccea78b6a19 in LaptopIsland
+2018-11-02 15:22:58,488 INFO  - OpenSim.Region.ClientStack.LindenUDP.LLClientView [CLIENT]: Got a logout request for yoshi sim in LaptopIsland
+2018-11-02 15:22:58,493 DEBUG - OpenSim.Region.ClientStack.LindenUDP.LLClientView [CLIENT]: Close has been called for yoshi sim attached to scene LaptopIsland
+2018-11-02 15:22:58,498 DEBUG - OpenSim.Region.CoreModules.ServiceConnectorsOut.Presence.PresenceDetector [PRESENCE DETECTOR]: Detected client logout b0084361-cc47-4b9a-ac8c-219caf2b515a in LaptopIsland
+2018-11-02 15:22:58,503 DEBUG - OpenSim.Services.PresenceService.PresenceService [PRESENCE SERVICE]: Session 03dd45ea-c60d-42b4-91d2-add298bac6cc logout
+2018-11-02 15:22:58,510 DEBUG - OpenSim.Region.CoreModules.ServiceConnectorsOut.GridUser.ActivityDetector [ACTIVITY DETECTOR]: Detected client logout b0084361-cc47-4b9a-ac8c-219caf2b515a in LaptopIsland
+2018-11-02 15:22:58,513 DEBUG - OpenSim.Services.UserAccountService.GridUserService [GRID USER SERVICE]: User b0084361-cc47-4b9a-ac8c-219caf2b515a is offline
+2018-11-02 15:22:58,596 DEBUG - OpenSim.Region.Framework.Scenes.Scene [SCENE]: Removing root agent b0084361-cc47-4b9a-ac8c-219caf2b515a from region LaptopIsland
+2018-11-02 15:22:58,605 DEBUG - OpenSim.Region.CoreModules.Framework.EventQueue.EventQueueGetModule [EVENTQUEUE]: Closed client b0084361-cc47-4b9a-ac8c-219caf2b515a in region LaptopIsland
+2018-11-02 15:23:08,713 INFO  - OpenSim.Region.ClientStack.LindenUDP.LLClientView [CLIENT]: Got a logout request for manuel sim in LaptopIsland
+2018-11-02 15:23:16,089 DEBUG - OpenSim.Region.ClientStack.LindenUDP.LLClientView [CLIENT]: Close has been called for manuel sim attached to scene LaptopIsland
+2018-11-02 15:23:16,104 DEBUG - OpenSim.Region.CoreModules.ServiceConnectorsOut.Presence.PresenceDetector [PRESENCE DETECTOR]: Detected client logout 47b9e9e1-c433-4570-a2e8-2a47f06b68b8 in LaptopIsland
+2018-11-02 15:23:16,120 DEBUG - OpenSim.Services.PresenceService.PresenceService [PRESENCE SERVICE]: Session 7b06a0d7-bd88-4bd7-8028-3b8822f41f40 logout
+2018-11-02 15:23:16,135 DEBUG - OpenSim.Region.CoreModules.ServiceConnectorsOut.GridUser.ActivityDetector [ACTIVITY DETECTOR]: Detected client logout 47b9e9e1-c433-4570-a2e8-2a47f06b68b8 in LaptopIsland
+2018-11-02 15:23:16,151 DEBUG - OpenSim.Services.UserAccountService.GridUserService [GRID USER SERVICE]: User 47b9e9e1-c433-4570-a2e8-2a47f06b68b8 is offline
+2018-11-02 15:23:16,229 DEBUG - OpenSim.Region.Framework.Scenes.Scene [SCENE]: Removing root agent 47b9e9e1-c433-4570-a2e8-2a47f06b68b8 from region LaptopIsland
+2018-11-02 15:23:16,245 DEBUG - OpenSim.Region.CoreModules.Framework.EventQueue.EventQueueGetModule [EVENTQUEUE]: Closed client 47b9e9e1-c433-4570-a2e8-2a47f06b68b8 in region LaptopIsland
+2018-11-02 15:23:18,026 INFO  - OpenSim.OpenSim [COMMANDFILE]: Running shutdown_commands.txt
+2018-11-02 15:23:18,042 INFO  - OpenSim.OpenSim [COMMANDFILE]: Running 'backup'
+2018-11-02 15:23:18,042 INFO  - OpenSim.OpenSimBase [SHUTDOWN]: Closing all threads
+2018-11-02 15:23:18,042 INFO  - OpenSim.OpenSimBase [SHUTDOWN]: Killing listener thread
+2018-11-02 15:23:18,042 INFO  - OpenSim.OpenSimBase [SHUTDOWN]: Killing clients
+2018-11-02 15:23:18,042 INFO  - OpenSim.OpenSimBase [SHUTDOWN]: Closing console and terminating
+2018-11-02 15:23:18,057 INFO  - OpenSim.Region.Framework.Scenes.Scene [SCENE]: Closing down the single simulator: LaptopIsland
+2018-11-02 15:23:18,573 DEBUG - OpenSim.Region.Framework.Scenes.Scene [SCENE]: Persisting changed objects
+2018-11-02 15:23:18,573 DEBUG - OpenSim.Services.GridService.GridService [GRID SERVICE]: Region 39c75f32-0914-4963-a3f8-560112a1a0c2 deregistered
+2018-11-02 15:23:18,604 DEBUG - OpenSim.OpenSimBase [SHUTDOWN]: Shutting down region LaptopIsland
+2018-11-02 15:23:18,604 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module SimianGridServiceConnector
+2018-11-02 15:23:18,604 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module SimianAvatarServiceConnector
+2018-11-02 15:23:18,604 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module SimianAuthenticationServiceConnector
+2018-11-02 15:23:18,604 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module SimianPresenceServiceConnector
+2018-11-02 15:23:18,604 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module SimianFriendsServiceConnector
+2018-11-02 15:23:18,604 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module SimianUserAccountServiceConnector
+2018-11-02 15:23:18,604 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module SimianInventoryServiceConnector
+2018-11-02 15:23:18,604 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module SimianAssetServiceConnector
+2018-11-02 15:23:18,604 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module ConciergeModule
+2018-11-02 15:23:18,604 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module VivoxVoiceModule
+2018-11-02 15:23:18,604 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module GroupsMessagingModule
+2018-11-02 15:23:18,604 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module XmlRpcGroupsServicesConnector
+2018-11-02 15:23:18,604 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module GroupsModule
+2018-11-02 15:23:18,604 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module SimianGroupsServicesConnector
+2018-11-02 15:23:18,620 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module BasicEntityTransferModule
+2018-11-02 15:23:18,620 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module HGEntityTransferModule
+2018-11-02 15:23:18,620 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module ExportSerialisationModule
+2018-11-02 15:23:18,620 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module UrlModule
+2018-11-02 15:23:18,620 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module ChatModule
+2018-11-02 15:23:18,620 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module FriendsModule
+2018-11-02 15:23:18,620 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module PresenceModule
+2018-11-02 15:23:18,620 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module MuteListModule
+2018-11-02 15:23:18,620 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module OfflineMessageModule
+2018-11-02 15:23:18,620 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module InstantMessageModule
+2018-11-02 15:23:18,620 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module MessageTransferModule
+2018-11-02 15:23:18,620 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module LureModule
+2018-11-02 15:23:18,620 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module InventoryModule
+2018-11-02 15:23:18,620 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module CoreAssetCache
+2018-11-02 15:23:18,620 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module GlynnTuckerAssetCache
+2018-11-02 15:23:18,620 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module CenomeMemoryAssetCache
+2018-11-02 15:23:18,620 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module Library Module
+2018-11-02 15:23:18,635 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module LocalAssetServicesConnector
+2018-11-02 15:23:18,635 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module RemoteAssetServicesConnector
+2018-11-02 15:23:18,635 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module LocalAvatarServicesConnector
+2018-11-02 15:23:18,635 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module RemoteAvatarServicesConnector
+2018-11-02 15:23:18,635 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module LocalAuthenticationServicesConnector
+2018-11-02 15:23:18,635 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module RemoteAuthenticationServicesConnector
+2018-11-02 15:23:18,635 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module LocalAuthorizationServicesConnector
+2018-11-02 15:23:18,635 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module RemoteAuthorizationServicesConnector
+2018-11-02 15:23:18,635 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module HGAssetBroker
+2018-11-02 15:23:18,635 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module LocalInventoryServicesConnector
+2018-11-02 15:23:18,635 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module RemoteInventoryServicesConnector
+2018-11-02 15:23:18,635 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module RemoteXInventoryServicesConnector
+2018-11-02 15:23:18,635 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module HGInventoryBroker
+2018-11-02 15:23:18,635 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module LocalNeighbourServicesConnector
+2018-11-02 15:23:18,635 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module RemoteNeighbourServicesConnector
+2018-11-02 15:23:18,635 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module LocalLandServicesConnector
+2018-11-02 15:23:18,635 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module RemoteLandServicesConnector
+2018-11-02 15:23:18,635 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module LocalGridServicesConnector
+2018-11-02 15:23:18,651 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module RemoteGridServicesConnector
+2018-11-02 15:23:18,651 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module LocalPresenceServicesConnector
+2018-11-02 15:23:18,651 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module RemotePresenceServicesConnector
+2018-11-02 15:23:18,651 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module LocalUserAccountServicesConnector
+2018-11-02 15:23:18,651 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module RemoteUserAccountServicesConnector
+2018-11-02 15:23:18,651 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module LocalGridUserServicesConnector
+2018-11-02 15:23:18,651 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module RemoteGridUserServicesConnector
+2018-11-02 15:23:18,651 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module LocalSimulationConnectorModule
+2018-11-02 15:23:18,651 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module RemoteSimulationConnectorModule
+2018-11-02 15:23:18,651 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module RegionAssetService
+2018-11-02 15:23:18,651 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module RegionInventoryService
+2018-11-02 15:23:18,651 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module LandServiceInConnectorModule
+2018-11-02 15:23:18,651 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module NeighbourServiceInConnectorModule
+2018-11-02 15:23:18,651 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module HypergridService
+2018-11-02 15:23:18,651 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module LLLoginServiceInConnectorModule
+2018-11-02 15:23:18,651 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module SimulationServiceInConnectorModule
+2018-11-02 15:23:18,651 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module GridInfoService
+2018-11-02 15:23:18,651 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module AuthenticationServiceInConnectorModule
+2018-11-02 15:23:18,651 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module AccessModule
+2018-11-02 15:23:18,651 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module FlotsamAssetCache
+2018-11-02 15:23:18,651 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module RegionCombinerModule
+2018-11-02 15:23:18,651 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module SimianProfiles
+2018-11-02 15:23:18,667 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module RegionReadyModule
+2018-11-02 15:23:18,667 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module IRCBridgeModule
+2018-11-02 15:23:18,667 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module ScriptModuleCommsModule
+2018-11-02 15:23:18,667 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module BasicInventoryAccessModule
+2018-11-02 15:23:18,667 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module HGInventoryAccessModule
+2018-11-02 15:23:18,667 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module LandManagementModule
+2018-11-02 15:23:18,667 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module RegionArchiverModule
+2018-11-02 15:23:18,667 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module Capabilities Module
+2018-11-02 15:23:18,667 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module TerrainModule
+2018-11-02 15:23:18,667 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module WorldMapModule
+2018-11-02 15:23:18,667 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module HGWorldMap
+2018-11-02 15:23:18,667 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module XEngine
+2018-11-02 15:23:18,792 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module LLClientStackModule
+2018-11-02 15:23:18,792 DEBUG - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULE]: Removing scene LaptopIsland from module BetaGridLikeMoneyModule
+2018-11-02 15:23:18,792 INFO  - OpenSim.Framework.Servers.BaseOpenSimServer [SHUTDOWN]: Shutdown processing on main thread complete.  Exiting...
