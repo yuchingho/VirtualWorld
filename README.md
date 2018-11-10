@@ -17,16 +17,13 @@
     <p align="center">
           <img src="https://github.com/yuchingho/VirtualWorld/blob/master/pORT.png?raw=true" alt="Port"/>
     </p>
-   <p
-   <img src="https://github.com/yuchingho/VirtualWorld/blob/master/AddingPort.png"/>
- </p>
-You will need to add some ports(TCP/8000-8005, TCP/8895, and UDP/TCP/9000 for a single sim, and UDP/TCP/9001 for a second sim, and so on)   
-   <p
-   <img src="https://github.com/yuchingho/VirtualWorld/blob/master/Addingports.png"/>
- </p>
-   <p
-   <img src="https://github.com/yuchingho/VirtualWorld/blob/master/Untitled.png"/>
- </p>
+You will need to add some ports(TCP/8000-8005, TCP/8895, and UDP/TCP/9000 for a single sim, and UDP/TCP/9001 for a second sim, and so on) 
+  <p align="center">
+      <img src="https://github.com/yuchingho/VirtualWorld/blob/master/Addingports.png"/>
+   </p>>
+    <p align="center">
+      <img src="https://github.com/yuchingho/VirtualWorld/blob/master/Untitled.png"/>
+   </p>
  3. Setup a Dynamic DNS hostname service.
  We are using https://www.noip.com/ to create a host name and use their application to work as a server.
  Create account, install the application and create a hostname through the application or their website.
