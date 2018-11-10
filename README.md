@@ -9,19 +9,17 @@
 2. PortForwarding Impudence ports
    In order to that you will need to find the default gateway of your computer by typing "cmd" in the windows search and then typing        inside cmd ipconfig.
    <p align="center">
-   https://github.com/yuchingho/VirtualWorld/blob/master/DefaultGateway.png
+      <img src="https://github.com/yuchingho/VirtualWorld/blob/master/DefaultGateway.png?raw=true" alt="DefaultGateway"/>
    </p>
    Type the default gateway value in your internet browserand the home page of your router will pop and look similar to this.
-<p align="center">
-https://github.com/yuchingho/VirtualWorld/blob/master/Page.png
-</p>
+    <p align="center">
+          <img src="https://github.com/yuchingho/VirtualWorld/blob/master/Page.png?raw=true" alt="Page"/>
+    </p>
    You will need to find something that is called Portforward somewhere in the settings or advanced settings or anywhere really since you have your own ISP portforward would be somewhere in there.
-<p align="center">
-https://github.com/yuchingho/VirtualWorld/blob/master/pORT.png
-</p>
-You will need to add some ports(TCP/8000-8005, TCP/8895, and UDP/TCP/9000 for a single sim, and UDP/TCP/9001 for a second sim, and so on)
-<p align="center">
-   
+    <p align="center">
+          <img src="https://github.com/yuchingho/VirtualWorld/blob/master/pORT.png?raw=true" alt="Port"/>
+    </p>
+You will need to add some ports(TCP/8000-8005, TCP/8895, and UDP/TCP/9000 for a single sim, and UDP/TCP/9001 for a second sim, and so on)   
  </p>
 Link for models - https://www.outworldz.com/cgi/freesculpts.plx
 
