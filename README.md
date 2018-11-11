@@ -26,12 +26,14 @@
    - Login URI - ``` http://127.0.0.1:9000/ ```
 4. Server is now up and running.
 
-## Steps to set up Server at Home ###### [Source](https://chapter-and-metaverse.blogspot.com/2008/11/3-remotely-connecting-to-standalone-sim.html)
+## Steps to set up Server at Home from this [Website](https://chapter-and-metaverse.blogspot.com/2008/11/3-remotely-connecting-to-standalone-sim.html)
 1. Set up a Static IP Address 
-Very easy and user friendly instructions [from this website](https://portforward.com/networking/static-ip-windows-10.htm) for Windows 10.
+
+Very easy and user friendly instructions [from this website](https://portforward.com/networking/static-ip-windows-10.htm) for Windows 10.\
 For other platforms such as Windows 8,7 etc, [use this website](https://portforward.com/networking/staticip.htm) to find what suits you.
 
 2. PortForwarding Impudence Ports
+
 Find the default gateway of your computer by typing "cmd" in the windows search and then typing    inside cmd ipconfig.
    <p align="center">
       <img src="https://github.com/yuchingho/VirtualWorld/blob/master/DefaultGateway.png?raw=true" alt="DefaultGateway"/>
