@@ -1,5 +1,33 @@
-## Steps to set up a home server
--Source: https://chapter-and-metaverse.blogspot.com/2008/11/3-remotely-connecting-to-standalone-sim.html
+## Steps to set up Server in UWS
+1. Launch "OpenSim.32BitLaunch".
+   - Wait till LaptopIsland has finished loading.
+2. Launch "Imprudence".
+3. Check "Login Details" section, and login.
+   - Grid Manager == Local Host
+   - Login URI == http://127.0.0.1:9000/
+4. Server is now up and running.
+
+## Steps to log into a Server
+1. Launch "Imprudence". Do not launch "OpenSim.32BitLauch".
+2. Create new Grid Manager or select the one with the host's IP Address
+3. Type in host's IP Address into Login URI ``` http://(IP Address):9000/ ```
+4. Login with "Login Details"
+
+## Login Details (case-sensitive)
+| First name | Last name | Password | IP address |
+| :--- | :---: | :---: |:--- |
+| david | sim | 123456 | http://(IP Address):9000/ |
+| habtamu | sim | 123456 | http://(IP Address):9000/ |
+| manuel | sim | 123456 | http://(IP Address):9000/ |
+| tomis | sim | 123456 | http://(IP Address):9000/ |
+| yoshi | sim | 123456 | http://(IP Address):9000/ |
+
+<p align="center">
+  <img src="https://github.com/yuchingho/VirtualWorld/blob/master/server%20in%20uni.png?raw=true" alt="server in uni"/>
+</p>
+
+## Steps to set up Server at Home
+Source: https://chapter-and-metaverse.blogspot.com/2008/11/3-remotely-connecting-to-standalone-sim.html
 
 1. set up a Static IP Address 
    Very easy and user friendly instructions from this website for windows 10.https://portforward.com/networking/static-ip-windows-10.htm
@@ -37,31 +65,4 @@ You will need to add some ports(TCP/8000-8005, TCP/8895, and UDP/TCP/9000 for a 
  
 Link for models - https://www.outworldz.com/cgi/freesculpts.plx
 
-## Steps to set up a University Server 
-1. Launch "OpenSim.32BitLaunch".
-   - Wait till LaptopIsland has finished loading.
-2. Launch "Imprudence".
-3. Check "Login Details" section, and login.
-   - Grid Manager == Local Host
-   - Login URI == http://127.0.0.1:9000/
-4. Server is now up and running.
 
-## Steps to log into Server
-1. Launch "Imprudence". Do not launch "OpenSim.32BitLauch".
-2. Create new Grid Manager or select the one with the host's IP Address
-3. Type in host's IP Address into Login URI
-   - http://(IP Address):9000/
-4. Login with "Login Details"
-
-## Login Details (case-sensitive)
-| First name | Last name | Password | IP address |
-| :--- | :---: | :---: |:--- |
-| david | sim | 123456 | http://(IP Address):9000/ |
-| habtamu | sim | 123456 | http://(IP Address):9000/ |
-| manuel | sim | 123456 | http://(IP Address):9000/ |
-| tomis | sim | 123456 | http://(IP Address):9000/ |
-| yoshi | sim | 123456 | http://(IP Address):9000/ |
-
-<p align="center">
-  <img src="https://github.com/yuchingho/VirtualWorld/blob/master/server%20in%20uni.png?raw=true" alt="server in uni"/>
-</p>
