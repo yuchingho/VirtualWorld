@@ -37,6 +37,7 @@ For other platforms such as Windows 8,7 etc, use [this website](https://portforw
    - Find the default gateway
    - Type ```cmd``` in Windows Search to open up the Command Prompt.
    - Type ```ipconfig```
+   
 <p align="center">
   <img src="https://github.com/yuchingho/VirtualWorld/blob/master/README%20Images/DefaultGateway.png?raw=true" alt="DefaultGateway"/>
 </p>
