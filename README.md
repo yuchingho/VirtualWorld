@@ -27,8 +27,7 @@
 4. Server is now up and running.
 
 ## Steps to set up Server at Home from this [Website](https://chapter-and-metaverse.blogspot.com/2008/11/3-remotely-connecting-to-standalone-sim.html)
-1. Set up a Static IP Address 
-
+1. Set up a Static IP Address\
 Very easy and user friendly instructions [from this website](https://portforward.com/networking/static-ip-windows-10.htm) for Windows 10.\
 For other platforms such as Windows 8,7 etc, [use this website](https://portforward.com/networking/staticip.htm) to find what suits you.
 
