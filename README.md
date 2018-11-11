@@ -34,9 +34,9 @@ Very easy and user friendly instructions from [this website](https://portforward
 For other platforms such as Windows 8,7 etc, use [this website](https://portforward.com/networking/staticip.htm) to find what suits you.
 
 2. Port Forwarding Impudence Ports:
-    - Find the default gateway:
-    - Type ```cmd``` in Windows Search to open up the Command Prompt.
-    - Type ```ipconfig```
+   - Find the default gateway
+   - Type ```cmd``` in Windows Search to open up the Command Prompt.
+   - Type ```ipconfig```
 <p align="center">
   <img src="https://github.com/yuchingho/VirtualWorld/blob/master/README%20Images/DefaultGateway.png?raw=true" alt="DefaultGateway"/>
 </p>
@@ -60,11 +60,11 @@ You will need to add some ports ```TCP/8000-8005```, ```TCP/8895```,and ```UDP/T
 3. Setup a Dynamic DNS hostname Service:\
 We are using ```https://www.noip.com/``` to create a host name and use their application to work as a server.\
 Create an account, install the application, and create a hostname through the application or their website.
- 
+
 4. Configure your OpenSim Software for an External Connection:
-    - Go to the ```Bin/Regions/default.xml``` file.
-    - Right-click and Open with ```Notepad```. 
-    - Change ```external_host_name```, which can be your DNS host name, so it will look something like this:\
+   - Go to the ```Bin/Regions/default.xml``` file.
+   - Right-click and Open with ```Notepad```
+   - Change ```external_host_name```, which can be your DNS host name, so it will look something like this:\
     ```external_host_name="garys-sim.servegame.org"```
 
 5. Launch the ```DUC(noip) application``` then launch ```OpenSim.32BitLaunch```
