@@ -1,1 +1,1 @@
-<?xml version="1.0"?><ScriptState><State>default</State><Running>True</Running><Variables><Variable type="OpenSim.Region.ScriptEngine.Shared.LSL_Types+LSLString" name="anim">dance1</Variable></Variables><Queue /><Plugins /></ScriptState>
+<?xml version="1.0"?><ScriptState><State>default</State><Running>True</Running><Variables><Variable type="OpenSim.Region.ScriptEngine.Shared.LSL_Types+LSLString" name="anim">dance1</Variable></Variables><Queue /><Plugins /><Permissions granter="b0084361-cc47-4b9a-ac8c-219caf2b515a" mask="16" /></ScriptState>
