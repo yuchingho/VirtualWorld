@@ -7,7 +7,7 @@
 | habtamu | sim | 123456 | ```http://127.0.0.1:9000/``` |
 | manuel | sim | 123456 | ```http://127.0.0.1:9000/``` |
 | tomis | sim | 123456 | ```neoptolemospapa.hopto.org:9000/```|
-| yoshi | sim | 123456 | ```http://127.0.0.1:9000/``` |
+| yoshi | sim | 123456 | ```yuchingho.hopto.org:9000/``` |
 
 <p align="center">
   <img src="https://github.com/yuchingho/VirtualWorld/blob/master/README%20Images/University%20IPv4.png?raw=true" alt="Univerisity IPv4"/>
@@ -51,8 +51,8 @@ You will need to find ```Port Forwarding``` in the Settings.
   <img src="https://github.com/yuchingho/VirtualWorld/blob/master/README%20Images/Port%20Initialize.png?raw=true" alt="Port Initialize"/>
 </p>
 
-You will need to add some ports ```TCP/8000-8005```, ```TCP/8895```,and ```UDP/TCP/9000``` for One Sim, and\
-```UDP/TCP/9001``` for a Second Sim, etc...
+You will need to add some ports ```TCP/8000-8005```, ```TCP/8895-8895```, and ```TCP/UDP/9000-9000``` for One Sim, and\
+```TCP/UDP/9001-9001``` for a Second Sim, etc...
 <p align="center">
   <img src="https://github.com/yuchingho/VirtualWorld/blob/master/README%20Images/Port%20Setup%20Complete.png?raw=true" alt="Port Setup Complete"/>
 </p>
@@ -64,10 +64,10 @@ Create an account, install the application, and create a hostname through the ap
 4. Configure your OpenSim Software for an External Connection:
 - Go to the ```Bin/Regions/default.xml``` file.
 - Right-click and Open with ```Notepad```
-- Change ```external_host_name```, which can be your DNS host name, so it will look something like this:\
-    ```external_host_name="garys-sim.servegame.org"```
+- Change ```ExternalHostName```, which can be your DNS host name, so it will look something like this:\
+    ```ExternalHostName="neoptolemospapa.hopto.org:9000/"```
     
-5. Launch the ```DUC(noip) application``` then launch ```OpenSim.32BitLaunch```
+5. Launch the ```DUC No-IP application``` then launch ```OpenSim.32BitLaunch```
 
-6. The Login URI should be the hostname created with ```noip``` and it should look something like this:\
+6. The Login URI should be the hostname created with ```DUC No-IP``` and it should look something like this:\
 ```neoptolemospapa.hopto.org:9000/```
