@@ -63,11 +63,11 @@ Create an account, install the application, and create a hostname through the ap
 
 4. Configure your OpenSim Software for an External Connection:
 - Go to the ```Bin/Regions/default.xml``` file.
-- Right-click and Open with ```Notepad```.
+- Right-click and open with ```Notepad```.
 - Change ```ExternalHostName```, which can be your DNS host name, so it will look something like this:\
-    ```ExternalHostName="neoptolemospapa.hopto.org:9000/"```.
+    ```ExternalHostName="neoptolemospapa.hopto.org:9000/"```
     
-5. Launch the ```DUC No-IP application``` then launch ```OpenSim.32BitLaunch```.
+5. Launch the ```DUC No-IP``` application then launch ```OpenSim.32BitLaunch```.
 
 6. The Login URI should be the hostname created with ```DUC No-IP``` and it should look something like this:\
-```neoptolemospapa.hopto.org:9000/```.
+```neoptolemospapa.hopto.org:9000/```
