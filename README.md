@@ -65,7 +65,7 @@ Create an account, install the application, and create a hostname through the ap
 - Go to the ```Bin/Regions/default.xml``` file.
 - Right-click and open with ```Notepad```.
 - Change ```ExternalHostName```, which can be your DNS host name, so it will look something like this:\
-    ```ExternalHostName="neoptolemospapa.hopto.org:9000/"```
+    ```ExternalHostName="neoptolemospapa.hopto.org"```
     
 5. Launch the ```DUC No-IP``` application then launch ```OpenSim.32BitLaunch```.
 
