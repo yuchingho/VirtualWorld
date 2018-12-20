@@ -1,0 +1,1 @@
+<?xml version="1.0"?><ScriptState><State>default</State><Running>True</Running><Variables><Variable type="OpenSim.Region.ScriptEngine.Shared.LSL_Types+Vector3" name="pos_inicial">&lt;179.049194,76.850906,21.541258&gt;</Variable><Variable type="OpenSim.Region.ScriptEngine.Shared.LSL_Types+LSLInteger" name="contador">100</Variable></Variables><Queue /><Plugins /></ScriptState>
