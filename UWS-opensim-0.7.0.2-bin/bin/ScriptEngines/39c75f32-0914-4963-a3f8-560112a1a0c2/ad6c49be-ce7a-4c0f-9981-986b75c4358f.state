@@ -1,1 +1,1 @@
-<?xml version="1.0"?><ScriptState><State>default</State><Running>True</Running><Variables /><Queue /><Plugins /></ScriptState>
+<?xml version="1.0"?><ScriptState><State>default</State><Running>True</Running><Variables><Variable type="OpenSim.Region.ScriptEngine.Shared.LSL_Types+LSLString" name="sound">0d643004-d378-4fc1-99cd-d16a61a83a11</Variable></Variables><Queue /><Plugins /></ScriptState>
