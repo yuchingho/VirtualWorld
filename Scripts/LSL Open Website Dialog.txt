@@ -1,0 +1,9 @@
+// This script will open a Dialog Box to load the url.
+
+default
+{
+    touch_start(integer number)
+    {
+        llLoadURL(llDetectedKey(0), "PasteBin", "https://pastebin.com/");
+    }
+}

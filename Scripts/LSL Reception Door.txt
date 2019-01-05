@@ -1,0 +1,61 @@
+list keyList = ["32d81a3a-6b76-45f4-a034-7f706cca6163",
+                "6e70038c-e745-4fdb-a047-1c9fccf0d495",
+                "acc66f4d-c12a-4eca-8c0d-9891ef89c4d1",
+                "ad66f2b6-cc93-48a5-9e9b-0ad14813801e",
+                "d1782306-d67e-4dd1-991f-595ab6d9a647",
+                "4ec6fdf0-043c-414d-b76e-451d92e9590c"];
+door()
+{
+	vector pos_inicial;
+	integer i;
+
+	pos_inicial = llGetPos();
+	for (i = 0; i < 100; i++)
+	{
+		pos_inicial.y = pos_inicial.y - 0.01;
+		llSetLinkPrimitiveParamsFast(0, [PRIM_POSITION, pos_inicial]);
+		llSleep(0.01);
+	}    
+        
+	for (i = 0; i < 300; i++)
+	{
+		pos_inicial.x = pos_inicial.x - 0.01;
+		llSetLinkPrimitiveParamsFast(0, [PRIM_POSITION, pos_inicial]);
+ 		llSleep(0.01);
+	} 
+
+	llSleep(3);
+	for (i = 0; i < 150; i++)
+	{
+		pos_inicial.x = pos_inicial.x + 0.02;
+		llSetLinkPrimitiveParamsFast(0, [PRIM_POSITION, pos_inicial]);
+		llSleep(0.01);
+	} 
+	for (i = 0; i < 50; i++)
+	{
+		pos_inicial.y = pos_inicial.y + 0.02;
+		llSetLinkPrimitiveParamsFast(0, [PRIM_POSITION, pos_inicial]);
+		llSleep(0.01);
+	}           
+}
+
+default
+{
+    
+    touch_start(integer clicks)
+	{
+        integer i;
+        integer keys = llGetListLength(keyList);
+        string  name = llGetInventoryName(INVENTORY_OBJECT,0);
+        llSetTouchText("Open Door");
+        
+        for (i = 0; i < keys; i++)
+		{
+            if (llList2String(keyList, i) == name)
+			{
+                door();
+                break;
+            }
+        }
+    }
+}

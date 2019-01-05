@@ -1,0 +1,13 @@
+// This script will show text above the desired object.
+
+default
+{
+    state_entry()
+    {
+        string TEXT = "SAMPLE TEXT HERE";
+        vector COLOR = <1.000, 1.000, 1.000>; // Colour = White.
+        float ALPHA = 1; // 1 = Visible.
+        
+        llSetText(TEXT, COLOR, ALPHA);
+    }   
+}

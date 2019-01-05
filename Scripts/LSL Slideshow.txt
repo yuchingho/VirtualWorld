@@ -1,0 +1,83 @@
+integer index;
+
+// for loading notecard
+list notecardList = [ "db90faed-c6a8-4953-a509-0a601f948684",
+                      "549c97e5-1cbe-451f-9c9e-d21b5a1bf51a",
+                      "2a989f16-2f2f-422c-bd76-1d6d996814a6",
+                      "fb955af6-b970-4816-8472-e651e275445d",
+                      "03b901ae-07e5-495f-a1d6-da2718023321",
+                      "0777311d-d1fe-4210-91c8-bd4039226e4f",
+                      "774c419e-11d8-4f78-8227-e028955ca03c"];
+                      
+list dynMenu = ["Back", "Forward", "Reset"];
+integer messageChannel = 999888;
+integer NOTECARD_LIST_LENGTH;
+
+newSlide()
+{
+    string texture = llList2String(notecardList, index);
+    llSetTexture(texture, 4);
+}
+
+default
+{
+    state_entry()
+    {
+        if (llGetListLength(notecardList) == 0)
+        {
+            llSay(0, "There is not presentation loaded");
+            return;
+        } 
+		else
+        {
+            NOTECARD_LIST_LENGTH = llGetListLength(notecardList);
+            index = 0;
+            messageChannel = (integer) llFrand(2000000000.0);
+            llListen(messageChannel, "", NULL_KEY, "");
+            newSlide();
+        } 
+    }
+
+    on_rez(integer start_param)
+	{
+        llResetScript();
+    }
+    
+    touch_start(integer num)
+    {
+        llSetTouchText("Start Presentation");
+        llDialog(llDetectedKey(0), "What do you want to do?", dynMenu, messageChannel);
+    }
+    
+    listen(integer channel, string name, key id, string message) 
+	{
+        if (message == "Reset")
+		{
+            llResetScript();
+        }
+        if (message == "Back" && index > 0)
+		{
+            --index;
+        }
+		else if (message == "Forward") 
+		{
+            ++index;
+        }
+		else 
+		{
+            llDialog(llGetOwner(), "What do you want to do?", dynMenu, messageChannel);
+            return;
+        }
+		// If there are textures to apply, do so now.
+        // Otherwise - quietly do nothing.
+        if (NOTECARD_LIST_LENGTH > 0)
+		{
+        	// Ensure that we do not go out of bounds with the index
+        	if (index >= NOTECARD_LIST_LENGTH) { index = 0; }
+        	if (index < 0 ) { index = 0; }
+        	newSlide();
+        	llSetTimerEvent(3.00);	// Set up so that in 3 seconds, we display the next image on a different face (hidden)
+        	llDialog(llGetOwner(), "What do you want to do?", dynMenu, messageChannel);
+    	}	
+	}
+}

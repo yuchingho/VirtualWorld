@@ -1,0 +1,28 @@
+// This script will change the pie-menu "Sit" option, and teleport your AGENT to a target location.
+// Go to the place where you want to be teleported, and retrieve the target location by typing:
+// "show users" into OpenSim command line.
+
+vector targetPos = <159.709, 47.22071, 127.5049>; //The target location
+
+tp_setup()
+{
+    vector sitOffset;
+    sitOffset = (targetPos - llGetPos());
+    llSitTarget(sitOffset, ZERO_ROTATION);
+    llSetSitText("Teleport");
+}
+
+default
+{
+    state_entry() { tp_setup(); }
+    
+    touch_start(integer number) { llSay(0, "Do you want to teleport?"); }
+    
+    on_rez(integer startup_param) { tp_setup(); }
+    
+    changed(integer change) 
+    { 
+        llUnSit(llAvatarOnSitTarget());
+        tp_setup();
+    }    
+}

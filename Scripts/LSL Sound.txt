@@ -1,0 +1,15 @@
+// Audio clips have to be .wav format.
+// Audio clips cannot be longer than 10 seconds.
+
+string sound1 = "8b66c6f7-7c81-4888-ba3e-6e9167921866";
+string sound2 = "4f251d25-78eb-446b-8622-8599e43dfead";
+
+default
+{
+	touch_start(integer total_number)
+	{
+		llSay(0, "ALARM ACTIVATED");
+		llTriggerSound(sound1, 5.0);	// "5" is the volume
+		llTriggerSound(sound2, 7.0);
+	}
+}
